@@ -7,7 +7,7 @@
   },
   "git": {
     "tag": "t020-verified-release-2026-06-18",
-    "commit": "PENDING_AT_COMMIT",
+    "commit": "b987f8826841d8548779e297c8c6f1f5c8192cc2",
     "branch": "main",
     "t017_t018_dependency": "t017-verified-release-2026-06-18",
     "note": "T019 work must not alter listed frozen T020 proof files without new release tag"
