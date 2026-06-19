@@ -1,0 +1,11 @@
+{
+  "BG-INTERPOLATION-v2": {
+    "authors": "Horatio Boedihardjo, Xi Geng",
+    "title": "Simple Piecewise Geodesic Interpolation of Simple and Jordan Curves with Applications",
+    "arxiv": "1309.1576v2",
+    "published": "Constructive Approximation 42 (1), 161-180, 2015",
+    "pdf_path": "data/sources/boedihardjo_geng_1309.1576v2.pdf",
+    "sha256": "fa8be7343fa6ae97dff78a62f82a34e1680634c4684469a377d011e1658e73df",
+    "retrieval_date": "2026-06-18"
+  }
+}

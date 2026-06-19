@@ -1,0 +1,20 @@
+{
+  "AI-PEG-v3": {
+    "authors": "Tomohiro Asano, Yuichi Ike",
+    "title": "The rectifiable rectangular peg problem",
+    "arxiv": "2412.21057v3",
+    "date": "2026-01-05",
+    "pdf_path": "data/sources/asano_ike_2412.21057v3.pdf",
+    "sha256": "84395599a5ffe4c49e199d128505473c9808e19a6c3b9c3ea052984c1dcf5101",
+    "retrieval_date": "2026-06-18"
+  },
+  "GL-FLOER-2024": {
+    "authors": "Greene, Lobb",
+    "title": "Rectangles inscribed in rectifiable Jordan curves",
+    "arxiv": "2404.05179",
+    "note": "Jordan Floer rectangle framework"
+  },
+  "AI-COMPLETENESS-2024": {
+    "note": "Legacy alias — use AI-PEG-v3 for pinned v3 statements"
+  }
+}

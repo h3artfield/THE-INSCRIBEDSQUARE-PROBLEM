@@ -1,0 +1,181 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\tagsource}{\textsf{\footnotesize[SOURCE]}}
+\newcommand{\taglocal}{\textsf{\footnotesize[LOCAL]}}
+\newcommand{\tagsynth}{\textsf{\footnotesize[SYNTHESIS]}}
+\newcommand{\tagconj}{\textsf{\footnotesize[CONJECTURE]}}
+
+\title{Finite $p$-Variation Jordan Curves and\\ Inscribed Rectangles via Asano--Ike}
+\author{Internal proof package --- clean-room verified (Directive 007R)\\Not externally peer-reviewed}
+\date{June 18, 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We record an extension of the rectangular peg theorem to Jordan curves
+with finite $p$-variation for $1\le p<2$, combining Boedihardjo--Geng
+piecewise-linear interpolation \tagsource, a velocity-matched cubic
+polygon-smoothing lemma T018 \taglocal, Young primitive convergence
+\taglocal, and Asano--Ike Theorem~1.1 \tagsource.
+Clean-room audit (Directive~007R) verified the proof chain.
+This document is \textbf{internally} verified only.
+We do \textbf{not} treat the critical $p=2$ boundary (see \S\ref{sec:limit}).
+\end{abstract}
+
+\section{Introduction}
+
+The Toeplitz square peg problem asks whether every Jordan curve in $\mathbb{R}^2$
+inscribes a square. Asano and Ike (arXiv:2412.21057v3) prove that if a Jordan curve
+satisfies a continuous Legendrian-lift hypothesis (Theorem~1.1), then it inscribes
+every $\theta$-rectangle for $\theta\in(0,\pi)$.
+
+\begin{theorem}[T017 \tagsynth]\label{thm:T017}
+Let $c:S^1\to\mathbb{R}^2$ be a Jordan parametrization with finite $p$-variation
+for some $1\le p<2$. Then $c$ satisfies the hypotheses of Asano--Ike Theorem~1.1
+and therefore inscribes a $\theta$-rectangle for every $\theta\in(0,\pi)$.
+\end{theorem}
+
+\begin{remark}[Novelty language]
+This appears to be an immediate synthesis of existing interpolation and microlocal
+peg results, with the controlled $C^1$ smoothing lemma supplied here.
+We do not claim priority without author confirmation.
+\end{remark}
+
+\section{Variation preliminaries \taglocal}
+
+\begin{definition}
+For $u:[a,b]\to\mathbb{R}^d$,
+\[
+|u|_{r\text{-var};[a,b]}
+=\Bigl(\sup_{\Pi}\sum_i|u(t_{i+1})-u(t_i)|^r\Bigr)^{1/r},
+\qquad
+\|u\|_\infty=\sup_t|u(t)|.
+\]
+Constant offsets are not folded into the seminorm.
+\end{definition}
+
+\begin{lemma}[Interpolation \taglocal]\label{lem:interp}
+For $0<p<q$ and finite $p$-variation $h$,
+\[
+|h|_{q\text{-var}}\le \operatorname{osc}(h)^{1-p/q}|h|_{p\text{-var}}^{p/q},
+\quad \operatorname{osc}(h)=\sup_{s,t}|u(t)-u(s)|.
+\]
+\end{lemma}
+
+\begin{lemma}[Variation monotonicity \taglocal]\label{lem:qle1}
+For $q\ge 1$, $|h|_{q\text{-var}}\le |h|_{1\text{-var}}$.
+\end{lemma}
+
+\begin{proof}
+For each partition, $(\sum|\Delta h_i|^q)^{1/q}\le\sum|\Delta h_i|$ since
+$x^q\le x$ for $x\in[0,1]$ applied after normalizing by $\max_i|\Delta h_i|$
+when $\max_i|\Delta h_i|\le 1$; the general case uses
+$(\sum x_i^q)^{1/q}\le\sum x_i$ for nonnegative $x_i$.
+\end{proof}
+
+\section{Polygonal interpolation \tagsource}
+
+\begin{theorem}[Boedihardjo--Geng 2.2, $M=\mathbb{R}^2$ \tagsource]
+For a Jordan curve $\gamma$ and $\varepsilon>0$, there is a partition
+$\mathcal{P}_\varepsilon$ with mesh $<\varepsilon$ such that the piecewise
+linear interpolant $\gamma^{\mathcal{P}_\varepsilon}$ is a simple closed polygon
+with vertices on $\gamma$ in cyclic order on the same parameter domain.
+\end{theorem}
+
+\begin{lemma}[Boedihardjo--Geng 3.1, $f=\mathrm{id}$ \tagsource]
+If $\gamma$ has finite $p$-variation and $q>p$, then
+$\|\gamma-\gamma^{\mathcal{P}}\|_{q\text{-var}}\to 0$ as $|\mathcal{P}|\to 0$.
+\end{lemma}
+
+\section{T018: velocity-matched cubic smoothing \taglocal}
+
+\begin{lemma}[T018 \taglocal]\label{lem:T018}
+Let $P:S^1\to\mathbb{R}^2$ be a simple polygonal Jordan curve.
+For every $\varepsilon>0$ and $q\ge 1$, there exists a regular $C^1$ Jordan
+map $S$ with the same orientation and a common parametrization such that
+$\|S-P\|_\infty<\varepsilon$ and $\|S-P\|_{q\text{-var}}<\varepsilon$.
+\end{lemma}
+
+\paragraph{Construction.}
+At vertex $v=P(\tau)$, choose $\delta>0$, $A=P(\tau-\delta)$, $C=P(\tau+\delta)$,
+$L=2\delta$, $u_-=(v-A)/\delta$, $u_+=(C-v)/\delta$.
+Cubic controls:
+\[
+Q_0=A,\ Q_1=A+\tfrac23(v-A),\ Q_2=C-\tfrac23(C-v),\ Q_3=C.
+\]
+On $[\tau-\delta,\tau+\delta]$, $S$ is the cubic B\'ezier; elsewhere $S=P$.
+
+\paragraph{Velocity matching.}
+$\frac{dS}{dt}(\tau-\delta)=u_-$ and $\frac{dS}{dt}(\tau+\delta)=u_+$.
+
+\paragraph{Injectivity.}
+With $a=v-A$, $b=C-v$ non-antiparallel, $w=a/|a|+b/|b|$
+satisfies $w\cdot dS/ds>0$ on the corner arc.
+
+\paragraph{Variation.}
+$\mathrm{Var}_1(S-P;I_v)\le 4r_v$ with $|a|,|b|\le r_v$; sum over corners.
+
+\section{Young primitive convergence \taglocal}
+
+Write $c=(x,\xi)$, $\lambda=\xi\,dx$, $f(t)=\int_0^t\xi\,dx$ (Young, $q<2$).
+
+\begin{theorem}[Young / BG 3.1 \tagsource]
+If $1/p+1/q>1$, the Young integral exists; for $q<2$, $2/q>1$.
+\end{theorem}
+
+With $\|S_n-c\|_{q\text{-var}}\to 0$,
+\[
+\sup_{t\in[0,2\pi]}|f_n(t)-f(t)|\le C_q\|S_n-c\|_{q\text{-var}}\to 0.
+\]
+
+\paragraph{Lift to $\mathbb{R}$ \taglocal.}
+For $t=2\pi k+s$, $|k|\le N_K:=\lceil K/(2\pi)\rceil+1$,
+\[
+\sup_{|t|\le K}|f_n(t)-f(t)|\le \eta_n+N_K|I_n-I|\to 0.
+\]
+
+\section{Application of Asano--Ike \tagsource}
+
+Normalize enclosed area to $\pi$. Theorem~1.1 (AI-PEG-v3) and Remark~5.6
+($C^1$ approximants suffice) yield all $\theta$-rectangles.
+Depends on preprint arXiv:2412.21057v3.
+
+\section{Examples and limitations}\label{sec:limit}
+
+The Koch snowflake is nonrectifiable with finite $p$-variation for
+$p>\log 4/\log 3$. We do not claim it lies outside the locally monotone
+class without a separate proof.
+
+\paragraph{Unresolved $p=2$ boundary \tagconj.}
+At $q=2$, Young requires $1/q+1/q=1$ (not strict).
+Critical-modulus enhancement (Yang, arXiv:1204.0112) is treated separately
+in Directive~008; T020 remains conjectural.
+
+\bibliographystyle{plain}
+\begin{thebibliography}{9}
+\bibitem{AI2026}
+T.~Asano and Y.~Ike,
+\textit{The rectifiable rectangular peg problem},
+arXiv:2412.21057v3, 2026.
+\bibitem{BG2014}
+H.~Boedihardjo and X.~Geng,
+arXiv:1309.1576v2.
+\bibitem{Yang2012}
+D.~Yang,
+\textit{Notes on area operator, geometric 2-rough paths and Young integral},
+arXiv:1204.0112.
+\end{thebibliography}
+
+\end{document}

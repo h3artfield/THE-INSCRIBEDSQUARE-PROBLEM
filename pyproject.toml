@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "squarepeg"
+version = "0.2.0"
+description = "Exact computational laboratory for the inscribed square problem"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4",
+    "sympy>=1.12",
+    "hypothesis>=6.90",
+]
+
+[project.scripts]
+squarepeg-benchmark = "squarepeg.benchmarks.run:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+markers = [
+    "fast: quick unit tests (default CI)",
+    "slow: tests that may take seconds",
+    "exhaustive: large corpus or multi-minute checks",
+]
+
+[tool.hypothesis]
+max_examples = 25

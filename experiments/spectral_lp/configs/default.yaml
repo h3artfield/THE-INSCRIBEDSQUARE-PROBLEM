@@ -1,0 +1,19 @@
+# Default sweep configuration (Directive 003)
+
+kappa_values:
+  - "1"
+  - "101/100"
+  - "11/10"
+  - "5/4"
+  - "3/2"
+  - "2"
+  - "3"
+  - "5"
+  - "10"
+
+grid:
+  N: 40
+  N_refine: 160
+  k: 1
+
+strict_monotone_delta: "1/10000"

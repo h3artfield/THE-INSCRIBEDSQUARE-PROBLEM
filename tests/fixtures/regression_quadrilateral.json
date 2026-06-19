@@ -1,0 +1,176 @@
+{
+  "families_1d_count": 8,
+  "family_ids": [
+    "aebe0af98254e61c",
+    "8fb824b43d5cb4dd",
+    "76d8fa39867ac3f8",
+    "5a9e43b02bcfcece",
+    "857e1a0ede0ea9b9",
+    "4aeb121dd4ea91e1",
+    "6a22d9e11670cfd2",
+    "ab430067448f1f11"
+  ],
+  "isolated": [
+    {
+      "certificate_type": "exact",
+      "cyclic_order_verified": true,
+      "diagonal_length_squared": "4505506/349281",
+      "edge_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edge_parameters": [
+        "169/591",
+        "403/591",
+        "59/197",
+        "835/1182"
+      ],
+      "family_data": {},
+      "orientation": "ccw",
+      "polygon_hash": "de68c212c0c00b78ea8eb56954781fa1bd9910ef17711f4f4cb039f24e045bbb",
+      "residuals": {
+        "system": "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      },
+      "side_length_squared": "2252753/349281",
+      "side_vector": [
+        "863/591",
+        "-1228/591"
+      ],
+      "solve_rank": null,
+      "vertices": [
+        [
+          "169/197",
+          "2195/591"
+        ],
+        [
+          "1370/591",
+          "967/591"
+        ],
+        [
+          "866/197",
+          "610/197"
+        ],
+        [
+          "1735/591",
+          "3058/591"
+        ]
+      ]
+    },
+    {
+      "certificate_type": "exact",
+      "cyclic_order_verified": true,
+      "diagonal_length_squared": "9871906/804609",
+      "edge_indices": [
+        2,
+        2,
+        3,
+        0
+      ],
+      "edge_parameters": [
+        "94/897",
+        "101/299",
+        "1243/1794",
+        "361/897"
+      ],
+      "family_data": {},
+      "orientation": "ccw",
+      "polygon_hash": "de68c212c0c00b78ea8eb56954781fa1bd9910ef17711f4f4cb039f24e045bbb",
+      "residuals": {
+        "system": "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      },
+      "side_length_squared": "4935953/804609",
+      "side_vector": [
+        "1672/897",
+        "1463/897"
+      ],
+      "solve_rank": null,
+      "vertices": [
+        [
+          "2546/897",
+          "1555/897"
+        ],
+        [
+          "1406/299",
+          "1006/299"
+        ],
+        [
+          "2755/897",
+          "4690/897"
+        ],
+        [
+          "361/299",
+          "3227/897"
+        ]
+      ]
+    },
+    {
+      "certificate_type": "exact",
+      "cyclic_order_verified": true,
+      "diagonal_length_squared": "1695978/170569",
+      "edge_indices": [
+        3,
+        1,
+        2,
+        3
+      ],
+      "edge_parameters": [
+        "657/826",
+        "52/413",
+        "152/413",
+        "243/413"
+      ],
+      "family_data": {},
+      "orientation": "ccw",
+      "polygon_hash": "de68c212c0c00b78ea8eb56954781fa1bd9910ef17711f4f4cb039f24e045bbb",
+      "residuals": {
+        "system": "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]"
+      },
+      "side_length_squared": "847989/170569",
+      "side_vector": [
+        "342/413",
+        "-855/413"
+      ],
+      "solve_rank": null,
+      "vertices": [
+        [
+          "845/413",
+          "1990/413"
+        ],
+        [
+          "1187/413",
+          "1135/413"
+        ],
+        [
+          "2042/413",
+          "211/59"
+        ],
+        [
+          "1700/413",
+          "2332/413"
+        ]
+      ]
+    }
+  ],
+  "isolated_count": 3,
+  "unsupported_count": 0,
+  "vertices": [
+    [
+      0,
+      4
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      10,
+      8
+    ]
+  ]
+}
