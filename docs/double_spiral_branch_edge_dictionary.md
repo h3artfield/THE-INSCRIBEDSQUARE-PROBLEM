@@ -46,7 +46,7 @@ t3 = 700507479376466581385/783176785809004249471
 t4 = 711993239270205241846/783176785809004249471
 ```
 
-Vertices **identical**; side² **identical** for all \(N\in\{3,4,5,6,7\}\).
+Vertices **identical**; side² **identical** for all \(N\in\{3,\ldots,10\}\).
 
 This is **literal equality**, not numerical closeness.
 

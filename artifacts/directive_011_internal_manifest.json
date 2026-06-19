@@ -22,7 +22,8 @@
   "literal_square_side_squared": "779802774027925101251181018894122731419976/5520292900471106279627034034189224034018569",
   "tests": {
     "command": "python -m pytest tests/ -q -m \"not slow\"",
-    "result": "pending 011R commit",
+    "result": "204 passed, 5 deselected",
+    "duration_seconds": 1055.6,
     "date": "2026-06-18"
   },
   "theorem_status_at_tag": {

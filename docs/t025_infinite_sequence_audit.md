@@ -12,7 +12,7 @@ Where is the infinite sequence required for compactness?
 
 ## Finding 1 — Literal fixed square on all truncations
 
-For **every** \(N\ge 3\) tested (\(N=3,\ldots,7\)), the exact solver returns rank-6 certificate with:
+For **every** \(N\ge 3\) tested (\(N=3,\ldots,10\)), the exact solver returns rank-6 certificate with:
 
 * identical edge indices \((0,3,5,0)\);
 * identical rational parameters;
