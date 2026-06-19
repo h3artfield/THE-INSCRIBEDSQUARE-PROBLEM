@@ -1,0 +1,51 @@
+{
+  "release_id": "t022-pre-residual-freeze-2026-06-18",
+  "release_date": "2026-06-18",
+  "directive": "010 (freeze) + 011 (pre-residual gate)",
+  "theorem_status": {
+    "T019": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T021": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T022": "PROVED_LOCALLY"
+  },
+  "git": {
+    "tag": "t019-t021-verified-release-2026-06-18",
+    "commit": "c0916448ace28ebb3d37d7dff2b935721251593f",
+    "branch": "main",
+    "t018_release_dependency": "t017-verified-release-2026-06-18",
+    "t019_t021_release_dependency": "t019-t021-verified-release-2026-06-18",
+    "note": "Directive 011 residual work must not alter frozen T019/T021/T022 proof files without new release tag"
+  },
+  "python": {
+    "version": "3.10.6",
+    "requires": ">=3.10"
+  },
+  "dependencies": {
+    "numpy": "1.26.4",
+    "scipy": "1.14.0",
+    "pytest": "9.1.0"
+  },
+  "tests": {
+    "command": "python -m pytest tests/ -q --tb=no -m \"not slow\"",
+    "result": "186 passed, 4 deselected",
+    "duration_seconds": 128.9,
+    "date": "2026-06-18"
+  },
+  "source_hashes_sha256": {
+    "data/sources/asano_ike_2412.21057v3.pdf": "84395599a5ffe4c49e199d128505473c9808e19a6c3b9c3ea052984c1dcf5101"
+  },
+  "proof_document_hashes_sha256": {
+    "T019": "d6f457c6e6b41de0a7e4010d1ebd7d33e07ef20fb4b311e2f9a7a10d81280b5c",
+    "T021": "5ff46627f5790bc2a72b17c9a0c407c508873933c539f9e52890c3804016b707",
+    "T022": "a4fe058a27deeaf9f558305b7987e481cd05cbe2f04a957dc4dfe77fa72737da"
+  },
+  "double_spiral_canonical_hash_sha256": "c535f4e3cc643ed945854ba53d818444245e00c014648625b8603c344d648ae7",
+  "frozen_paths": {
+    "t019_t021": "artifacts/t019_t021_verified_release_manifest.json",
+    "t022_docs": [
+      "docs/area_tight_approximation.md",
+      "docs/area_tight_rectangular_peg_criterion.md",
+      "docs/t022_clean_room_audit.md"
+    ]
+  },
+  "external_verification": false
+}

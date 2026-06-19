@@ -9,4 +9,6 @@ artifacts/*.json
 !artifacts/t017_verified_release_manifest.json
 !artifacts/t020_verified_release_manifest.json
 !artifacts/t019_t021_verified_release_manifest.json
+!artifacts/t022_pre_residual_freeze_manifest.json
+!artifacts/directive_011_internal_manifest.json
 !artifacts/directive_*_report.md

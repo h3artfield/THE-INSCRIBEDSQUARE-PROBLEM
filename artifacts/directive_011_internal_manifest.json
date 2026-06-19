@@ -1,0 +1,34 @@
+{
+  "release_id": "directive-011-internal-2026-06-18",
+  "release_date": "2026-06-18",
+  "directive": "011",
+  "note": "Internal tag only — not a verified release",
+  "git": {
+    "tag": "directive-011-internal-2026-06-18",
+    "commit": "7435ddbaf62f18afb51dfdf987e07cf4f0759b87",
+    "branch": "main",
+    "t022_pre_residual_dependency": "artifacts/t022_pre_residual_freeze_manifest.json"
+  },
+  "canonical_curve_hash_sha256": "c535f4e3cc643ed945854ba53d818444245e00c014648625b8603c344d648ae7",
+  "truncation_parameters": {
+    "turns_min": 3,
+    "rational_denom": 1000,
+    "theta0": "2*pi",
+    "eps": "1/20"
+  },
+  "macro_branch_reported_edges": "(0,3,5,4N+1)",
+  "macro_branch_actual_edges": "(0,3,5,0)",
+  "macro_branch_note": "Corrected in Directive 011R audit",
+  "literal_square_side_squared": "779802774027925101251181018894122731419976/5520292900471106279627034034189224034018569",
+  "tests": {
+    "command": "python -m pytest tests/ -q -m \"not slow\"",
+    "result": "pending 011R commit",
+    "date": "2026-06-18"
+  },
+  "theorem_status_at_tag": {
+    "T024-A": "claimed PROVED",
+    "T024-B": "claimed C1 only",
+    "T025": "claimed PROVED_BY_COMPACTNESS"
+  },
+  "external_verification": false
+}
