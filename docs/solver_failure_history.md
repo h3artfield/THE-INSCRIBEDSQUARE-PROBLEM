@@ -359,6 +359,16 @@ row[5] = -ij[comp][1]
 
 ---
 
+## Directive 023 — Shrinking-defect surgery (2026-06-18)
+
+**Outcome C:** T042 PROVED_LOCALLY; T043/T044/T045 conjectural.
+
+**Strategy:** Positive scale => square (T036-N1-ANN); shrinking => packet surgery => area-tight (T043 target).
+
+**T041:** Shrinking-support obstruction proved. Cross-scale route not retried.
+
+---
+
 ## Directive 022 — Cross-scale annular towers (2026-06-18)
 
 **Outcome E:** Reference Jordan tower + packet-level margins proved; no \(w_1\)-certified cross-scale component; \(\Theta > \rho_{\mathrm{tower}}\).

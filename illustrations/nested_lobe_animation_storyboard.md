@@ -41,3 +41,18 @@
 | 60–65s | Attempt cross-scale rhombus (gen 0 + gen k vertices) |
 | 65–70s | Deep k: support collapses; \(\Theta > \rho_{\mathrm{tower}}\) gauge red |
 
+---
+
+## Act III — Surgery route (Directive 023, 15–25s)
+
+**Label: PROVED ONLY UNDER SURGERY-ADMISSIBLE HYPOTHESES**
+
+| Time | Scene |
+|------|-------|
+| 70–75s | Cross-scale attempt fades — marked unsuccessful (D022) |
+| 75–80s | Isolated Jordan disk encloses shrinking packet |
+| 80–85s | Winding subarc replaced by straight crosscut |
+| 85–90s | Local relative area defect drops to O(r^2) |
+| 90–95s | Repeated surgeries; Carleson mass gauge |
+| 95–100s | Transition to Asano-Ike rectangle mechanism (T022, conditional) |
+

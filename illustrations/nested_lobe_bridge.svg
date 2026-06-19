@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1100" viewBox="0 0 1200 1100">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1280" viewBox="0 0 1200 1280">
   <defs>
     <style>
       .title { font: bold 16px sans-serif; fill: #1a1a2e; }
@@ -86,4 +86,18 @@
   <text class="label" x="530" y="1075" font-size="10">shrinking packet squares</text>
   <text class="label" x="750" y="1010">Coherent tower: r_j = lambda^j r_1</text>
   <text class="label" x="750" y="1030">Cross-scale: Theta &gt; rho_tower (OPEN)</text>
+
+  <!-- Panel F -->
+  <rect class="panel" x="120" y="1100" width="960" height="160" rx="8"/>
+  <text class="title" x="140" y="1130">F - Packet surgery (Directive 023)</text>
+  <text class="status-proved" x="140" y="1152">PROVED LOCALLY: T042 straight-chord surgery</text>
+  <text class="status-cond" x="140" y="1172">CONDITIONAL: surgery-admissible forest required</text>
+  <circle cx="280" cy="1200" r="40" class="lobe outer"/>
+  <path d="M240,1200 L320,1200" stroke="#2d6a4f" stroke-width="2"/>
+  <path d="M240,1180 Q280,1220 320,1180" class="lobe outer" fill="none"/>
+  <text class="label" x="240" y="1245" font-size="10">winding arc</text>
+  <text class="label" x="330" y="1205" font-size="10">crosscut</text>
+  <text class="label" x="500" y="1200">Local area defect O(r^2)</text>
+  <text class="label" x="500" y="1220">C^0 error &lt;= diam(D)</text>
+  <text class="status-open" x="750" y="1200">T043/T044 CONJECTURAL</text>
 </svg>

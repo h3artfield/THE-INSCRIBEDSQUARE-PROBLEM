@@ -559,6 +559,50 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 ---
 
+## T041 — Shrinking-support obstruction
+
+**Statement.** Square vertices in diameter-\(r\) set have side \(\le r\); shrinking packet support cannot yield macroscopic limit square.
+
+**Status.** PROVED_LOCALLY (Directive 023)
+
+**Source / proof file.** `docs/shrinking_support_obstruction.md`
+
+---
+
+## T042 — Local packet surgery lemma
+
+**Statement.** Isolated packet of diameter \(r\) replaceable by crosscut; Jordan preserved; \(C^0\) error \(O(r)\); area defect \(O(r^2)\).
+
+**Status.** PROVED_LOCALLY (straight-chord case)
+
+**Source / proof file.** `docs/isolated_packet_surgery.md`
+
+---
+
+## T043 — Surgery-to-area-tightness
+
+**Status.** CONJECTURAL_TARGET
+
+**Source / proof file.** `docs/surgery_to_area_tightness.md`
+
+---
+
+## T044 — Controlled annular scale escape
+
+**Status.** CONTROLLED_FULL_BRIDGE_TARGET
+
+**Source / proof file.** `docs/controlled_annular_scale_escape.md`
+
+---
+
+## T045 — Defect-forest extraction
+
+**Status.** CONJECTURAL_FULL_EXTRACTION
+
+**Source / proof file.** `docs/defect_forest_extraction.md`
+
+---
+
 ## ρ_square^adm — Admissible protected invariant
 
 **Definition.** Supremum over isolated Brouwer, Euler obstruction, and cyclic-odd rhombus components.

@@ -1,28 +1,25 @@
 {
   "directive": "022",
+  "frozen": true,
+  "commit_hash": "df58902ec2f6efc483259609b7ff1856a4148b9d",
+  "tag": "directive-022-cross-scale-tower-internal-2026-06-18",
   "outcome": "E",
-  "dependency": "directive-021-annular-graph-bridge-internal-2026-06-18",
   "test_gate": "TEST_GATE_PASSED",
-  "test_gate_note": "Slow stability hardened; timing suffix ignored only",
-  "fast_suite": "379 passed expected (361 + 18 tower tests)",
+  "fast_suite": "379 passed, 4 deselected in 976.37s",
+  "slow_suite": "1 passed, 1 deselected in 1936.62s",
+  "dependency_021": "directive-021-annular-graph-bridge-internal-2026-06-18",
   "reference_tower_certificate": "artifacts/reference_annular_tower_certificate.json",
-  "theta_vs_rho_tower": "0.0113 > 0.0068 — regime empty",
+  "reference_tower_cert_hash": "20f88cb00807f0a6",
   "failed_support_pattern": "OUTER_INNER_LEVELS w1 cross-scale; accumulated Theta",
+  "theta": 0.0113,
+  "rho_tower": 0.0068,
+  "report_hash": "21058ae31639473c",
+  "illustration_svg_hash": "60dea5bb31abd7f4",
   "theorem_status": {
-    "T036-N3-ANN": "CONJECTURAL_TARGET",
-    "T040": "CONJECTURAL_SELECTION_TARGET",
     "T036-N1-ANN": "PROVED_LOCALLY",
+    "T036-N1-ANN_positive_scale_corollary": "PROVED_LOCALLY",
+    "T036-N3-ANN": "CONJECTURAL",
+    "T040": "CONJECTURAL",
     "T032_section": "CONJECTURAL_FULL_BRIDGE"
-  },
-  "report": "artifacts/directive_022_report.md",
-  "modules": [
-    "coherent_tower.py",
-    "reference_tower.py",
-    "tower_truncation.py",
-    "cross_scale_rhombus.py",
-    "tower_cyclic_certificate.py",
-    "tower_reference_bound.py",
-    "packet_tower_selection.py",
-    "tower_falsification.py"
-  ]
+  }
 }
