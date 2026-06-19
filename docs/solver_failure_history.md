@@ -563,6 +563,14 @@ row[5] = -ij[comp][1]
 
 ---
 
+## Directive 047 — Singleton Cantor-end rigidity (2026-06-19)
+
+**Outcome E:** Diagnostic density reduction; first gap in strict child packing and martingale formulation.
+
+**Key:** Density not martingale; loose packing only; no verified critical singleton countermodel. Residual: `NONCARLESON_SINGLETON_CANTOR_END_TANGENT`.
+
+---
+
 ## Directive 022 — Cross-scale annular towers (2026-06-18)
 
 **Outcome E:** Reference Jordan tower + packet-level margins proved; no \(w_1\)-certified cross-scale component; \(\Theta > \rho_{\mathrm{tower}}\).

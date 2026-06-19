@@ -1205,9 +1205,9 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 **Statement.** Normalized bad tangent with nested Jordan hulls, measurable compact-valued \(\Phi\), connected parameters, finite incidence-center complexity, \(\mu_+(E_+)=0\), and no degeneration satisfies renormalized end-Carleson.
 
-**Status.** CONJECTURAL_CORE_TARGET (Directive 046)
+**Status.** CONJECTURAL_CORE_TARGET (Directive 047; first gap: strict packing)
 
-**Source / proof file.** `docs/finite_center_endpoint_rigidity.md`
+**Source / proof file.** `docs/finite_center_singleton_rigidity.md`
 
 ---
 
@@ -1215,9 +1215,9 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 **Statement.** Set-valued cylinder Frostman inequality on \(m(v)\) vs \(\Psi_{\mathrm{geom}}(v)\) implies END_SIGNATURE_CARLESON; positive-diameter component via T091.
 
-**Status.** CONJECTURAL_TARGET; partial (Directive 046)
+**Status.** CONJECTURAL_TARGET; critical scaling open (Directive 047)
 
-**Source / proof file.** `docs/correspondence_frostman_criterion.md`
+**Source / proof file.** `docs/singleton_end_frostman_criterion.md`
 
 ---
 
@@ -1248,6 +1248,26 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 **Status.** CONJECTURAL_TARGET; partial (Directive 046)
 
 **Source / proof file.** `docs/endpoint_repaired_noncarleson_reduction.md`
+
+---
+
+## T086S — Singleton Cantor-end reduction
+
+**Statement.** Every non-Carleson singleton Cantor tangent routes via concentration, finite-center, T089R, T090R, degeneration, infinite-center, or exact critical residual.
+
+**Status.** CONJECTURAL_STRUCTURAL_TARGET; partial (Directive 047)
+
+**Source / proof file.** `docs/singleton_cantor_end_reduction.md`
+
+---
+
+## T084S — Singleton-end tree reduction
+
+**Statement.** Every tree not covered by T080/T081/T081I/T085/T087 reduces via T086S, T091 continuum geometry, or global residuals.
+
+**Status.** CONJECTURAL_TARGET; partial (Directive 047)
+
+**Source / proof file.** `docs/singleton_cantor_end_reduction.md`
 
 ---
 

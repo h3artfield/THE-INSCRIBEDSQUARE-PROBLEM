@@ -1,0 +1,36 @@
+{
+  "directive": "046",
+  "frozen": true,
+  "frozen_by": "directive-047",
+  "outcome": "B",
+  "theorem_status": {
+    "T087": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T091": "PROVED_LOCALLY_CLASSIFIER",
+    "T092": "PROVED_LOCALLY_CLASSIFIER",
+    "T089R": "CONJECTURAL_CORE_TARGET",
+    "T090R": "CONJECTURAL_TARGET",
+    "T086E": "CONJECTURAL_TARGET_PARTIAL",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION"
+  },
+  "endpoint_multifunction": "Phi(xi)=cap K_j; compact-valued before point-valued",
+  "hyperspace_measurability": "Borel map into K(B) via Effros structure",
+  "incidence_measure": "CANONICAL_INCIDENCE_MEASURE on Graph(Phi); no arbitrary selection",
+  "singleton_continuum_split": "E0/E+ measurable decomposition",
+  "variable_ratio_diagnosis": "POSSIBILITY_D_GENUINE_CONTINUUM",
+  "residual_ledger": [
+    "NONCARLESON_SINGLETON_CANTOR_END_TANGENT",
+    "CRITICAL_SINGLETON_CANTOR_END_TANGENT",
+    "INFINITE_CENTER_END_TANGENT",
+    "NON_JORDAN_SATURATION_HULL",
+    "PARAMETER_DISCONNECTED_LIMIT",
+    "POSITIVE_SCALE_NONANNULAR_CLUSTER"
+  ],
+  "regression_tests": [
+    "tests/test_directive_046.py",
+    "tests/test_directive_045.py"
+  ],
+  "test_result": "89 passed (D046-D042 fast suite)",
+  "commit_hash": "72abadc",
+  "tag": "directive-046-endpoint-correspondence-repair-internal-2026-06-19",
+  "do_not_modify": ["T087", "T091", "T092"]
+}
