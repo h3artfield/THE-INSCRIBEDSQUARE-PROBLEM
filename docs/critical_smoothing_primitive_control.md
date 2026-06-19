@@ -1,34 +1,57 @@
-# Critical Smoothing Primitive Control
+# Critical Smoothing and Primitive Control (T018 Adaptive)
 
-**Status:** OPEN (blocks T020 Outcome A)
+**Status:** PROVED_LOCALLY (Directive 008R, uses frozen T018)
 
 ---
 
-## Issue
+## Setup
 
-For \(p=2\), T018 gives \(\|S_n-P_n\|_{1\text{-var}}<\varepsilon_n\) but **does not** control:
+Polygon \(P_n=\gamma^{D_n}\), total variation \(L_n=\mathrm{Var}_1(P_n)\), coordinate bound \(M_n\ge\|\xi_{P_n}\|_\infty+1\).
+
+Choose \(\varepsilon_n\to 0\) with
 
 \[
-\sup_t\left|\int_0^t\xi_{S_n}\,dx_{S_n}-\int_0^t\xi_{P_n}\,dx_{P_n}\right|
+\varepsilon_n(L_n+M_n+\varepsilon_n)<2^{-n}.
 \]
 
-when \(P_n\) has **growing** 1-variation (polygonal length \(\to\infty\) possible while 2-var vanishes).
+Frozen **T018** gives \(S_n\) with \(\|S_n-P_n\|_\infty<\varepsilon_n\), \(\|S_n-P_n\|_{1-var}<\varepsilon_n\), same orientation and common parametrization.
 
 ---
 
-## Required tolerance (§14)
+## Decomposition (§12)
 
-Choose \(\varepsilon_n\) depending on:
+\[
+\int_0^t\xi_{S_n}\,dx_{S_n}-\int_0^t\xi_{P_n}\,dx_{P_n}
+=\int_0^t(\xi_{S_n}-\xi_{P_n})\,dx_{S_n}+\int_0^t\xi_{P_n}\,d(x_{S_n}-x_{P_n}).
+\]
 
-- \(\|P_n\|_{1\text{-var}}\) (may grow);
-- \(\|P_n\|_\infty\);
-- target primitive error \(2^{-n}\);
-- second-level convergence error from Yang estimate.
+Bounded-variation bound (no Young at \(q=2\); classical BV on polygons):
 
-At \(q=2\), Young decomposition **fails** — must use enhanced area estimates (Yang Thm 29).
+\[
+\sup_{t\in[0,1]}\left|\int_0^t\xi_{S_n}\,dx_{S_n}-\int_0^t\xi_{P_n}\,dx_{P_n}\right|
+\le \varepsilon_n(L_n+M_n+\varepsilon_n).
+\]
+
+**Valid when \(L_n\to\infty\)** because \(\varepsilon_n\) is chosen inversely.
 
 ---
 
-## Status
+## Combined with polygon primitive convergence
 
-Not closed in Directive 008. Contributes to **Outcome B**.
+If \(\sup_t|f_n^P(t)-f(t)|\le\eta_n\to 0\) and smoothing error \(<2^{-n}\), then \(\sup_t|f_n^S(t)-f(t)|\to 0\).
+
+---
+
+## Curve convergence
+
+\[
+\|S_n-c\|_\infty\le\|S_n-P_n\|_\infty+\|P_n-c\|_\infty\to 0.
+\]
+
+\(S_n\) remain regular \(C^1\) embedded Jordan (T018).
+
+---
+
+## Implementation
+
+`src/squarepeg/rough_area/adaptive_smoothing.py`

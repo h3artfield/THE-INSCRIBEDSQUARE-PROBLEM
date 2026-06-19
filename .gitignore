@@ -7,4 +7,5 @@ build/
 .venv/
 artifacts/*.json
 !artifacts/t017_verified_release_manifest.json
+!artifacts/t020_verified_release_manifest.json
 !artifacts/directive_*_report.md

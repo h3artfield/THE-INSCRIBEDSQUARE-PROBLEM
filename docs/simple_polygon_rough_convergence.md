@@ -1,33 +1,26 @@
 # Simple Polygon Rough Convergence (BG vs Yang)
 
-**Directive 008 §12 answer:** **UNRESOLVED**
+**Directive 008 §12 answer (historical):** UNRESOLVED  
+**Directive 008R answer:** **YES** — BG polygons are Yang interpolants; universal area convergence applies.
 
 ---
 
-## What Yang Thm 23 requires
+## Resolution (008R)
 
-For path \(\gamma\), area operators \(A(\gamma^D)\) must converge in **1-variation** as partition mesh \(\to 0\).
+Yang Theorem 33 proves \(\{A(c^D):|D|\le\delta\}\) is Cauchy in 1-variation for **all** partitions (not one sequence). Theorem 23 quantifier: **`ALL_PARTITIONS`**.
 
-Yang Thm 33 proves this for modulus class D on **the path \(\gamma\)** itself.
+In \(\mathbb R^2\), BG minimizing geodesics are straight chords = Yang eq. (4). Hence \(P_n=c^{D_n}\) as parametrized maps.
 
----
-
-## What BG provides
-
-Theorem 2.2: **simple** Jordan polygon \(P_n=c^{\Pi_n}\) with vertices on \(c\), mesh \(\to 0\), **special** partition selection for simplicity.
+See `docs/bg_equals_yang_interpolant.md`, `docs/yang_theorem23_quantifier_audit.md`.
 
 ---
 
-## Load-bearing gap
+## Historical gap (Directive 008 — superseded)
 
-| Question | Status |
-|----------|--------|
-| Is \(\Pi_n\) a cofinal refinement family for Yang's convergence? | **Not proved** |
-| Does simplicity constraint change area limit? | **Unknown** |
-| Same parametrization as T020 modulus? | Must be enforced explicitly |
+The 008 concern that "simplicity constraint" might select a non-cofinal partition family is **not** load-bearing once Thm 33's all-partition Cauchy estimate is applied: **any** mesh \(\to 0\) family, including BG's, converges to the same \(\mathbb A_c\).
 
 ---
 
-## Verdict contribution
+## Verdict
 
-Supports **T020 Outcome B** — critical enhancement exists for \(c\), but BG simple interpolants not shown to converge to it in the sense needed for peg application.
+Polygonal enhancement mismatch **closed**. T020 Outcome A.

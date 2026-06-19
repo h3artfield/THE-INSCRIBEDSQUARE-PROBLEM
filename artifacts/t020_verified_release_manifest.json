@@ -1,0 +1,63 @@
+{
+  "release_id": "t020-verified-release-2026-06-18",
+  "release_date": "2026-06-18",
+  "directive": "008R (proof) + 009 (freeze)",
+  "theorem_status": {
+    "T020": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED"
+  },
+  "git": {
+    "tag": "t020-verified-release-2026-06-18",
+    "commit": "PENDING_AT_COMMIT",
+    "branch": "main",
+    "t017_t018_dependency": "t017-verified-release-2026-06-18",
+    "note": "T019 work must not alter listed frozen T020 proof files without new release tag"
+  },
+  "python": {
+    "version": "3.10.6",
+    "requires": ">=3.10"
+  },
+  "dependencies": {
+    "numpy": "1.26.4",
+    "scipy": "1.14.0",
+    "pytest": "9.1.0"
+  },
+  "tests": {
+    "command": "python -m pytest tests/ -q --tb=no",
+    "result": "164 passed",
+    "duration_seconds": 116.9,
+    "date": "2026-06-18"
+  },
+  "source_hashes_sha256": {
+    "data/sources/asano_ike_2412.21057v3.pdf": "84395599a5ffe4c49e199d128505473c9808e19a6c3b9c3ea052984c1dcf5101",
+    "data/sources/boedihardjo_geng_1309.1576v2.pdf": "fa8be7343fa6ae97dff78a62f82a34e1680634c4684469a377d011e1658e73df",
+    "data/sources/yang_1204.0112.pdf": "b4bcea50e40a0e0da95d8d84cc9b8ea8660605b7d5fb011ab4b2b40b272b5a7d"
+  },
+  "proof_document_hashes_sha256": {
+    "docs/critical_modulus_rectangular_peg.md": "d4ce82b5fa1ee7d857c1e6feb499e14227daa613458ded2c433e90857cb1e0c9",
+    "docs/t020_clean_room_audit.md": "29d25c15688d2a9bfc2ebd17b162570132943aba7be6f8432cf35924011a482b",
+    "docs/critical_area_to_liouville_primitive.md": "791c2982ac74496539b4f551f4734caacefb84dca95cab21147f2c3257b217b6",
+    "docs/yang_theorem33_cauchy_estimate.md": "57c107da3740e4ed9e16ba8020b3b211129e1543e7f66287ef4c43210186f23a",
+    "docs/yang_theorem23_quantifier_audit.md": "258e47536c1ba43dfff03f3cb81afdc49f8bee1b87e06c3875c5376bb018df8a",
+    "docs/bg_equals_yang_interpolant.md": "525d8540a80f40233d1584e45b820dd58a90414289b908d68ccb7a48be680563"
+  },
+  "clean_room_audit_hash_sha256": {
+    "docs/t020_clean_room_audit.md": "29d25c15688d2a9bfc2ebd17b162570132943aba7be6f8432cf35924011a482b"
+  },
+  "frozen_t017_t018_paths": [
+    "src/squarepeg/variation/cubic_corner_smoothing.py",
+    "src/squarepeg/variation/smoothing.py",
+    "src/squarepeg/variation/p_variation.py"
+  ],
+  "frozen_t020_code_paths": [
+    "src/squarepeg/rough_area/yang_partition_area.py",
+    "src/squarepeg/rough_area/liouville_recovery.py",
+    "src/squarepeg/rough_area/adaptive_smoothing.py"
+  ],
+  "review_packet": [
+    "review/T017_T020_combined_summary.md",
+    "review/T017_T020_dependency_map.pdf",
+    "review/T020_author_query.md"
+  ],
+  "external_verification": false,
+  "authorization_to_submit": false
+}

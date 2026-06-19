@@ -41,6 +41,6 @@ For paths with moduli \(m_1,m_2\) and \(\int_0^1 m_1(r)m_2(r)/r\,dr<\infty\), Yo
 
 ---
 
-## T020 use
+## T020 use (updated Directive 008R)
 
-Yang Thm 33 supplies **enhancement for the path** \(\gamma\), not automatically for **BG simple Jordan partition sequence**.
+Yang Thm 33 proves **all-partition** Cauchy convergence of \(A(\gamma^D)\) in 1-variation. Combined with Thm 23 and BG chord = Yang \(\gamma^D\) in \(\mathbb R^2\), closes T020 polygonal step. See `docs/yang_theorem23_quantifier_audit.md`.

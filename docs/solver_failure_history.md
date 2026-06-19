@@ -165,3 +165,36 @@ row[5] = -ij[comp][1]
 **T019 verdict:** **STILL OPEN.** Yang counterexamples show vanishing 2-variation ⊄ enhancible; no planar Jordan counterexample to broad T019 constructed.
 
 **Test fix (008):** Corrected exploratory rough-area tests (`test_antisymmetric_segment`, `test_pl_liouville_*`) to match documented sign conventions.
+
+---
+
+## F011 — Possible failure to use full Yang Theorem 33 conclusion (Directive 008 / closed 008R)
+
+**Date discovered:** 2026-06-18 (Directive 008)  
+**Date closed:** 2026-06-18 (Directive 008R)
+
+**Symptom:** Directive 008 Outcome B claimed BG simple polygons might not converge to the Yang \(\mathcal G_2\) enhancement.
+
+**Resolution:** Yang Theorem 33 proof (page 38) establishes a **Cauchy estimate for all partitions** with mesh \(\le\delta\), not merely a special sequence. Theorem 23 quantifier is `ALL_PARTITIONS`. In \(\mathbb R^2\), BG Thm 2.2 chord polygons equal Yang \(\gamma^D\) (eq. (4)). Outcome B **superseded**; T020 upgraded to Outcome A.
+
+**Status:** Closed. Audit: `docs/t020_clean_room_audit.md`.
+
+---
+
+## Directive 008R — T020 repair (2026-06-18)
+
+**T020 verdict:** **Outcome A — Critical bridge proved and audited.**
+
+**T019 verdict:** **STILL OPEN** (unchanged).
+
+---
+
+## Directive 009 — T019 finite-(2)-variation peg (2026-06-18)
+
+**T020 frozen:** Release tag `t020-verified-release-2026-06-18`.
+
+**T021:** Simple-arc area inequality with \(C=\pi/4\) (chord–lobe + isodiametric).
+
+**T019 verdict:** **Outcome A — PROVED_LOCALLY_CLEAN_ROOM_VERIFIED** (Asano–Ike subsequence route; no canonical Yang enhancement).
+
+**T017/T018/T020:** Not modified during T019 work.

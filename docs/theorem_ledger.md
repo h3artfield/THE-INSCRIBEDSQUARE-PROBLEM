@@ -287,15 +287,25 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 ---
 
-## T019 — Finite-(2)-variation primitive existence (broad)
+## T019 — Finite-(2)-variation rectangular peg
 
-**Statement.** Finite 2-variation Jordan curves admit \(C^1\) approximants with uniformly convergent Liouville primitives on compact lifts.
+**Statement.** Every Jordan curve of finite 2-variation inscribes every \(\theta\)-rectangle (\(\theta\in(0,\pi)\)).
 
-**Status.** CONJECTURAL_TARGET — **STILL OPEN** (Directive 008)
+**Status.** PROVED_LOCALLY_CLEAN_ROOM_VERIFIED (Directive 009 Outcome A)
 
-**Source / proof file.** `docs/finite_2_variation_frontier.md`, `docs/finite_2_variation_counterexample_program.md`
+**Source / proof file.** `docs/finite_2variation_rectangular_peg.md`, `docs/t019_clean_room_audit.md`
 
-**Note.** Vanishing 2-variation alone is insufficient (Yang counterexamples). Distinct from T020.
+**Dependencies.** T021; BG; frozen T018; AI-PEG-v3.
+
+---
+
+## T021 — Simple-arc area–variation inequality
+
+**Statement.** \(|\mathcal A_\alpha(s,t)|\le\frac\pi4|\alpha|_{2-var;[s,t]}^2\) for simple polygonal arcs.
+
+**Status.** PROVED_LOCALLY_CLEAN_ROOM_VERIFIED (Directive 009)
+
+**Source / proof file.** `docs/simple_arc_area_variation_inequality.md`
 
 ---
 
@@ -303,9 +313,15 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 **Statement.** Jordan curve with critical modulus \(\int m(r)^2/r\,dr<\infty\) satisfies AI-PEG-v3 Theorem 1.1.
 
-**Status.** CONJECTURAL_TARGET — Directive 008 **Outcome B** (polygonal enhancement mismatch)
+**Status.** PROVED_LOCALLY_CLEAN_ROOM_VERIFIED — **FROZEN** release `t020-verified-release-2026-06-18`
 
-**Source / proof file.** `docs/critical_modulus_rectangular_peg.md`
+**Release manifest:** `artifacts/t020_verified_release_manifest.json`
+
+**Source / proof file.** `docs/critical_modulus_rectangular_peg.md`, `docs/t020_clean_room_audit.md`
+
+**Historical:** Directive 008 Outcome B superseded (F011 closed).
+
+**Do not alter frozen proof without new release tag.**
 
 ---
 
