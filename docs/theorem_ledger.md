@@ -343,19 +343,45 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 **Statement.** The canonical double spiral contains a nondegenerate inscribed square.
 
-**Status.** **PROVED_BY_DIRECT_INTERVAL_CERTIFICATE** (Directive 012)
+**Status.** **PROVED_LOCALLY_BY_DIRECT_INTERVAL_CERTIFICATE** (Directive 013 freeze)
 
-**Historical:** 011 claimed compactness; 011R **NOT_PROVED** (chord vertices); 012 interval cert on \(\gamma_+\).
+**Historical:** 011 claimed compactness; 011R **NOT_PROVED** (chord vertices); 012 interval cert on \(\gamma_+\); 013 independent replay + degree + C⁰ robustness.
 
-**Source / proof file.** `docs/smooth_square_interval_certificate.md`, `docs/t025_clean_room_audit_v2.md`
+**Source / proof file.** `docs/smooth_square_interval_certificate.md`, `docs/t025_certificate_replay.md`, `artifacts/t025_verified_internal_manifest.json`
+
+**Tag:** `t025-smooth-double-spiral-internal-2026-06-18`
 
 ---
 
-## T026 — Area-tight-or-square dichotomy
+## T027 — Robust double-spiral support square
 
-**Status.** CONJECTURAL_FULL_BRIDGE (formulation only, Directive 011R)
+**Statement.** Explicit \(\eta_0>0\) such that any four \(C^0\) perturbations of the canonical support pieces within \(\eta_0\) yield a nondegenerate square in the same parameter boxes.
 
-**Source.** `docs/area_tight_or_square_dichotomy.md`
+**Status.** **PROVED_LOCALLY_CLEAN_ROOM_VERIFIED** (Directive 013)
+
+**Source / proof file.** `docs/t027_c0_robust_square_theorem.md`
+
+---
+
+## T028 — Wild-tail stability
+
+**Statement.** Jordan curves matching canonical support pieces within \(\eta_0\) on four windows contain an inscribed square regardless of wild tail behavior.
+
+**Status.** **PROVED_AS_COROLLARY** (via T027)
+
+**Source / proof file.** `docs/t028_wild_tail_corollary.md`
+
+---
+
+## T026 — Area-tight-or-protected-square dichotomy
+
+**Statement.** Every Jordan curve either admits an area-tight simple polygonal approximation sequence, or contains a four-window configuration with **nonzero square-map Brouwer degree**.
+
+**Status.** CONJECTURAL_FULL_BRIDGE (refined Directive 013)
+
+**Source.** `docs/area_tight_or_square_dichotomy.md`, `docs/t026_missing_universal_lemma.md`
+
+**Do not attempt proof in Directive 013.**
 
 ---
 

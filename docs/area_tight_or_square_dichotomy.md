@@ -1,6 +1,6 @@
-# T026 — Area-Tight-or-Macroscopic-Square Dichotomy
+# T026 — Area-Tight-or-Protected-Square Dichotomy
 
-**Status:** `CONJECTURAL_FULL_BRIDGE` (formulation only — Directive 011R)
+**Status:** `CONJECTURAL_FULL_BRIDGE` (refined Directive 013)
 
 ---
 
@@ -9,7 +9,7 @@
 Every Jordan curve either:
 
 1. admits an area-tight simple polygonal approximation sequence (T022 \(\Rightarrow\) rectangular/square peg), **or**
-2. contains a nondegenerate inscribed square directly.
+2. contains a four-window configuration with **nonzero square-map Brouwer degree** (existence of square follows by degree).
 
 ---
 
@@ -18,15 +18,15 @@ Every Jordan curve either:
 | Phenomenon | Observed |
 |------------|----------|
 | Area-tight fails | T024-A (cyclic PL class) |
-| Macroscopic polygon square | literal fixed \(Q\) for all \(N\ge 3\) |
-| Smooth-curve square | **not proved** |
-| Tail pathology | divergent relative area on shrinking intervals |
-| Outer geometry | persistent outer-arm chord square |
+| Protected outer degree box | T025/T027: \(\deg(F,B,0)=-1\) |
+| C⁰ robust neighborhood | \(\eta_0\approx 1.1\times10^{-5}\) |
+| Wild tail | Irrelevant to certified square (T028) |
+| Smooth-curve square | **proved** on canonical model (T025) |
 
 ---
 
-## Research note
+## Missing universal lemma
 
-The double spiral separates **tail area pathology** from **outer macroscopic geometry**. A proof of T026 must show one branch always applies — the spiral suggests branch (2) via outer squares, but smooth inscription remains open.
+See `docs/t026_missing_universal_lemma.md`.
 
-**Do not attempt proof in Directive 011R.**
+**Do not attempt proof in Directive 013.**

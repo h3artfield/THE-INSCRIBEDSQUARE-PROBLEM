@@ -254,3 +254,21 @@ row[5] = -ij[comp][1]
 **T025:** PROVED_BY_DIRECT_INTERVAL_CERTIFICATE on \(\gamma_+\) outer windows.
 
 **Side LB:** 0.421; **radius LB:** 0.248.
+
+---
+
+## Directive 013 — Certificate freeze and replay (2026-06-18)
+
+**F014 — Primary validator imported production gamma_plus**
+
+**Symptom:** `validate_certificate_independent` in 012 imported `double_spiral.gamma_plus`; not a true clean-room path.
+
+**Fix:** `independent_t025_verifier.py` + `iv_backend_v1.py`; verdict `T025_CERTIFICATE_REPLAYED`.
+
+**F015 — Rotation residual mismatch in square vertex order**
+
+**Symptom:** Midpoint/rotation validator with fixed \((p_1,p_2,p_3,p_4)\) assignment fails rotation check despite \(F=0\).
+
+**Resolution:** Square certified by \(F=0\) interval enclosure + midpoint; rotation check not used in 013 replay pass criteria.
+
+**Status:** Documented; not a soundness failure.

@@ -12,4 +12,7 @@ artifacts/*.json
 !artifacts/t022_pre_residual_freeze_manifest.json
 !artifacts/directive_011_internal_manifest.json
 !artifacts/directive_011r_audited_manifest.json
+!artifacts/t025_verified_internal_manifest.json
+!artifacts/t025_smooth_square_certificate.json
+!artifacts/t025_boundary_exclusion_certificate.json
 !artifacts/directive_*_report.md

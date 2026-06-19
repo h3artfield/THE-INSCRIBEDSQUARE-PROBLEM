@@ -1,0 +1,73 @@
+{
+  "arithmetic_precision": "float64_outward_enclosure",
+  "boundary_margin": 9.02807431042707e-05,
+  "canonical_curve_hash_sha256": "c535f4e3cc643ed945854ba53d818444245e00c014648625b8603c344d648ae7",
+  "certificate_hash_sha256": "277680042bde9b11f7e3cf01279883a9b8ff5d64a3eb5e2c01bc2bea6578f5b2",
+  "commit_hash": "4993d15cc3deb8ad45c3ed5f476c165a66349e65",
+  "degree": -1,
+  "directive": "013",
+  "eta0": 1.1111111111111113e-05,
+  "independent_validator_hash_sha256": "09a6161a5c042beda7fab1ab3a2d92b374be40be1d81abd9cb9403f8ac05d633",
+  "interval_library": "squarepeg.residual_curves.iv_backend_v1",
+  "krawczyk_inclusion_result": true,
+  "krawczyk_matrix": [
+    [
+      0.20078009393964535,
+      -0.35229807959780146,
+      0.14185766894492247,
+      0.0
+    ],
+    [
+      0.0,
+      0.1271666350000089,
+      -0.3109790411293112,
+      0.18895868508783664
+    ],
+    [
+      0.27208148734025883,
+      0.0,
+      0.16912137218438872,
+      -0.43459678522594913
+    ],
+    [
+      -0.07130140811106855,
+      0.09796481847956784,
+      0.027263695745460836,
+      -0.05667940283782258
+    ]
+  ],
+  "radius_bound": [
+    0.37649725612305035,
+    0.28966114010309096,
+    0.2478130704142965,
+    0.34590772997003383
+  ],
+  "replay_verdict": "T025_CERTIFICATE_REPLAYED",
+  "root_box_endpoints": [
+    [
+      "36224966042559/6294887494940",
+      "38113432291041/6294887494940"
+    ],
+    [
+      "96567873639141/9094353329860",
+      "99296179638099/9094353329860"
+    ],
+    [
+      "80707506664679/5386373967140",
+      "82323418854821/5386373967140"
+    ],
+    [
+      "44187583687097/6261029056020",
+      "46065892403903/6261029056020"
+    ]
+  ],
+  "rounding_mode": "outward_float_enclosure",
+  "side_length_bound": [
+    0.3555080686211281,
+    0.37328347205218454
+  ],
+  "t025_status": "PROVED_LOCALLY_BY_DIRECT_INTERVAL_CERTIFICATE",
+  "t027_homotopy_ok": true,
+  "tag": "t025-smooth-double-spiral-internal-2026-06-18",
+  "test_output": "..                                                                       [100%]\n2 passed in 0.23s"
+}
