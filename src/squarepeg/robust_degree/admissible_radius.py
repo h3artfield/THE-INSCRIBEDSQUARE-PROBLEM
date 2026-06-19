@@ -8,7 +8,8 @@ from typing import Literal
 from squarepeg.curves.polygon import PolygonCurve
 from squarepeg.exact_squares.solver import solve_polygon_full
 from squarepeg.robust_degree.obstruction_radius import rho_square_obs_polygon
-from squarepeg.robust_degree.polygon_extractor import convert_isolated_square
+from squarepeg.robust_degree.cyclic_odd_component import circle_cyclic_odd_component
+from squarepeg.robust_degree.t039_persistence import sufficient_perturbation_radius
 from squarepeg.robust_degree.valid_family_certificate import reject_rank5_without_obstruction
 
 ComponentClass = Literal[
@@ -36,6 +37,14 @@ class AdmissibleRadiusReport:
     admissible_components: list[ComponentClass]
     rejected_families: int
     messages: list[str] = field(default_factory=list)
+
+
+def rho_square_cyc(component_name: str = "unit_circle", eta: float | None = None) -> float:
+    """Certified C^0 radius for cyclic-odd component (curve-level)."""
+    if eta is None:
+        eta = sufficient_perturbation_radius()
+    comp = circle_cyclic_odd_component(eta)
+    return eta if comp.certified else 0.0
 
 
 def rho_square_adm_polygon(
@@ -83,5 +92,12 @@ def rho_square_adm_definition() -> str:
 def t032_section_statement() -> str:
     return (
         "T032§ (CONJECTURAL_FULL_BRIDGE): Admissible-protected component radii →0 "
-        "⇒ area-tight subsequence. Primary bridge if T038-Curve proved."
+        "⇒ area-tight subsequence. T038-Curve clean-room verified; not attacked here."
+    )
+
+
+def admissible_component_policy() -> str:
+    return (
+        "rho_square^adm includes: (1) isolated Brouwer degree, (2) proved Euler obstruction, "
+        "(3) proved cyclic-odd T039 components. Excludes T038-prime without full proof."
     )

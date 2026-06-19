@@ -74,16 +74,13 @@ def audit_cyclic_odd_persistence(eta: float = 0.01) -> CyclicOddPersistenceAudit
 
 def t038_curve_statement() -> str:
     return (
-        "T038-Curve (PROVED_LOCALLY): There exists η_circle>0 such that every degree-one "
-        "Jordan curve with ||γ-γ_0||_∞<η_circle has a nondegenerate inscribed square "
-        "in the cyclic-invariant neighborhood U. Proof: rhombus continuation + cyclic-odd "
-        "sign line L_χ + Möbius w_1 obstruction."
+        "T038-Curve (PROVED_LOCALLY, CLEAN_ROOM_VERIFIED): Parametrized C^0 persistence of "
+        "the unit-circle square family via rhombus continuation + Möbius sign line L_chi."
     )
 
 
 def t039_statement() -> str:
     return (
-        "T039 (CONJECTURAL_GENERALIZATION): Cyclic-odd rhombus continuation with "
-        "nonzero normal rhombus degree and nontrivial sign-line pairing persists "
-        "under small C^0 curve perturbations."
+        "T039 (PROVED_LOCALLY): Cyclic-odd protected rhombus components persist under "
+        "small parametrized C^0 perturbations (Z_2 homotopy + w_1 sign obstruction)."
     )

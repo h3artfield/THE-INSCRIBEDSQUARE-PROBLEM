@@ -1,0 +1,10 @@
+{
+  "marker": "fast",
+  "command": "pytest tests/ -m fast -q --tb=no",
+  "environment": {
+    "PYTHONHASHSEED": "0"
+  },
+  "note": "Run twice consecutively; outputs must match. Full unmarked suite ~177 tests / ~3h — not CI gate.",
+  "commit": "pending",
+  "exit_code": 0
+}

@@ -1,28 +1,25 @@
-# Admissible Protected Invariant
-
-## Definition
+# Admissible Protected Invariant (Directive 019 update)
 
 \[
 \rho_\square^{\mathrm{adm}}(\gamma)
 \]
 
-= supremum of certified persistence radii over **admissible** components:
+includes **only**:
 
-1. Isolated components with nonzero Brouwer degree
-2. Morse-Bott components with nonzero \(w_d(E)\) (Euler obstruction)
-3. **Cyclic-invariant rhombus continuation** with nontrivial diagonal sign-line pairing (T038-Curve)
-4. Later independently proved curve-restricted components
+1. Isolated Brouwer-degree components
+2. Proved Euler-obstruction Morse-Bott components (T038′ when fully proved)
+3. Proved cyclic-odd components (T039)
 
-## Removed
+**Excludes:** T038′ components without full abstract proof; rank-only families; normal-index-only certificates.
 
-- Constant rank / normal degree alone
-- Unproved \(\rho_\square^{\mathrm{gen}}\) family contributions
-- Rank-5 polygon families without separate cyclic-odd or Euler audit
+## Cyclic-odd radius
 
-## Circle contribution
+\[
+\rho_\square^{\mathrm{cyc}}(\gamma,C)
+\]
 
-Unit circle family is admissible via **cyclic-odd** mechanism (`cyclic_odd_persistence.py`), not via Directive 017 cokernel line.
+= largest certified \(C^0\) radius preserving rhombus continuation, \(w_1\) pairing, collision/side margins.
 
-Implementation: `admissible_radius.py`.
+Circle: `rho_square_cyc()` ≈ 0.014 (qualitative).
 
-Supersedes `docs/obstruction_protected_invariant.md` as primary formulation.
+Implementation: `admissible_radius.py`

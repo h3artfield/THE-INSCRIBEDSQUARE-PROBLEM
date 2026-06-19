@@ -6,6 +6,8 @@ import json
 from fractions import Fraction
 from pathlib import Path
 
+from fractions import Fraction
+
 import pytest
 
 from squarepeg.curves.polygon import PolygonCurve
@@ -27,7 +29,7 @@ def test_fixture_simple_ccw(hexagon: PolygonCurve):
     assert data["simple"] is True
     assert data["orientation"] == "ccw"
     assert hexagon.signed_area() > 0
-    assert str(hexagon.signed_area()) == data["signed_area"]
+    assert hexagon.signed_area() == Fraction(data["signed_area"])
 
 
 @pytest.mark.fast

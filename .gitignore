@@ -19,5 +19,8 @@ artifacts/*.json
 !artifacts/directive_015_verified_internal_manifest.json
 !artifacts/directive_016_verified_internal_manifest.json
 !artifacts/directive_017_verified_internal_manifest.json
+!artifacts/directive_018_internal_manifest.json
 !artifacts/directive_*_verified_internal_manifest.json
+!artifacts/directive_*_internal_manifest.json
+!artifacts/full_suite_baseline.json
 !artifacts/directive_*_report.md

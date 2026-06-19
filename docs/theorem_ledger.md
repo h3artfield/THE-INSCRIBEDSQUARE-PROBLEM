@@ -479,21 +479,21 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 ## T038-Curve — Cyclic-odd circle-family persistence
 
-**Statement.** Every Jordan curve sufficiently close to the unit circle in \(C^0\) has a nondegenerate inscribed square in the cyclic-invariant neighborhood \(U\).
+**Statement.** Every degree-one parametrized Jordan curve with \(\|\gamma-\gamma_0\|_\infty<\eta\) has a nondegenerate inscribed square in cyclic-invariant \(U\).
 
-**Status.** PROVED_LOCALLY (Directive 018)
+**Status.** PROVED_LOCALLY, **CLEAN_ROOM_VERIFIED** (Directive 019)
 
-**Source / proof file.** `docs/t038_curve_circle_proof.md`, `docs/cyclic_odd_persistence_theorem.md`
+**Source / proof file.** `docs/t038_curve_clean_room_audit.md`, `docs/t038_curve_circle_proof.md`
 
 ---
 
 ## T039 — Cyclic-odd rhombus continuation (general)
 
-**Statement.** Admissible cyclic-invariant rhombus components with sign-line obstruction persist under small \(C^0\) curve perturbations.
+**Statement.** Cyclic-odd protected rhombus components persist under small parametrized \(C^0\) perturbations.
 
-**Status.** CONJECTURAL_GENERALIZATION (Directive 018)
+**Status.** PROVED_LOCALLY (Directive 019)
 
-**Source / proof file.** `docs/t039_general_cyclic_odd_theorem.md`
+**Source / proof file.** `docs/t039_cyclic_odd_persistence.md`
 
 ---
 
@@ -501,9 +501,17 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 **Statement.** Admissible-protected component radii \(\to0\) \(\Rightarrow\) area-tight subsequence.
 
-**Status.** CONJECTURAL_FULL_BRIDGE (primary over T032‡ if T038-Curve proved)
+**Status.** CONJECTURAL_FULL_BRIDGE (not attacked Directive 019)
 
 **Source / proof file.** `docs/admissible_protected_bridge.md`
+
+---
+
+## T036-N1 — Nested-lobe rhombus component
+
+**Status.** CONJECTURAL_GEOMETRIC_TARGET (Directive 019 reassessment)
+
+**Source / proof file.** `docs/t036_nested_lobe_next_target.md`
 
 ---
 

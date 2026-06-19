@@ -324,3 +324,13 @@ row[5] = -ij[comp][1]
 **Key:** \(D(\tau u)=-D(u)\); distinct from trivial Directive 017 cokernel bundle.
 
 **T039, T032§:** Conjectural; not attacked.
+
+---
+
+## Directive 019 — Clean-room audit + T039 (2026-06-18)
+
+**Outcome A:** T038-Curve CLEAN_ROOM_VERIFIED; T039 PROVED_LOCALLY.
+
+**Flakes:** semicircle RESOURCE_OR_TIMEOUT_FAILURE; hexagon NONREPRODUCIBLE (Fraction hardening).
+
+**T032§, T036-N1:** Not attacked.
