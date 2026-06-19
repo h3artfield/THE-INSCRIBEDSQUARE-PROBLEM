@@ -1,0 +1,13 @@
+{
+  "commit_hash": "c36e76d",
+  "directive": "020",
+  "directive_019_dependency": "directive-019-cyclic-odd-general-internal-2026-06-18",
+  "tag": "directive-020-nested-lobe-bridge-internal-2026-06-18",
+  "outcome": "C",
+  "reference_t039": true,
+  "t036_n1_unconditional": false,
+  "t036_n1_conditional": true,
+  "missing_hypothesis": "ANNULAR_GRAPH",
+  "modules": "src/squarepeg/defect_geometry/",
+  "test_output": "28 passed (nested_lobe_geometry + directive_019)"
+}
