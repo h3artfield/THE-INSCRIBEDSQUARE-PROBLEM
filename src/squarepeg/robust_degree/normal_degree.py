@@ -39,18 +39,19 @@ def normal_index_circle() -> NormalDegreeCertificate:
         codimension=3,
         use_mod2=True,
         index=1 if abs(det_val) < 1e-6 else 0,  # singular on family expected
-        tubular_neighborhood_independent=True,
-        c0_persistent=True,
+        tubular_neighborhood_independent=False,
+        c0_persistent=False,
         notes=[
             "Constant rank 1 on circle family (1D zero manifold)",
-            "Normal fiber degree mod 2 = 1",
-            "T038: family persists under C^0 perturbation of windows",
+            "Local normal index mod 2 = 1 — NOT sufficient for C^0 persistence (Directive 017)",
+            "Cokernel bundle w_1(E)=0 on ordered circle family; see circle_cokernel.py",
+            "T038: CONJECTURAL; T038-Curve may apply for curve-induced perturbations",
         ],
     )
 
 
 def t038_statement() -> str:
     return (
-        "T038 (CONJECTURAL): Compact protected Morse-Bott family with nonzero normal index "
-        "persists under small C^0 perturbations — square configurations remain nearby."
+        "T038 (CONJECTURAL): superseded by T038' (obstruction-bundle Euler class). "
+        "Normal index alone is insufficient — see morse_bott_countermodel.py."
     )

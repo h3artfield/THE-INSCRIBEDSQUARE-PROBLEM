@@ -302,3 +302,15 @@ row[5] = -ij[comp][1]
 **Circle:** CIRCLE_HAS_NO_PROTECTED_PRODUCT_BOX; generalized family invariant required.
 
 **T038:** CONJECTURAL family persistence.
+
+---
+
+## Directive 017 — Obstruction-bundle audit (2026-06-18)
+
+**Outcome B:** Normal nondegeneracy insufficient (countermodel \(F(x,y)=(x,0)\)).
+
+**Circle:** `CIRCLE_OBSTRUCTION_LINE_TRIVIAL`; Circle-B verdict; T038-Curve conjectural.
+
+**Invariant:** \(\rho_\square^{\mathrm{gen}}\) family components withdrawn; \(\rho_\square^{\mathrm{obs}}\) formalized.
+
+**T032‡:** Primary bridge target; T036-N not attempted.

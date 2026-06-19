@@ -76,8 +76,8 @@ def underline_rho_k_generalized(
 
 def rho_square_gen_intrinsic_definition() -> str:
     return (
-        "rho_square^{gen}(gamma) = sup robustness over isolated protected boxes "
-        "AND protected Morse-Bott square families with nonzero normal index."
+        "DEPRECATED for family components (Directive 017): use rho_square^obs. "
+        "rho_square^{gen} included families with unproved normal-index persistence."
     )
 
 

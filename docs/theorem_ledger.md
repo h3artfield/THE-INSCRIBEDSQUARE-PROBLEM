@@ -461,17 +461,57 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 ## T038 — Protected square family persistence
 
-**Status.** CONJECTURAL_TARGET
+**Status.** CONJECTURAL (superseded by T038′ — normal index alone insufficient, Directive 017)
 
-**Source / proof file.** `docs/protected_square_families.md`
+**Source / proof file.** `docs/protected_square_families.md`, `docs/obstruction_bundle_persistence_theorem.md`
+
+---
+
+## T038′ — Obstruction-bundle square-family persistence
+
+**Statement.** Compact Morse-Bott family with \(\langle w_d(E),[Z]_2\rangle\ne0\) persists under small \(C^0\) perturbations.
+
+**Status.** CONJECTURAL_TARGET (Directive 017)
+
+**Source / proof file.** `docs/obstruction_bundle_persistence_theorem.md`
+
+---
+
+## T038-Curve — Curve-restricted circle persistence
+
+**Statement.** Curve-induced perturbations of the unit circle force a zero of the obstruction section on the rotating square family.
+
+**Status.** CONJECTURAL (Directive 017)
+
+**Source / proof file.** `docs/curve_induced_circle_sections.md`
+
+---
+
+## T032‡ — Obstruction-protected collapse to area-tightness
+
+**Statement.** Obstruction-protected component radii \(\to0\) \(\Rightarrow\) area-tight subsequence.
+
+**Status.** CONJECTURAL_FULL_BRIDGE (primary bridge, Directive 017)
+
+**Source / proof file.** `docs/obstruction_protected_bridge.md`
 
 ---
 
 ## T032† — Generalized intrinsic bridge
 
-**Status.** CONJECTURAL_FULL_BRIDGE (primary over T032*)
+**Status.** CONJECTURAL_FULL_BRIDGE — **superseded as primary** by T032‡ (uses unproved family persistence)
 
 **Source / proof file.** `docs/generalized_intrinsic_bridge.md`
+
+---
+
+## ρ_square^obs — Obstruction-protected invariant
+
+**Definition.** Supremum of persistence radii over admissible protected components (Brouwer, Euler obstruction, or T038-Curve).
+
+**Status.** FORMALIZED (Directive 017); \(\rho_\square^{\mathrm{gen}}\) withdrawn for family components without obstruction proof.
+
+**Source / proof file.** `docs/obstruction_protected_invariant.md`
 
 ---
 
