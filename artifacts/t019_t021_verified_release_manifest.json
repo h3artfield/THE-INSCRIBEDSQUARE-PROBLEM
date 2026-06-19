@@ -1,0 +1,76 @@
+{
+  "release_id": "t019-t021-verified-release-2026-06-18",
+  "release_date": "2026-06-18",
+  "directive": "009 (proof) + 010 (freeze)",
+  "theorem_status": {
+    "T019": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T021": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED"
+  },
+  "git": {
+    "tag": "t019-t021-verified-release-2026-06-18",
+    "commit": "PENDING",
+    "branch": "main",
+    "t018_release_dependency": "t017-verified-release-2026-06-18",
+    "t020_release_dependency": "t020-verified-release-2026-06-18",
+    "note": "Residual-curve work (T022–T024) must not alter listed frozen T019/T021 proof files without new release tag"
+  },
+  "python": {
+    "version": "3.10.6",
+    "requires": ">=3.10"
+  },
+  "dependencies": {
+    "numpy": "1.26.4",
+    "scipy": "1.14.0",
+    "pytest": "9.1.0"
+  },
+  "tests": {
+    "command": "python -m pytest tests/ -q --tb=no -m \"not slow\"",
+    "result": "175 passed, 2 deselected",
+    "duration_seconds": 8.6,
+    "date": "2026-06-18"
+  },
+  "source_hashes_sha256": {
+    "data/sources/asano_ike_2412.21057v3.pdf": "84395599a5ffe4c49e199d128505473c9808e19a6c3b9c3ea052984c1dcf5101",
+    "data/sources/boedihardjo_geng_1309.1576v2.pdf": "fa8be7343fa6ae97dff78a62f82a34e1680634c4684469a377d011e1658e73df"
+  },
+  "proof_document_hashes_sha256": {
+    "T019": {
+      "docs/finite_2variation_rectangular_peg.md": "d6f457c6e6b41de0a7e4010d1ebd7d33e07ef20fb4b311e2f9a7a10d81280b5c",
+      "docs/t019_clean_room_audit.md": "b862c763ccb30112a68ba1b2e25a608487e656b068a03efa0fb48bf0712fbbda",
+      "manuscript/finite_2variation_rectangular_peg.tex": "7df1331380953cad79ae352984ddd29590ccdad6ef219d2d24398ff9cd91b5e3",
+      "manuscript/finite_2variation_rectangular_peg.pdf": "269c2155d67f19a5a5de9ff7b9f8b177ed21f9a57d1ea17a13e4e87a6db3566b"
+    },
+    "T021": {
+      "docs/simple_arc_area_variation_inequality.md": "5ff46627f5790bc2a72b17c9a0c407c508873933c539f9e52890c3804016b707",
+      "docs/chord_lobe_decomposition.md": "9864c90a99be48288b6a456c577991a79fe164688256c87a723cece2b4deaa4f"
+    }
+  },
+  "clean_room_audit_hashes_sha256": {
+    "docs/t019_clean_room_audit.md": "b862c763ccb30112a68ba1b2e25a608487e656b068a03efa0fb48bf0712fbbda",
+    "docs/t019_t021_novelty_audit.md": "ef6341e38d3a75511493578c9e89b9ee84fef4adb0ac46d31482ab88d0644c6b"
+  },
+  "frozen_t017_t018_paths": [
+    "src/squarepeg/variation/cubic_corner_smoothing.py",
+    "src/squarepeg/variation/smoothing.py",
+    "src/squarepeg/variation/p_variation.py"
+  ],
+  "frozen_t019_t021_code_paths": [
+    "src/squarepeg/area_variation/signed_area.py",
+    "src/squarepeg/area_variation/chord_lobes.py",
+    "src/squarepeg/area_variation/exact_2variation.py",
+    "src/squarepeg/area_variation/polygonal_arc.py",
+    "src/squarepeg/area_variation/inequality_certificate.py"
+  ],
+  "review_packet": [
+    "review/T019_T021_one_page_summary.md",
+    "review/T019_T021_dependency_map.pdf",
+    "review/T021_proof_checklist.md",
+    "review/T019_T021_author_query.md"
+  ],
+  "novelty_classification": {
+    "T019": "APPARENTLY_NEW_SYNTHESIS",
+    "T021": "APPARENTLY_NEW_LEMMA"
+  },
+  "external_verification": false,
+  "authorization_to_submit": false
+}

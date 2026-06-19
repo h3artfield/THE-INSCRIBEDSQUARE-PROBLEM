@@ -1,0 +1,58 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\tagsource}{\textsf{\footnotesize[SOURCE]}}
+\newcommand{\taglocal}{\textsf{\footnotesize[LOCAL]}}
+\newcommand{\tagsynth}{\textsf{\footnotesize[SYNTHESIS]}}
+
+\title{Finite $2$-Variation Jordan Curves and\\ Inscribed Rectangles via Asano--Ike}
+\author{Internal proof package --- clean-room verified (Directive 009)\\Not externally peer-reviewed}
+\date{June 18, 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Jordan curves of finite $2$-variation inscribe every prescribed rectangle,
+via simple polygonal interpolation \tagsource, the simple-arc area inequality
+T021 \taglocal, primitive compactness, frozen T018 smoothing \taglocal,
+and Asano--Ike Theorem~1.1 \tagsource. Internally verified only.
+\end{abstract}
+
+\section{Scope}
+Finite $2$-variation only; not all Jordan curves. Critical $p=2$ modulus covered separately (frozen T020).
+
+\section{Simple Jordan interpolation \tagsource}
+Boedihardjo--Geng Theorem~2.2 yields simple chord polygons $P_n=c^{D_n}$ with mesh $\to0$.
+
+\section{T021: Simple-arc area bound \taglocal}
+\begin{theorem}[T021]
+$|\mathcal A_\alpha(s,t)|\le\frac{\pi}{4}|\alpha|_{2\text{-var};[s,t]}^2$ for simple polygonal arcs.
+\end{theorem}
+Chord--lobe decomposition; isodiametric bound; degenerate limits by subdivision.
+
+\section{Local $2$-variation control \taglocal}
+$\omega_c(s,t)=|c|_{2\text{-var};[s,t]}^2$ is superadditive and continuous. PL variation controlled at partition nodes.
+
+\section{Primitive equicontinuity and Arzel\`a--Ascoli \taglocal}
+$f_n(t)-f_n(s)=\frac{\xi_n(s)+\xi_n(t)}{2}(x_n(t)-x_n(s))-\mathcal A_{P_n}(s,t)$. Extract $f_{n_k}\to f$ uniformly.
+
+\section{T018 smoothing \taglocal}
+Velocity-matched cubic corners; adaptive tolerance for diverging polygon length (frozen release).
+
+\section{Lift and Asano--Ike \tagsource}
+Period-count estimate; Theorem~1.1 and Remark~5.6.
+
+\section{Limitations}
+Depends on Asano--Ike preprint. Infinite $2$-variation not covered (T023 open).
+
+\end{document}

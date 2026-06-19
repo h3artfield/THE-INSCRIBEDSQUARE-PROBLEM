@@ -52,7 +52,9 @@ row[5] = -ij[comp][1]
 
 **Severity:** Methodological
 
-**Note:** Brute-force oracle can take minutes and over-count. Marked `pytest -m slow`; never a certificate source.
+**Note:** Brute-force oracle can take minutes and over-count. Marked `pytest -m slow`; **never a certificate source**.
+
+**Directive 010 correction:** Sampled oracle zero is **not** nonexistence. Example: rationalized regular hexagon — oracle 0 at `samples_per_edge=30`, exact solver found **3** rank-6 certificates + **12** rank-5 families. See `data/regressions/rationalized_regular_hexagon.json`.
 
 ---
 
@@ -198,3 +200,27 @@ row[5] = -ij[comp][1]
 **T019 verdict:** **Outcome A — PROVED_LOCALLY_CLEAN_ROOM_VERIFIED** (Asano–Ike subsequence route; no canonical Yang enhancement).
 
 **T017/T018/T020:** Not modified during T019 work.
+
+---
+
+## F012 — Sampled oracle false negative on rational hexagon (Directive 010)
+
+**Date discovered:** 2026-06-18
+
+**Symptom:** Reported "Oracle inscribed squares: 0" for rationalized regular hexagon (~91 min run).
+
+**Resolution:** Exact solver finds 3 rank-6 certificates, 12 rank-5 families in 0.22s. **False negative** — insufficient sampling density, not square-free polygon.
+
+**Status:** Closed. Regression: `tests/test_rational_hexagon_exact_solver.py`, fixture `data/regressions/rationalized_regular_hexagon.json`.
+
+---
+
+## Directive 010 — Residual curves (2026-06-18)
+
+**T019/T021 frozen:** `t019-t021-verified-release-2026-06-18`
+
+**T022:** PROVED_LOCALLY (area-tight criterion)
+
+**T023/T024:** CONJECTURAL — double spiral obstruction not closed
+
+**Verdict:** **Outcome C** — conditional criterion proved; universal bridge unresolved

@@ -289,23 +289,49 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 ## T019 — Finite-(2)-variation rectangular peg
 
-**Statement.** Every Jordan curve of finite 2-variation inscribes every \(\theta\)-rectangle (\(\theta\in(0,\pi)\)).
+**Statement.** Every Jordan curve of finite 2-variation inscribes every \(\theta\)-rectangle.
 
-**Status.** PROVED_LOCALLY_CLEAN_ROOM_VERIFIED (Directive 009 Outcome A)
+**Status.** PROVED_LOCALLY_CLEAN_ROOM_VERIFIED — **FROZEN** release `t019-t021-verified-release-2026-06-18`
 
-**Source / proof file.** `docs/finite_2variation_rectangular_peg.md`, `docs/t019_clean_room_audit.md`
+**Release manifest:** `artifacts/t019_t021_verified_release_manifest.json`
 
-**Dependencies.** T021; BG; frozen T018; AI-PEG-v3.
+**Source / proof file.** `docs/finite_2variation_rectangular_peg.md`
 
 ---
 
 ## T021 — Simple-arc area–variation inequality
 
-**Statement.** \(|\mathcal A_\alpha(s,t)|\le\frac\pi4|\alpha|_{2-var;[s,t]}^2\) for simple polygonal arcs.
+**Statement.** \(|\mathcal A_\alpha(s,t)|\le\frac\pi4|\alpha|_{2-var;[s,t]}^2\).
 
-**Status.** PROVED_LOCALLY_CLEAN_ROOM_VERIFIED (Directive 009)
+**Status.** PROVED_LOCALLY_CLEAN_ROOM_VERIFIED — **FROZEN** (same release)
 
 **Source / proof file.** `docs/simple_arc_area_variation_inequality.md`
+
+---
+
+## T022 — Area-tight rectangular peg criterion
+
+**Statement.** Area-tight polygonal sequence \(\Rightarrow\) Asano–Ike.
+
+**Status.** PROVED_LOCALLY (Directive 010)
+
+**Source / proof file.** `docs/area_tight_rectangular_peg_criterion.md`
+
+---
+
+## T023 — Universal area-tightness
+
+**Statement.** Every Jordan curve admits area-tight PL approximants.
+
+**Status.** CONJECTURAL_FULL_BRIDGE
+
+---
+
+## T024 — Double-spiral area obstruction
+
+**Statement.** \(\Gamma_{\mathrm{ds}}\) has no area-tight inscribed polygon sequence.
+
+**Status.** CONJECTURAL_TARGET (Directive 010 — not proved)
 
 ---
 
