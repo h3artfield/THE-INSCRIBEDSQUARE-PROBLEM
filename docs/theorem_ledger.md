@@ -343,13 +343,11 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 **Statement.** The canonical double spiral contains a nondegenerate inscribed square.
 
-**Status.** **UNDER_COMPACTNESS_AUDIT** → **`NOT_PROVED`** (smooth curve; Directive 011R)
+**Status.** **PROVED_BY_DIRECT_INTERVAL_CERTIFICATE** (Directive 012)
 
-**Historical:** Directive 011 claimed `PROVED_BY_COMPACTNESS` — **withdrawn** (vertices on chords, not \(\gamma_+\)).
+**Historical:** 011 claimed compactness; 011R **NOT_PROVED** (chord vertices); 012 interval cert on \(\gamma_+\).
 
-**Polygon result:** literal identical rank-6 square for all \(N\ge 3\) on edges \((0,3,5,0)\).
-
-**Source / proof file.** `docs/t025_clean_room_audit.md`, `docs/t025_infinite_sequence_audit.md`
+**Source / proof file.** `docs/smooth_square_interval_certificate.md`, `docs/t025_clean_room_audit_v2.md`
 
 ---
 

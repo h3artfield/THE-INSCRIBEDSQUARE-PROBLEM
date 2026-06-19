@@ -230,3 +230,27 @@ row[5] = -ij[comp][1]
 **Directive 011 edge report corrected:** (0,3,5,0) not (0,3,5,4N+1)
 
 **Verdict:** Do not generalize spiral family until T025 smooth gap closed.
+
+---
+
+## F013 — Fixed chord square not on smooth spiral (Directive 011R / 012)
+
+**Date discovered:** 2026-06-18
+
+**Symptom:** Literal identical polygon square on edges (0,3,5,0) for all N≥3; claimed as smooth-curve square via compactness.
+
+**Exact reason:** Vertices lie in **chord interiors** of outer-arm PL segments, not on the image of \(\gamma_+\). Chord parameter \(u\in(0,1)\) gives points \((1-u)A+uB\) strictly off the smooth arc unless \(u\in\{0,1\}\).
+
+**Diagnostic:** Radial residual \(|r-r(\theta)|>0.2\) when naively projecting to polar angle.
+
+**Resolution (012):** Separate smooth root on \(\gamma_+\) found and interval-certified. T025 closed.
+
+**Status:** Closed.
+
+---
+
+## Directive 012 — Smooth square interval certificate (2026-06-18)
+
+**T025:** PROVED_BY_DIRECT_INTERVAL_CERTIFICATE on \(\gamma_+\) outer windows.
+
+**Side LB:** 0.421; **radius LB:** 0.248.
