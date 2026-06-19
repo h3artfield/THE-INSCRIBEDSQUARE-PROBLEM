@@ -1,0 +1,28 @@
+{
+  "commit_hash": "f025d25f31cbaf00d00429b71408bfe0e288bc63",
+  "directive": "016",
+  "tag": "directive-016-selection-family-audit-internal-2026-06-18",
+  "theorem_ledger": {
+    "T037": "PROVED_LOCALLY",
+    "T038": "CONJECTURAL",
+    "T032_dagger": "CONJECTURAL_FULL_BRIDGE",
+    "T036-N": "CONTROLLED_CLASS_TARGET"
+  },
+  "t037_proof_module": "uniform_defect_selection.py",
+  "circle_family_modules": [
+    "square_family.py",
+    "normal_degree.py"
+  ],
+  "circle_stress_verdict": "CIRCLE_HAS_NO_PROTECTED_PRODUCT_BOX",
+  "winding_amplification_module": "winding_amplification.py",
+  "generalized_invariant_module": "generalized_radius.py",
+  "test_modules": [
+    "test_uniform_defect_selection.py",
+    "test_circle_square_family.py",
+    "test_generalized_radius.py",
+    "test_minimal_defect_interval.py",
+    "test_defect_lobe_tree.py"
+  ],
+  "summary_corrected_in_directive_017": "Selection theory proved; protected-family persistence framework proposed but not yet proved.",
+  "historical_summary": "Selection and family theory proved (Directive 016 draft — superseded wording)"
+}

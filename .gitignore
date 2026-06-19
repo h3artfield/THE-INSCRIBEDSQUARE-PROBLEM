@@ -17,4 +17,7 @@ artifacts/*.json
 !artifacts/t025_boundary_exclusion_certificate.json
 !artifacts/t025_t027_verified_internal_manifest.json
 !artifacts/directive_015_verified_internal_manifest.json
+!artifacts/directive_016_verified_internal_manifest.json
+!artifacts/directive_017_verified_internal_manifest.json
+!artifacts/directive_*_verified_internal_manifest.json
 !artifacts/directive_*_report.md

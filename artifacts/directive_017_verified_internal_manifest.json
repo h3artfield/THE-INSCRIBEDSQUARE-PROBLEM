@@ -1,0 +1,30 @@
+{
+  "commit_hash": "87a88ad",
+  "directive": "017",
+  "directive_016_dependency": "directive-016-selection-family-audit-internal-2026-06-18",
+  "tag": "directive-017-obstruction-bundle-audit-internal-2026-06-18",
+  "outcome": "B",
+  "theorem_ledger": {
+    "T037": "PROVED_LOCALLY",
+    "T038": "CONJECTURAL",
+    "T038_prime": "CONJECTURAL_TARGET",
+    "T038_Curve": "CONJECTURAL",
+    "T032_dagger": "SUPERSEDED",
+    "T032_double_dagger": "CONJECTURAL_FULL_BRIDGE",
+    "T036-N": "CONTROLLED_CLASS_TARGET"
+  },
+  "circle_obstruction_verdict": "CIRCLE_OBSTRUCTION_LINE_TRIVIAL",
+  "circle_family_verdict": "Circle-B",
+  "obstruction_modules": [
+    "morse_bott_countermodel.py",
+    "cokernel_bundle.py",
+    "obstruction_section.py",
+    "euler_class.py",
+    "circle_cokernel.py",
+    "circle_quotient.py",
+    "curve_induced_section.py",
+    "valid_family_certificate.py",
+    "obstruction_radius.py"
+  ],
+  "test_output": "24 passed (test_obstruction_bundle.py)"
+}
