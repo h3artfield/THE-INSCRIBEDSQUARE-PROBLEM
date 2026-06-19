@@ -619,7 +619,35 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 **Status.** CONJECTURAL_FULL_EXTRACTION
 
-**Source / proof file.** `docs/defect_forest_extraction.md`
+**Source / proof file.** `docs/defect_forest_extraction.md`, `docs/universal_defect_extraction.md`
+
+---
+
+## T045R — Universal protected-or-surgery extraction
+
+**Status.** CONJECTURAL_FULL_EXTRACTION (Directive 027; clean-forest path PROVED_LOCALLY)
+
+**Source / proof file.** `docs/universal_defect_extraction.md`
+
+---
+
+## T047 — Finite defect packet trichotomy
+
+**Status.** CONJECTURAL_STRUCTURAL_TARGET
+
+**Source / proof file.** `docs/packet_shape_trichotomy.md`
+
+---
+
+## T048 — Annular subpacket extraction
+
+**Status.** CONJECTURAL_GEOMETRIC_TARGET
+
+---
+
+## T049 — Interleaving cyclic component
+
+**Status.** CONJECTURAL_INTERLEAVING_TARGET; reference **INTERLEAVING_REFERENCE_UNPROTECTED**
 
 ---
 

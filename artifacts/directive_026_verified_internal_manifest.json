@@ -2,7 +2,7 @@
   "directive": "026",
   "outcome": "A",
   "current_class": "CURRENT_ANNULAR_CLASS_INSUFFICIENT",
-  "t046_status": "PROVED_LOCALLY",
+  "t046_status": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
   "t044r_status": "PROVED_LOCALLY",
   "route": "HYBRID_ROUTE",
   "module_hashes": {
@@ -17,5 +17,8 @@
   ],
   "test_result": "10 passed",
   "commit_hash": "ffb5eb0",
-  "tag": "directive-026-annular-t044r-internal-2026-06-18"
+  "tag": "directive-026-annular-t044r-internal-2026-06-18",
+  "frozen": true,
+  "frozen_by_directive": "027",
+  "t043r_status": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED"
 }

@@ -1,0 +1,19 @@
+{
+  "directive": "027",
+  "outcome": "C",
+  "t045r_status": "CONJECTURAL_FULL_EXTRACTION",
+  "residual_class": "MULTICENTER_ALTERNATING_INTRUSION_TREE",
+  "interleaving_reference": "INTERLEAVING_REFERENCE_UNPROTECTED",
+  "module_hashes": {
+    "dyadic_stopping.py": "5fe525642dbe26ca",
+    "bad_interval_cover.py": "2501aa6823a7b705",
+    "clean_lobe.py": "b4795bdcd18612c5",
+    "t045_extraction.py": "e981527166311207",
+    "interleaving_reference.py": "16fd40bb45eea19e"
+  },
+  "report_hash": "6fd91dc60c0dab23",
+  "tests": [
+    "tests/test_defect_extraction.py"
+  ],
+  "test_result": "7 passed"
+}

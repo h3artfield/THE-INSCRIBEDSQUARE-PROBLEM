@@ -399,6 +399,14 @@ row[5] = -ij[comp][1]
 
 ---
 
+## Directive 027 — Universal defect extraction (2026-06-18)
+
+**Outcome C:** Clean-forest extraction when lobes clean/laminar/gate-ordered; T045R remains CONJECTURAL.
+
+**Residual:** MULTICENTER_ALTERNATING_INTRUSION_TREE. T049 reference unprotected.
+
+---
+
 ## Directive 022 — Cross-scale annular towers (2026-06-18)
 
 **Outcome E:** Reference Jordan tower + packet-level margins proved; no \(w_1\)-certified cross-scale component; \(\Theta > \rho_{\mathrm{tower}}\).
