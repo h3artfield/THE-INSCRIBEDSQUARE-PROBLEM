@@ -1,0 +1,78 @@
+{
+  "release_id": "t017-verified-release-2026-06-18",
+  "release_date": "2026-06-18",
+  "directive": "007R (proof) + 008 (freeze)",
+  "theorem_status": {
+    "T017": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T018": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED"
+  },
+  "git": {
+    "tag": "t017-verified-release-2026-06-18",
+    "commit": "d86508c1bc055a5cb13b3d0a391e92143b58c809",
+    "branch": "main",
+    "note": "Initial repository commit at T017/T018 freeze; p=2 work in separate modules must not alter frozen proof files without new release tag"
+  },
+  "python": {
+    "version": "3.10.6",
+    "requires": ">=3.10"
+  },
+  "dependencies": {
+    "numpy": "1.26.4",
+    "scipy": "1.14.0",
+    "pytest": "9.1.0",
+    "pyproject_requires": {
+      "numpy": ">=1.24",
+      "scipy": ">=1.10",
+      "pytest": ">=7.4"
+    }
+  },
+  "tests": {
+    "command": "python -m pytest tests/ -q --tb=no",
+    "result": "130 passed",
+    "duration_seconds": 117.6,
+    "date": "2026-06-18"
+  },
+  "compilation": {
+    "manuscript_command": "tools/tectonic/tectonic.exe -X compile finite_p_variation_rectangular_peg.tex",
+    "manuscript_cwd": "manuscript",
+    "compiler": "tectonic",
+    "compiler_version": "0.15.0",
+    "dependency_map_command": "tools/tectonic/tectonic.exe -X compile T017_dependency_map.tex",
+    "dependency_map_cwd": "review"
+  },
+  "source_hashes_sha256": {
+    "data/sources/asano_ike_2412.21057v3.pdf": "84395599a5ffe4c49e199d128505473c9808e19a6c3b9c3ea052984c1dcf5101",
+    "data/sources/boedihardjo_geng_1309.1576v2.pdf": "fa8be7343fa6ae97dff78a62f82a34e1680634c4684469a377d011e1658e73df",
+    "data/sources/yang_1204.0112.pdf": "b4bcea50e40a0e0da95d8d84cc9b8ea8660605b7d5fb011ab4b2b40b272b5a7d",
+    "source_versions": {
+      "AI-PEG-v3": "arXiv:2412.21057v3",
+      "BG-INTERPOLATION-v2": "arXiv:1309.1576v2",
+      "YANG-AREA-v1": "arXiv:1204.0112 (pinned for p=2 program; not T017 dependency)"
+    }
+  },
+  "proof_document_hashes_sha256": {
+    "docs/t017_frozen_statement.md": "1735f0954162702155cedc7ab95965720e6e2286674ff09701fd48e025902d0f",
+    "docs/finite_p_variation_bridge.md": "89493d56aeb423e5840226f33d48027a7c15ce9e0534b7ecb0b8144fa96b64d9",
+    "docs/t018_velocity_matched_cubic.md": "752810529f7f35896d8782d1872834de5ea812bae2e95da2290a4d9a90e8073e",
+    "docs/young_primitive_convergence_proof.md": "e1944deb7d7e1b40e08526df40a54fbf281932cbc72e8746129435c3618b7965",
+    "docs/t017_clean_room_audit.md": "baaa1813d572d114d95a99eba1faa0b6bc232daec3dd82cd3bef99e0db92ac28",
+    "docs/q_variation_interpolation_proof.md": "cb21076e91a59c27e11e04c2eda31ef314b0e0ed4adcfde0d772bfd943432ade"
+  },
+  "manuscript_hashes_sha256": {
+    "manuscript/finite_p_variation_rectangular_peg.tex": "baf4fa44ff56a237a8b31a87ee84922799b4d30a2395d7ca3f39782949115896",
+    "manuscript/finite_p_variation_rectangular_peg.pdf": "4eb611c82aff8faf5d4d04a6754d149ddb1700f73d3b2ad99e60aa7852646f12"
+  },
+  "frozen_code_paths": [
+    "src/squarepeg/variation/cubic_corner_smoothing.py",
+    "src/squarepeg/variation/smoothing.py",
+    "src/squarepeg/variation/p_variation.py"
+  ],
+  "review_packet": [
+    "review/T017_one_page_summary.md",
+    "review/T017_dependency_map.pdf",
+    "review/T017_proof_checklist.md",
+    "review/T017_author_query.md"
+  ],
+  "external_verification": false,
+  "authorization_to_submit": false
+}
