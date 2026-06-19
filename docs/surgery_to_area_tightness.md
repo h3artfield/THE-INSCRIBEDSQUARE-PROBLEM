@@ -1,17 +1,15 @@
 # Surgery-to-Area-Tightness (T043)
 
-**Status:** CONJECTURAL_TARGET
+**Status:** SUPERSEDED by T043R (Directive 024)
 
-## Statement
+See `docs/signature_controlled_surgery.md` for the corrected statement under `SIGNATURE_CARLESON`.
+
+## Original conjecture (superseded)
 
 Persistent defects in surgery-admissible forest \(\mathcal D_n\) \(\Rightarrow\) surgered \(Q_n \to \gamma\) area-tight \(\Rightarrow\) T022 rectangular pegs.
 
-## Directive 023 status
+## Why superseded
 
-Local T042 proved; Carleson accumulation and simultaneous nested surgery order **not fully proved**.
+Square-diameter Carleson mass alone is **insufficient** (`SQUARE_MASS_INSUFFICIENT`); attachment-chain area must be controlled explicitly.
 
-Implementation: `area_tight_recovery.py`.
-
-## Not claimed
-
-Universal T032§ without T045 extraction from T037 defects.
+Implementation: `area_tight_recovery.py`, `signature_carleson.py`.

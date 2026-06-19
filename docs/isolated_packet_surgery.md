@@ -1,36 +1,22 @@
-# Isolated Packet Surgery
+# T042 — CHORD_SAFE_ISOLATED_PACKET Surgery
 
-**Directive 023 Parts III–V.**
+**Status:** PROVED_LOCALLY (Directive 023, corrected Directive 024)
 
-## Isolated packet disk
+## Hypotheses (CHORD_SAFE_ISOLATED_PACKET)
 
-Parameter interval \(I=[a,b]\) with closed Jordan disk \(D\), \(\operatorname{diam}D \le r\), satisfying isolation conditions (§3).
+- Isolated Jordan disk \(D\), \(\operatorname{diam}D \le r\)
+- Straight endpoint chord in \(D\) avoiding retained curve
+- Endpoints on \(\partial D\)
 
-Implementation: `packet_disk.py`.
+## Three quantities (do not conflate)
 
-## Replacement crosscut
+| Quantity | Behavior |
+|----------|----------|
+| \(A_P(I)\) | Original packet area — may be large (winding) |
+| \(A_{\sigma_I}(I)\) | Straight chord replacement — **zero** |
+| \(A_{S_I(P)}(J)-A_P(J)\) | Change on interval \(J\) — **not** \(O(r^2)\) without extra bound |
 
-Simple arc \(\sigma_I\) from \(P(a)\) to \(P(b)\) in \(\operatorname{int}D\). Straight chord when valid; collar arc otherwise.
+## T042 conclusion
 
-Implementation: `crosscut.py`.
+Jordan preserved; uniform error \(\le \operatorname{diam}D\).
 
-## Surgered curve
-
-\[
-S_I(P)(t) = P(t) \text{ for } t \notin I; \quad \sigma_I(t) \text{ for } t \in I.
-\]
-
-Jordan preservation verified via `PolygonCurve` simplicity check.
-
-Implementation: `local_surgery.py`.
-
-## T042 — Local Packet Surgery Lemma
-
-**Status:** PROVED_LOCALLY (straight-chord case)
-
-1. Jordan curve preserved
-2. \(\|S_I(P)-P\|_\infty \le \operatorname{diam}D \le r\)
-3. Relative-area defect \(O(r^2)\) (straight chord: zero on replacement arc)
-4. Intervals outside \(I\) unchanged
-
-Audit: `certify_t042()`.

@@ -32,22 +32,23 @@ def relative_area(vertices: list[Point]) -> float:
 
 def area_change_straight_chord(old_chain: list[Point], cross: Crosscut) -> AreaChangeBound:
     """
-    Straight chord replacement: same endpoints => relative area of replacement arc is 0.
+    Three quantities (Directive 024):
+    - A_P(I) = relative_area(old_chain) may be large (winding)
+    - A_sigma(I) = 0 for straight chord
+    - |A_{S_I(P)}(J) - A_P(J)| NOT bounded by O(r^2) without winding bound
     """
     new_chain = [cross.start] + cross.interior_points + [cross.end]
     d_old = relative_area(old_chain)
     d_new = relative_area(new_chain)
-    r = max(
-        math.hypot(p[0], p[1]) for p in old_chain
-    ) if old_chain else 0.0
-    r = max(r, 1e-12)
-    diam = max(math.hypot(old_chain[i][0] - old_chain[j][0], old_chain[i][1] - old_chain[j][1])
-               for i in range(len(old_chain)) for j in range(len(old_chain))) if len(old_chain) > 1 else r
-    r = diam
-    bound = C_AREA * r * r
+    delta = abs(d_new - d_old)
+    diam = max(
+        math.hypot(old_chain[i][0] - old_chain[j][0], old_chain[i][1] - old_chain[j][1])
+        for i in range(len(old_chain))
+        for j in range(len(old_chain))
+    ) if len(old_chain) > 1 else 0.0
     return AreaChangeBound(
-        delta=abs(d_new - d_old),
-        bound=bound,
+        delta=delta,
+        bound=delta,  # exact delta; no false O(r^2) claim
         case="subset",
         C_area=C_AREA,
     )

@@ -47,6 +47,7 @@ def test_t042_certified():
     cert = certify_t042(example_bump_polygon(), example_bump_disk())
     assert cert.status == "PROVED_LOCALLY"
     assert cert.jordan_preserved
+    assert cert.replacement_area_zero
 
 
 @pytest.mark.fast

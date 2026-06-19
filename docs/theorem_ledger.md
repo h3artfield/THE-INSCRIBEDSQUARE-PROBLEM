@@ -571,27 +571,41 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 ## T042 — Local packet surgery lemma
 
-**Statement.** Isolated packet of diameter \(r\) replaceable by crosscut; Jordan preserved; \(C^0\) error \(O(r)\); area defect \(O(r^2)\).
+**Hypotheses:** `CHORD_SAFE_ISOLATED_PACKET` — isolated disk; straight chord in \(D\) avoiding retained curve.
 
-**Status.** PROVED_LOCALLY (straight-chord case)
+**Statement.** Replacement area \(A_{\sigma}(I)=0\); Jordan preserved; \(\|S_I(P)-P\|_\infty \le \operatorname{diam}D\). Area **change** \(|A_{S_I(P)}(J)-A_P(J)|\) not bounded by \(O(r^2)\) without winding bound.
+
+**Status.** PROVED_LOCALLY (chord-safe case)
 
 **Source / proof file.** `docs/isolated_packet_surgery.md`
 
 ---
 
-## T043 — Surgery-to-area-tightness
+## T043 — Surgery-to-area-tightness (superseded)
 
-**Status.** CONJECTURAL_TARGET
-
-**Source / proof file.** `docs/surgery_to_area_tightness.md`
+**Status.** SUPERSEDED by T043R (Directive 024)
 
 ---
 
-## T044 — Controlled annular scale escape
+## T043R — Signature-controlled surgery-to-area-tightness
+
+**Status.** CONJECTURAL_TARGET
+
+**Source / proof file.** `docs/signature_controlled_surgery.md`
+
+---
+
+## T044 — Controlled annular scale escape (superseded)
+
+**Status.** SUPERSEDED by T044R (Directive 024)
+
+---
+
+## T044R — Controlled annular surgery dichotomy
 
 **Status.** CONTROLLED_FULL_BRIDGE_TARGET
 
-**Source / proof file.** `docs/controlled_annular_scale_escape.md`
+**Source / proof file.** `docs/controlled_annular_surgery_bridge.md`
 
 ---
 

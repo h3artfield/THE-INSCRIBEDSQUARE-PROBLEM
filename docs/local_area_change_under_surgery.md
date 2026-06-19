@@ -1,20 +1,25 @@
 # Local Area Change Under Surgery
 
-**Directive 023 §7–§8.**
+**Directive 023 §7–§8; corrected Directive 024.**
 
-## Estimate
+## Three quantities (do not conflate)
 
-\[
-\left|\mathcal A_{S_I(P)}(J) - \mathcal A_P(J)\right|
-\le C_{\mathrm{area}} r^2 + C_{\mathrm{end}} r \cdot \operatorname{osc}(P;J)
-\]
+| Quantity | Symbol | Notes |
+|----------|--------|-------|
+| Original packet area | \(\mathcal A_P(I)\) | May be large (winding) |
+| Replacement area | \(\mathcal A_{\sigma_I}(I)\) | **Zero** for straight chord |
+| Area change on \(J\) | \(\mathcal A_{S_I(P)}(J)-\mathcal A_P(J)\) | **Not** \(O(r^2)\) without winding bound |
 
-Straight chord: replacement arc has same endpoints \(\Rightarrow\) relative area change zero on \(J \subset I\); bound \(C r^2\).
+## Straight chord on \(J \subset I\)
 
-Collar crosscut: \(|\mathcal A| \le C_{\mathrm{cross}} r^2\) with \(C_{\mathrm{cross}} = \pi/4\).
+Replacement arc has zero relative area; change on \(J\) equals removed packet contribution.
 
-Implementation: `area_change.py`.
+## Collar crosscut
 
-## Cases
+\(|\mathcal A_{\sigma}| \le C_{\mathrm{cross}} r^2\) with \(C_{\mathrm{cross}} = \pi/4\) for the replacement arc alone.
 
-Disjoint, subset, contains, one endpoint, seam — intervals outside \(I\) unchanged exactly.
+## Accumulated surgery
+
+For many packets, use Chen concatenation + attachment-chain area (`docs/surgery_area_concatenation.md`, `docs/attachment_chain_area.md`).
+
+Implementation: `area_change.py`, `accumulated_surgery.py`.

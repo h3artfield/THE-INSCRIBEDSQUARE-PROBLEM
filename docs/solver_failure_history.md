@@ -369,6 +369,18 @@ row[5] = -ij[comp][1]
 
 ---
 
+## Directive 024 — Accumulated surgery and T043R (2026-06-18)
+
+**Outcome C:** `SQUARE_MASS_INSUFFICIENT`; T043 superseded by T043R under `SIGNATURE_CARLESON`.
+
+**Proved locally:** Chen concatenation identity; attachment-chain decomposition; fat-disk packing; simultaneous Jordan audit on bump example.
+
+**Open:** T043R proof; annular forests \(\Rightarrow\) SIGNATURE_CARLESON; T045 extraction.
+
+**T045, T032§:** Not conflated with T043R.
+
+---
+
 ## Directive 022 — Cross-scale annular towers (2026-06-18)
 
 **Outcome E:** Reference Jordan tower + packet-level margins proved; no \(w_1\)-certified cross-scale component; \(\Theta > \rho_{\mathrm{tower}}\).

@@ -1,0 +1,46 @@
+{
+  "directive": "024",
+  "outcome": "C",
+  "square_mass_verdict": "SQUARE_MASS_INSUFFICIENT",
+  "theorem_status": {
+    "T043": "SUPERSEDED",
+    "T043R": "CONJECTURAL_TARGET",
+    "T044": "SUPERSEDED",
+    "T044R": "CONTROLLED_FULL_BRIDGE_TARGET",
+    "T045": "CONJECTURAL_FULL_EXTRACTION",
+    "T032_section": "CONJECTURAL_FULL_BRIDGE"
+  },
+  "doc_hashes": {
+    "docs/surgery_area_concatenation.md": "3de0df393cdf660e",
+    "docs/attachment_chain_area.md": "1c70c2dac9a44d01",
+    "docs/square_mass_sufficiency.md": "d667ed45589cfddb",
+    "docs/signature_carleson_condition.md": "363b9312f00f62e1",
+    "docs/signature_controlled_surgery.md": "a169d26c883030be",
+    "docs/annular_surgery_forest.md": "26daba55d55c2f26",
+    "docs/controlled_annular_surgery_bridge.md": "1377291bef4e9f19",
+    "docs/theorem_ledger.md": "08db5d26da915220",
+    "docs/solver_failure_history.md": "b66b6305deb7f398"
+  },
+  "module_hashes": {
+    "concatenation_area.py": "4384ee5c265e2179",
+    "attachment_chain.py": "726b2fb7cc8037fa",
+    "signature_carleson.py": "115fb6b0640ab791",
+    "square_mass_counterexample.py": "63beca26dab1796d",
+    "fat_disk_packing.py": "3785d1d0ce4fbb7b",
+    "accumulated_surgery.py": "44dd545365f171fb",
+    "annular_forest_bridge.py": "04f799927f027a84",
+    "area_change.py": "3bf712084622d14b",
+    "t042_certificate.py": "d84fe8fc3abb5306"
+  },
+  "report_hash": "94338f7a77490894",
+  "tests": [
+    "tests/test_concatenation_area.py",
+    "tests/test_attachment_chain_area.py",
+    "tests/test_square_mass_sufficiency.py",
+    "tests/test_signature_carleson.py",
+    "tests/test_accumulated_surgery.py",
+    "tests/test_annular_forest_bridge.py",
+    "tests/test_defect_surgery.py"
+  ],
+  "test_result": "405 passed (fast suite, 2026-06-18)"
+}

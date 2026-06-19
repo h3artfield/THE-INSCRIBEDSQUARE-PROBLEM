@@ -1,31 +1,38 @@
 {
   "directive": "023",
-  "outcome": "C",
+  "frozen": true,
+  "frozen_by_directive": "024",
+  "commit_hash": "9a1a8cf054b51dbb7e4a5105dc27f4b00c52e322",
   "tag": "directive-023-shrinking-defect-surgery-internal-2026-06-18",
-  "dependency_022": "directive-022-cross-scale-tower-internal-2026-06-18",
-  "test_gate": "TEST_GATE_PASSED",
-  "fast_suite_baseline": "379 passed (pre-023); +11 surgery tests",
+  "outcome": "C",
+  "t042_hypothesis": "CHORD_SAFE_ISOLATED_PACKET",
+  "chord_safe_requirements": [
+    "isolated Jordan disk D with diam D <= r",
+    "straight endpoint chord in int D avoiding retained curve",
+    "endpoints on boundary of D"
+  ],
+  "straight_chord_construction": "crosscut.py: straight chord when chord_safe; collar arc fallback",
+  "jordan_proof": "local_surgery.py + PolygonCurve simplicity check; certify_t042()",
+  "local_area_formulas": {
+    "original_packet_area": "A_P(I) \u2014 may be large (winding)",
+    "replacement_area": "A_sigma(I) = 0 for straight chord",
+    "area_change": "A_{S_I(P)}(J)-A_P(J) \u2014 not O(r^2) without winding bound"
+  },
   "theorem_status": {
     "T041": "PROVED_LOCALLY",
     "T042": "PROVED_LOCALLY",
     "T043": "CONJECTURAL_TARGET",
     "T044": "CONTROLLED_FULL_BRIDGE_TARGET",
-    "T045": "CONJECTURAL_FULL_EXTRACTION",
-    "T036-N1-ANN": "PROVED_LOCALLY",
-    "T032_section": "CONJECTURAL_FULL_BRIDGE"
+    "T045": "CONJECTURAL_FULL_EXTRACTION"
   },
-  "report": "artifacts/directive_023_report.md",
-  "modules": [
-    "src/squarepeg/defect_surgery/packet_disk.py",
-    "src/squarepeg/defect_surgery/crosscut.py",
-    "src/squarepeg/defect_surgery/local_surgery.py",
-    "src/squarepeg/defect_surgery/nested_forest.py",
-    "src/squarepeg/defect_surgery/area_change.py",
-    "src/squarepeg/defect_surgery/carleson_mass.py",
-    "src/squarepeg/defect_surgery/area_tight_recovery.py",
-    "src/squarepeg/defect_surgery/annular_surgery_class.py",
-    "src/squarepeg/defect_surgery/defect_forest_extraction.py",
-    "src/squarepeg/defect_surgery/t042_certificate.py"
-  ],
-  "tests": "tests/test_defect_surgery.py"
+  "module_hashes": {
+    "packet_disk.py": "511b8b9f81583e49",
+    "crosscut.py": "303a3e3b494ce835",
+    "local_surgery.py": "fb70806e2fe75b9f",
+    "t042_certificate.py": "d84fe8fc3abb5306",
+    "area_change.py": "3bf712084622d14b"
+  },
+  "report_hash": "881e0075e0270aaa",
+  "tests": "tests/test_defect_surgery.py",
+  "test_result": "11 passed (Directive 023); 28 passed with D024 extensions"
 }
