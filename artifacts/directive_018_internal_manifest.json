@@ -3,8 +3,8 @@
   "directive": "018",
   "tag": "directive-018-cyclic-odd-verified-pending-audit-2026-06-18",
   "prior_tag": "directive-018-cyclic-odd-rhombus-internal-2026-06-18",
-  "t038_curve_status": "PROVED_LOCALLY_PENDING_CLEAN_ROOM_AUDIT",
-  "t039_status": "CONJECTURAL_GENERALIZATION",
+  "t038_curve_status": "CLEAN_ROOM_VERIFIED",
+  "t039_status": "PROVED_LOCALLY",
   "proof_modules": {
     "rhombus_continuation": "rhombus_continuation.py",
     "sign_line": "diagonal_sign_line.py",

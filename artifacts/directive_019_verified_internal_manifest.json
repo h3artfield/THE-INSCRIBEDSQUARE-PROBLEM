@@ -1,0 +1,14 @@
+{
+  "commit_hash": "8985458",
+  "directive": "019",
+  "directive_018_dependency": "directive-018-cyclic-odd-verified-pending-audit-2026-06-18",
+  "tag": "directive-019-cyclic-odd-audit-internal-2026-06-18",
+  "outcome": "A",
+  "clean_room_verdict": "T038_CURVE_CLEAN_ROOM_VERIFIED",
+  "t039_status": "PROVED_LOCALLY",
+  "flake_verdicts": {
+    "test_semicircle_relative_area_bounded": "RESOURCE_OR_TIMEOUT_FAILURE",
+    "test_fixture_simple_ccw": "NONREPRODUCIBLE"
+  },
+  "test_output": "34+ passed (directive_019 + cyclic_odd)"
+}
