@@ -15,5 +15,7 @@
   "tests": [
     "tests/test_annular_t044r.py"
   ],
-  "test_result": "10 passed"
+  "test_result": "10 passed",
+  "commit_hash": "ffb5eb0",
+  "tag": "directive-026-annular-t044r-internal-2026-06-18"
 }
