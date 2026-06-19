@@ -1283,11 +1283,21 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 ## T094 — Critical equality rigidity
 
-**Statement.** Every Jordan-realizable singleton equality model routes to T087, T090R, concentration, finite-center, annular/thin, or degeneration.
+**Statement.** Every Jordan-realizable singleton equality tangent routes to T087, concentration, finite-center, annular/thin, or degeneration. T094-A: vanishing neutral deficits imply full ledger equality in tangent limits.
 
-**Status.** CONJECTURAL_RIGIDITY_TARGET (Directive 048)
+**Status.** CONJECTURAL_RIGIDITY_TARGET; T094-A open (Directive 049)
 
-**Source / proof file.** `docs/critical_equality_model_rigidity.md`
+**Source / proof file.** `docs/t094_critical_equality_rigidity.md`
+
+---
+
+## T089R — Singleton end rigidity (closure chain)
+
+**Statement.** T093 coverage + T094 close NONCARLESON_SINGLETON_CANTOR_END_TANGENT.
+
+**Status.** CONJECTURAL_CORE_TARGET (Directive 049)
+
+**Source / proof file.** `docs/t089r_singleton_end_rigidity.md`
 
 ---
 

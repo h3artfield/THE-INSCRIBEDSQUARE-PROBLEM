@@ -1,0 +1,33 @@
+{
+  "directive": "048",
+  "frozen": true,
+  "frozen_by": "directive-049",
+  "outcome": "B",
+  "theorem_status": {
+    "T087": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T091": "PROVED_LOCALLY_CLASSIFIER",
+    "T092": "PROVED_LOCALLY_CLASSIFIER",
+    "T093": "PROVED_LOCALLY",
+    "T094": "CONJECTURAL_RIGIDITY_TARGET",
+    "T089R": "CONJECTURAL_CORE_TARGET",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION"
+  },
+  "signature_budget": "exact wedge/crosscut/retained decomposition",
+  "corona_split": "contracting/neutral/bad canonical partition",
+  "t093_constants": "L=2, eta≈0.05, epsilon=0.08",
+  "descendant_coverage": {
+    "measure": "SIGNATURE_SCALE_PHI_END",
+    "definition": "cov_L(v)=P_L(v)/Phi_desc(v) where Phi_desc(v)=sum_{u succ v} Phi_end(u)",
+    "threshold": 0.25,
+    "uncovered_tracking": "Phi_desc(v)-P_L(v) plus neutral-corona mass audited separately; persistent non-Carleson density cannot hide in unaccounted neutral regions"
+  },
+  "neutral_corona_residual": "long neutral coronas awaiting T094 equality rigidity",
+  "regression_tests": [
+    "tests/test_directive_048.py",
+    "tests/test_directive_047.py"
+  ],
+  "test_result": "119 passed (D048-D042 fast suite)",
+  "commit_hash": "a097427",
+  "tag": "directive-048-multigeneration-cantor-packing-internal-2026-06-19",
+  "do_not_modify": ["T087", "T091", "T092", "T093", "multigeneration_packing.py"]
+}

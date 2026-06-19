@@ -575,7 +575,15 @@ row[5] = -ij[comp][1]
 
 **Outcome B:** T093 multigeneration packing proved locally; T094/T089R equality rigidity remains.
 
-**Key:** Corona decomposition, exact signature budget, \(P_L(v)\le(1-\eta)\Phi(v)\) on tested models; neutral-corona rigidity open.
+**Key:** Corona decomposition, exact signature budget, \(P_L(v)\le(1-\eta)\Phi(v)\) on tested models; cov\(_L\)=\(P_L/\Phi_{\mathrm{desc}}\) ≥ 25% signature-scale coverage.
+
+---
+
+## Directive 049 — Equality ledger and neutral-corona rigidity (2026-06-19)
+
+**Outcome E:** Diagnostic equality reduction; first gap at T094-A (deficit→equality in neutral tangent limits).
+
+**Key:** 12-entry equality ledger, compatibility graph, explicit Φ_desc coverage audit; clean room T094_REPAIRABLE_GAP.
 
 ---
 
