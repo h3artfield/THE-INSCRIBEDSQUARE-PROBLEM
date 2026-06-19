@@ -1,0 +1,41 @@
+{
+  "directive": "043",
+  "frozen": true,
+  "frozen_by": "directive-044",
+  "outcome": "B",
+  "theorem_status": {
+    "T080": "PROVED_LOCALLY",
+    "T081": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T081I": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T085": "PROVED_LOCALLY_CLASSIFIER",
+    "T086": "CONJECTURAL_STRUCTURAL_TARGET",
+    "T084R": "CONJECTURAL_PARTIAL",
+    "T082F": "CONJECTURAL_PARTIAL",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION"
+  },
+  "t085_routes": [
+    "CONCENTRATED_DESCENT",
+    "FINITE_CENTER_DECOMPOSITION",
+    "ANNULAR_BAND_GEOMETRY",
+    "NON_JORDAN_DEGENERATION",
+    "INFINITE_CENTER_GEOMETRY",
+    "DIFFUSE_RAY_RESIDUAL"
+  ],
+  "residual_ledger": [
+    "DIFFUSE_END_MEASURE_TREE",
+    "DIFFUSE_CHILD_CENTER_NODE",
+    "INFINITE_CENTER_BRANCHING_TREE",
+    "CANTOR_INTRUSION_END_RESIDUAL",
+    "NON_JORDAN_SATURATION_HULL",
+    "PARAMETER_DISCONNECTED_LIMIT",
+    "POSITIVE_SCALE_NONANNULAR_CLUSTER"
+  ],
+  "regression_tests": [
+    "tests/test_directive_043.py",
+    "tests/test_directive_042.py"
+  ],
+  "test_result": "57 passed (D043 + D042 + D041)",
+  "commit_hash": "pending",
+  "tag": "directive-043-nonsummable-tree-geometry-internal-2026-06-18",
+  "do_not_modify": ["T080", "T081", "T081I", "T085", "nonsummable_ray_reduction.py"]
+}
