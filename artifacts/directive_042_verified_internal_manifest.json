@@ -30,7 +30,7 @@
     "tests/test_directive_041.py"
   ],
   "test_result": "53 passed (D042 + D041 + D040)",
-  "commit_hash": "pending",
-  "tag": "directive-042-countably-branching-intrusion-trees-internal-2026-06-18",
+  "commit_hash": "ab47b40",
+  "tag": "directive-042-countable-branching-t081i-internal-2026-06-19",
   "do_not_modify": ["T080", "T081", "T081I", "branching_tree_area_tightness.py", "t081_clean_room.py", "t081i_proof.py", "t081i_clean_room.py"]
 }

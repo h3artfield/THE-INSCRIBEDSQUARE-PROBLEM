@@ -31,7 +31,7 @@
     "tests/test_directive_043.py"
   ],
   "test_result": "61 passed (D044 + D043 + D042)",
-  "commit_hash": "pending",
+  "commit_hash": "7f28177",
   "tag": "directive-044-carleson-diffuse-end-surgery-internal-2026-06-19",
   "do_not_modify": ["T080", "T081", "T081I", "T085", "T087", "cantor_end_surgery.py", "t087_clean_room.py", "end_signature_carleson.py"]
 }

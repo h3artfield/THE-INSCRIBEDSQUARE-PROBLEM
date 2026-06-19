@@ -651,6 +651,696 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 ---
 
+## T050 — Finite intrusion saturation theorem
+
+**Statement.** Every dirty polygonal lobe with finite intrusion tree satisfies exactly one: two-gate clean saturation; positive geometric scale; ≥4 separated outer gates; or explicit non-Jordan hull obstruction.
+
+**Status.** CONJECTURAL_STRUCTURAL_TARGET (finite-tree case PROVED_LOCALLY for small trees, Directive 028)
+
+**Source / proof file.** `docs/finite_intrusion_saturation.md`
+
+---
+
+## T051 — Local cluster surgery
+
+**Statement.** Two-gate clean saturated cluster admits Jordan-preserving crosscut surgery with \(O(\operatorname{diam}H(C))\) error, compatible with T043R.
+
+**Status.** PROVED_LOCALLY (Directive 028)
+
+**Source / proof file.** `docs/cluster_crosscut_surgery.md`
+
+---
+
+## T052 — Cluster surgery-to-area-tightness
+
+**Statement.** Ordered two-gate cluster forest with `CLUSTER_SIGNATURE_CARLESON` yields area-tight approximation (via T043R).
+
+**Status.** PROVED_LOCALLY for ordered forests with small diameters (Directive 028)
+
+**Source / proof file.** `docs/cluster_signature_carleson.md`
+
+---
+
+## T053 — Finite-intrusion extraction theorem
+
+**Statement.** If dominant dirty lobes have finite intrusion trees saturating to two-gate clusters, extraction is covered by protected-or-surgery framework.
+
+**Status.** CONJECTURAL_TARGET (Directive 028)
+
+**Source / proof file.** `docs/cluster_signature_carleson.md`
+
+---
+
+## T054 — Multi-gate cluster classification
+
+**Statement.** ≥4-gate positive-defect cluster contains two-gate subcluster, admissible protected square, or multicenter residual — not auto-protected by interleaving.
+
+**Status.** CONJECTURAL_MULTIGATE_TARGET (Directive 028)
+
+**Source / proof file.** `docs/multigate_cluster_classification.md`
+
+---
+
+## T055 — Saturated gate graph outerplanarity
+
+**Statement.** Finite saturated cluster with Jordan-disk hull and noncrossing chord embedding has outerplanar intrusion gate graph.
+
+**Status.** PROVED_LOCALLY (Directive 029)
+
+**Source / proof file.** `docs/saturated_gate_graph.md`
+
+---
+
+## T056 — Multi-gate ear lemma
+
+**Statement.** Outerplanar gate graph contains a graph two-gate ear; geometric ear when hull-adjacent.
+
+**Status.** PROVED_LOCALLY (graph level); geometric mapping partial (Directive 029)
+
+**Source / proof file.** `docs/multigate_ear_lemma.md`
+
+---
+
+## T057 — Bounded-gate finite saturation theorem
+
+**Statement.** M_GATE_BOUNDED finite saturated cluster decomposes into two-gate forest or irreducible outerplanar type.
+
+**Status.** PROVED_LOCALLY without geometric ear gap (Directive 029)
+
+**Source / proof file.** `docs/bounded_gate_saturation.md`
+
+---
+
+## T050R — Finite saturation classification
+
+**Statement.** Five-branch classification replacing overstrong T050.
+
+**Status.** CONJECTURAL_STRUCTURAL_TARGET (Directive 029)
+
+**Source / proof file.** `docs/finite_saturation_classification.md`
+
+---
+
+## T053B — Bounded-gate finite-intrusion extraction
+
+**Statement.** Finite intrusion + Jordan hull + M gates + ear hypotheses => T052 => T043R => T022.
+
+**Status.** PROVED_LOCALLY (Directive 030)
+
+**Source / proof file.** `docs/t053b_bounded_gate_extraction.md`
+
+---
+
+## T058 — Hull-adjacent geometric ear theorem
+
+**Statement.** Outerplanar saturated cluster with ≥4 gates contains hull-adjacent geometric subcluster eligible for T051.
+
+**Status.** PROVED_LOCALLY (Directive 030)
+
+**Source / proof file.** `docs/hull_adjacent_geometric_ears.md`
+
+---
+
+## T059 — Bounded-gate join bound
+
+**Statement.** \(|\mathbb A_{\mathrm{join}}| \le J_M(r) = O(M^2 r^2)\) for M-gate clusters of diameter r.
+
+**Status.** PROVED_LOCALLY (Directive 030)
+
+**Source / proof file.** `docs/bounded_gate_join_estimate.md`
+
+---
+
+## T060 — Sparse unbounded-gate finite-intrusion extraction
+
+**Statement.** \(r_n\to0\), \(M_n r_n\to0\), finite intrusion + T058 \(\Rightarrow\) signature-controlled surgery forest.
+
+**Status.** PROVED_LOCALLY (Directive 031)
+
+**Source / proof file.** `docs/sparse_unbounded_gate_extraction.md`
+
+---
+
+## T061 — Dense-gate structural trichotomy
+
+**Statement.** Shrinking dense-gate (\(\limsup M_n r_n>0\)) sequences classify into blocks / concentration / diffuse / multicenter.
+
+**Status.** PROVED_LOCALLY as classifier (Directive 031)
+
+**Source / proof file.** `docs/dense_gate_trichotomy.md`
+
+---
+
+## T062 — Controlled dense-gate extraction
+
+**Statement.** Ordered diffuse and finite-center dense subclasses reduce to blockwise T053B.
+
+**Status.** PROVED_LOCALLY finite-center (Directive 032); ordered diffuse partial
+
+**Source / proof file.** `docs/finite_center_dense_extraction.md`
+
+---
+
+## T063 — Dense winding concentration-compactness
+
+**Statement.** Dense-gate sequences classify into concentrated, diffuse, or multicenter.
+
+**Status.** PROVED_LOCALLY as classifier (Directive 032)
+
+**Source / proof file.** `docs/dense_concentration_compactness.md`
+
+---
+
+## T064 — Concentrated dense-gate descent
+
+**Statement.** Concentrated regime yields descendant cluster with fixed defect fraction at smaller scale.
+
+**Status.** PROVED_LOCALLY for consecutive parameter blocks (Directive 032)
+
+**Source / proof file.** `docs/recursive_dense_descent.md`
+
+---
+
+## T061R — Dense-gate winding-layer classification
+
+**Statement.** Refines T061 via winding layers: concentrated descent, finite-center, diffuse nested layers, disconnected residual.
+
+**Status.** CONJECTURAL_REFINEMENT; classifier PROVED_LOCALLY (Directive 032)
+
+**Source / proof file.** `docs/finite_dense_gate_reduction.md`
+
+---
+
+## T065 — Finite-tree dense-gate reduction
+
+**Statement.** Dense finite-intrusion sequences reduce to surgery, intrusion ray, lamination, or separate residuals.
+
+**Status.** CONJECTURAL_TARGET (Directive 032); partial via T065R (Directive 033)
+
+**Source / proof file.** `docs/finite_dense_gate_reduction.md`
+
+---
+
+## T064D — Disconnected concentration reduction
+
+**Statement.** Disconnected spatial concentration reduces to consecutive block, finite-center T062, diffuse lamination limit, or intrusion/non-Jordan.
+
+**Status.** PROVED_LOCALLY when consecutive block or finite-center applies (Directive 033)
+
+**Source / proof file.** `docs/disconnected_concentration.md`
+
+---
+
+## T066 — Ordered lamination surgery theorem
+
+**Statement.** ORDERED_TWO_GATE_LAMINATION admits finite cluster-surgery exhaustions with area-tight approximation.
+
+**Status.** PROVED_LOCALLY (Directive 033)
+
+**Source / proof file.** `docs/ordered_two_gate_lamination_surgery.md`
+
+---
+
+## T067 — Diffuse annular-band extraction
+
+**Statement.** Diffuse same-sign lamination contains annular band, ordered two-gate mass, or eccentric residual.
+
+**Status.** CONJECTURAL_GEOMETRIC_TARGET; ordered-two-gate branch PROVED_LOCALLY (Directive 033)
+
+**Source / proof file.** `docs/diffuse_annular_band_extraction.md`
+
+---
+
+## T065R — Finite dense-tree lamination reduction
+
+**Statement.** Refines T065 via T064D, T066, T067 and explicit lamination residual classes.
+
+**Status.** CONJECTURAL_TARGET (Directive 033)
+
+**Source / proof file.** `docs/finite_dense_lamination_reduction.md`
+
+---
+
+## T068 — Finite-multigate Jordan lamination surgery
+
+**Statement.** Finite-gate Jordan laminations with measurable compatible ear selection admit area-tight surgery exhaustion.
+
+**Status.** PROVED_LOCALLY (Directive 034)
+
+**Source / proof file.** `docs/t068_multigate_lamination_surgery.md`
+
+---
+
+## T068I — Integrable-gate lamination surgery
+
+**Statement.** T068 with \(\int m(L)^2\,d\mu<\infty\) and vanishing gate-tail signature via measurable truncations.
+
+**Status.** PROVED_LOCALLY under explicit gate-order assumption (Directive 035)
+
+**Source / proof file.** `docs/t068i_infinite_gate_surgery.md`
+
+---
+
+## T070 — Almost-everywhere gate ordering
+
+**Statement.** \(\mathcal I(L)=0\) implies boundary and parameter order agree after null removal.
+
+**Status.** PROVED_LOCALLY (Directive 035)
+
+**Source / proof file.** `docs/gate_inversion_energy.md`
+
+---
+
+## T071 — Positive inversion structural alternative
+
+**Statement.** Positive-inversion Jordan laminations reduce via T064D, T062, intrusion tree, or diffuse inversion residual.
+
+**Status.** CONJECTURAL_STRUCTURAL_TARGET; classifier partial (Directive 035)
+
+**Source / proof file.** `docs/gate_inversion_energy.md`
+
+---
+
+## T072 — Parameter-disconnected reduction
+
+**Statement.** Parameter-disconnected Jordan laminations reduce to finite blocks, disconnected concentration, intrusion tree, or diffuse component residual.
+
+**Status.** CONJECTURAL_TARGET; partial (Directive 035)
+
+**Source / proof file.** `docs/parameter_disconnected_laminations.md`
+
+---
+
+## T065I — Infinite-gate diffuse lamination reduction
+
+**Statement.** Refines T065S via T068I and explicit infinite-gate residuals.
+
+**Status.** CONJECTURAL_TARGET; partial (Directive 035)
+
+**Source / proof file.** `docs/infinite_gate_diffuse_reduction.md`
+
+---
+
+## T073 — Finite-width positive-inversion surgery
+
+**Statement.** Jordan laminations with \(w_\*(L)\le K\) and vanishing cross-block signature admit area-tight surgery.
+
+**Status.** PROVED_LOCALLY (Directive 036)
+
+**Source / proof file.** `docs/finite_width_gate_surgery.md`
+
+---
+
+## T073I — Summable countable-block surgery
+
+**Statement.** Positive-inversion laminations with L1_BLOCK_SIGNATURE admit area-tight surgery exhaustion.
+
+**Status.** PROVED_LOCALLY; clean-room verified (Directive 037)
+
+**Source / proof file.** `docs/t073i_countable_block_surgery.md`
+
+---
+
+## T075 — Measurable countable monotone decomposition
+
+**Statement.** Summable gate-order class admits measurable compatible countable monotone decomposition.
+
+**Status.** PROVED_LOCALLY (Directive 037)
+
+**Source / proof file.** `docs/measurable_countable_chain_selection.md`
+
+---
+
+## T074R — Unbounded order-width geometric reduction
+
+**Statement.** Realizable unbounded-width gate orders force planar geometric residuals (nested ray, branching, disconnected concentration, non-Jordan limit, multicenter proliferation, or diffuse permuton).
+
+**Status.** CONJECTURAL_TARGET; partial classifier (Directive 039)
+
+**Source / proof file.** `docs/decreasing_orders_and_intrusion_depth.md`
+
+---
+
+## T076 — Nonsummable order-tail trichotomy
+
+**Statement.** Every nonsummable positive-inversion Jordan lamination has a subsequence with concentrated, finite-center, diffuse, or infinite-intrusion/non-Jordan order interaction.
+
+**Status.** PROVED_LOCALLY for concentrated and finite-center branches (Directive 038)
+
+**Source / proof file.** `docs/order_interaction_concentration.md`
+
+---
+
+## T077-A — Bounded-depth permuton rigidity
+
+**Statement.** Finite-intrusion Jordan gate systems with uniformly bounded depth, branching, and center count cannot converge to a genuinely diffuse gate permuton.
+
+**Status.** PROVED_LOCALLY (Directive 039)
+
+**Source / proof file.** `docs/bounded_depth_permuton_rigidity.md`
+
+---
+
+## T077 — Planar gate-permuton rigidity
+
+**Statement.** Genuinely diffuse Jordan gate permutons from finite-intrusion noncrossing geometry force intrusion depth, branching, non-Jordan degeneration, infinite-center proliferation, or parameter-disconnected concentration.
+
+**Status.** CONJECTURAL_RIGIDITY_TARGET; partial via T077-A (Directive 039)
+
+**Source / proof file.** `docs/planar_gate_permuton_rigidity.md`
+
+---
+
+## T078 — Intrusion tree ray–branching dichotomy
+
+**Statement.** Every infinite rooted intrusion tree has an infinite ray, arbitrarily large finite branching, or infinite local branching.
+
+**Status.** PROVED_LOCALLY (Directive 040)
+
+**Source / proof file.** `docs/intrusion_ray_branching_dichotomy.md`
+
+---
+
+## T079 — Shrinking-ray saturation
+
+**Statement.** Shrinking intrusion ray with nested Jordan hulls and two external end gates saturates to a two-gate cluster of diameter \(O(r_j)\).
+
+**Status.** PROVED_LOCALLY (Directive 040)
+
+**Source / proof file.** `docs/infinite_ray_end_surgery.md`
+
+---
+
+## T080 — Summable infinite-ray surgery
+
+**Statement.** Shrinking ray with SUMMABLE_RAY_SIGNATURE admits finite-tail area-tight surgery; T022 applies.
+
+**Status.** PROVED_LOCALLY (Directive 040)
+
+**Source / proof file.** `docs/infinite_ray_end_surgery.md`
+
+---
+
+## T081 — Summable branching-tree surgery
+
+**Statement.** Locally finite intrusion tree with BRANCHING_SIGNATURE_CARLESON, Jordan-compatible finite subtree surgeries, and complete retained skeleton admits area-tight exhaustion; T022 applies.
+
+**Status.** PROVED_LOCALLY; clean-room verified (Directive 041)
+
+**Source / proof file.** `docs/t081_branching_tree_surgery.md`
+
+---
+
+## T081I — Countably branching tree surgery
+
+**Statement.** Extend T081 to infinite local branching under CHILD_L1_SIGNATURE and global Carleson condition with two-parameter exhaustion.
+
+**Status.** PROVED_LOCALLY; T081I_CLEAN_ROOM_VERIFIED (Directive 042)
+
+**Source / proof file.** `docs/t081i_countable_branching_surgery.md`
+
+---
+
+## T082 — Infinite intrusion-tree structural reduction
+
+**Statement.** Defect-carrying infinite intrusion trees reduce to summable ray/branching surgery, concentration, centers, positive-scale, non-Jordan, infinite-center branching, or diffuse end measure.
+
+**Status.** CONJECTURAL_STRUCTURAL_TARGET; partial via T080/T081 (Directive 041)
+
+**Source / proof file.** `docs/infinite_tree_structural_reduction.md`
+
+---
+
+## T082R — Infinite intrusion-tree reduction (refined)
+
+**Statement.** Every infinite intrusion tree reduces to T080, T081, T062/T064 descent, nonsummable ray, diffuse end measure, infinite-center branching, non-Jordan hull, parameter-disconnected, or positive-scale nonannular geometry.
+
+**Status.** CONJECTURAL_TARGET; partial via T080/T081/T081I (Directive 042)
+
+**Source / proof file.** `docs/infinite_local_branching_reduction.md`
+
+---
+
+## T082I — Infinite-tree surgery reduction
+
+**Statement.** Every infinite intrusion tree reduces via T080, T081, T081I, concentrated/finite-center descent, nonsummable child/end geometry, infinite-center branching, non-Jordan, parameter-disconnected, or positive-scale nonannular.
+
+**Status.** CONJECTURAL_TARGET; partial (Directive 042)
+
+**Source / proof file.** `docs/infinite_local_branching_reduction.md`
+
+---
+
+## T083 — Nonsummable branching alternative
+
+**Statement.** Branching trees failing BRANCHING_SIGNATURE_CARLESON exhibit concentrated ray, finite-center, diffuse end, infinite center, non-Jordan, parameter-disconnected, or positive-scale geometry.
+
+**Status.** CONJECTURAL_STRUCTURAL_TARGET; classifier partial (Directive 041)
+
+**Source / proof file.** `docs/nonsummable_branching_residual.md`
+
+---
+
+## T084 — Infinite local branching alternative
+
+**Statement.** Every countably branching intrusion tree has a subtree satisfying T081I, concentrated/finite-center child descent, nonsummable ray, diffuse end measure, infinite-center branching, non-Jordan hull, parameter-disconnected accumulation, or positive-scale nonannular geometry.
+
+**Status.** CONJECTURAL_STRUCTURAL_TARGET; partial via T081I (Directive 042)
+
+**Source / proof file.** `docs/infinite_local_branching_reduction.md`
+
+---
+
+## T085 — Nonsummable ray reduction
+
+**Statement.** Every nonsummable shrinking intrusion ray produces concentrated descent, finite-center decomposition, infinite-center geometry, annular-band geometry, non-Jordan degeneration, or a diffuse ray residual.
+
+**Status.** PROVED_LOCALLY_CLASSIFIER (Directive 043)
+
+**Source / proof file.** `docs/nonsummable_intrusion_rays.md`
+
+---
+
+## T086 — Diffuse end structural alternative
+
+**Statement.** A nonatomic defect-carrying end measure forces spatial concentration, finite-center decomposition, infinite-center proliferation, parameter-disconnected accumulation, non-Jordan saturation, or a Cantor end residual.
+
+**Status.** CONJECTURAL_STRUCTURAL_TARGET; partial via T087 (Directive 044)
+
+**Source / proof file.** `docs/diffuse_end_structural_theorem.md`
+
+---
+
+## T087 — Diffuse end-measure surgery
+
+**Statement.** Trees with canonical end measure, point-valued spatial map a.e., END_SIGNATURE_CARLESON, and compatible antichain surgeries admit area-tight exhaustion.
+
+**Status.** PROVED_LOCALLY; T087_CLEAN_ROOM_VERIFIED (Directive 044)
+
+**Source / proof file.** `docs/t087_diffuse_end_surgery.md`
+
+---
+
+## T088 — Diffuse child-to-end promotion
+
+**Statement.** Persistent diffuse child-center nodes promote to T087, concentrate, finite-center, infinite-center, or non-Jordan degeneration.
+
+**Status.** CONJECTURAL_STRUCTURAL_TARGET; partial (Directive 044)
+
+**Source / proof file.** `docs/diffuse_end_structural_theorem.md`
+
+---
+
+## T084E — End-measure nonsummable tree reduction
+
+**Statement.** Every tree failing T080/T081/T081I reduces via T085, T087, concentration, infinite-center, parameter-disconnected, non-Jordan, or Cantor residual.
+
+**Status.** CONJECTURAL_TARGET; partial (Directive 044)
+
+**Source / proof file.** `docs/nonsummable_tree_reduction.md`
+
+---
+
+## T089 — Finite-center non-Carleson end rigidity
+
+**Statement.** A normalized non-Carleson tangent with Jordan hulls, point-valued spatial map, connected parameters, and finite centers must satisfy END_SIGNATURE_CARLESON after renormalization.
+
+**Status.** CONJECTURAL_CORE_TARGET (Directive 045)
+
+**Source / proof file.** `docs/finite_center_end_rigidity.md`
+
+---
+
+## T090 — Frostman end-surgery criterion
+
+**Statement.** Dimensional inequality on \(m(v)\) vs \(\Phi(v)\) implies END_SIGNATURE_CARLESON.
+
+**Status.** CONJECTURAL_TARGET (Directive 045)
+
+**Source / proof file.** `docs/frostman_end_surgery_criterion.md`
+
+---
+
+## T086R — Non-Carleson diffuse-end reduction
+
+**Statement.** Nonatomic end measures failing T087 reduce via bad-cylinder tangents to solved routes or NONCARLESON_CANTOR_END_TANGENT.
+
+**Status.** CONJECTURAL_STRUCTURAL_TARGET; partial (Directive 045)
+
+**Source / proof file.** `docs/noncarleson_diffuse_end_reduction.md`
+
+---
+
+## T084C — Cantor-end tree reduction
+
+**Statement.** Trees failing T080/T081I/T087 reduce via T085, T086R, or global residuals.
+
+**Status.** CONJECTURAL_TARGET; partial (Directive 045)
+
+**Source / proof file.** `docs/noncarleson_diffuse_end_reduction.md`
+
+---
+
+## T084R — Nonsummable child and end reduction
+
+**Statement.** Every tree failing T080/T081/T081I admits a subtree in one of the T085/T086 residual classes or explicit non-tree geometry.
+
+**Status.** CONJECTURAL_STRUCTURAL_TARGET; partial classifier (Directive 043)
+
+**Source / proof file.** `docs/nonsummable_tree_reduction.md`
+
+---
+
+## T082F — Infinite-tree final reduction
+
+**Statement.** Every infinite intrusion tree is surgically closed via T080/T081/T081I or belongs to an exact T084R residual class.
+
+**Status.** CONJECTURAL_TARGET; partial (Directive 043)
+
+**Source / proof file.** `docs/infinite_tree_final_reduction.md`
+
+---
+
+## T072C — Nonsummable parameter-component reduction
+
+**Statement.** Parameter-disconnected laminations with nonsummable component interactions reduce via T076, infinite intrusion, genuinely diffuse permuton, or non-Jordan behavior.
+
+**Status.** CONJECTURAL_TARGET; partial (Directive 038)
+
+**Source / proof file.** `docs/permuton_level_diffuse_reduction.md`
+
+---
+
+## T065P — Permuton-level diffuse reduction
+
+**Statement.** Diffuse finite-intrusion Jordan laminations reduce via existing surgery, T076 descent, intrusion/branching, non-Jordan geometry, or genuinely diffuse permuton residual.
+
+**Status.** CONJECTURAL_TARGET; partial (Directive 038)
+
+**Source / proof file.** `docs/permuton_level_diffuse_reduction.md`
+
+---
+
+## T065PR — Diffuse permuton residual elimination
+
+**Statement.** Every finite-intrusion Jordan-hull diffuse gate sequence reduces to T073I, T076 descent, intrusion/branching, infinite-center, parameter-disconnected, non-Jordan hull, or positive-scale nonannular geometry; no independent bounded-depth diffuse permuton.
+
+**Status.** CONJECTURAL_TARGET; partial via T077-A (Directive 039)
+
+**Source / proof file.** `docs/diffuse_permuton_residual_elimination.md`
+
+---
+
+## T072S — Summable parameter-component reduction
+
+**Statement.** Parameter-disconnected laminations with summable component geometry satisfy T073I.
+
+**Status.** CONJECTURAL_TARGET; partial (Directive 037)
+
+**Source / proof file.** `docs/countable_order_diffuse_reduction.md`
+
+---
+
+## T065C — Countable-order diffuse reduction
+
+**Statement.** Refines T065O via T073I and explicit nonsummable/unbounded residuals.
+
+**Status.** CONJECTURAL_TARGET; partial via T073I (Directive 037)
+
+**Source / proof file.** `docs/countable_order_diffuse_reduction.md`
+
+---
+
+## T074 — Noncrossing order-width theorem
+
+**Statement.** Unbounded monotone width in noncrossing Jordan laminations forces planar geometric residuals.
+
+**Status.** CONJECTURAL_STRUCTURAL_TARGET; classifier partial (Directive 036)
+
+**Source / proof file.** `docs/noncrossing_order_width.md`
+
+---
+
+## T071R — Positive-inversion order classification
+
+**Statement.** Refines T071 via monotone width, summable blocks, T074, permuton residuals.
+
+**Status.** CONJECTURAL_REFINEMENT; classifier partial (Directive 036)
+
+**Source / proof file.** `docs/positive_inversion_order_classification.md`
+
+---
+
+## T072R — Parameter-support order reduction
+
+**Statement.** Parameter-disconnected Jordan laminations reduce via finite-width surgery or explicit residuals.
+
+**Status.** CONJECTURAL_TARGET; partial (Directive 036)
+
+**Source / proof file.** `docs/parameter_support_order_reduction.md`
+
+---
+
+## T065O — Order-theoretic diffuse reduction
+
+**Statement.** Diffuse Jordan laminations reduce via T066–T073/T073I or order/intrusion/center residuals.
+
+**Status.** CONJECTURAL_TARGET; partial via T073 (Directive 036)
+
+**Source / proof file.** `docs/order_theoretic_diffuse_reduction.md`
+
+---
+
+## T069 — Thin eccentric lamination surgery
+
+**Statement.** THIN_LEAF_ORDERED laminations with width-signature summability admit area-tight surgery.
+
+**Status.** PROVED_LOCALLY (Directive 034)
+
+**Source / proof file.** `docs/t069_thin_eccentric_surgery.md`
+
+---
+
+## T067R — Thick/thin/multigate diffuse alternative
+
+**Statement.** Diffuse lamination reduces to T066, T068, T069, thick band, or explicit residual.
+
+**Status.** PROVED_LOCALLY as classifier (Directive 034)
+
+**Source / proof file.** `docs/thick_thin_multigate_alternative.md`
+
+---
+
+## T065S — Diffuse lamination surgery reduction
+
+**Statement.** Diffuse finite-tree laminations reduce via T066/T068/T069/annular or explicit residuals.
+
+**Status.** CONJECTURAL_TARGET; partial via T068/T069 (Directive 034)
+
+**Source / proof file.** `docs/diffuse_lamination_residuals.md`
+
+---
+
 ## ρ_square^adm — Admissible protected invariant
 
 **Definition.** Supremum over isolated Brouwer, Euler obstruction, and cyclic-odd rhombus components.

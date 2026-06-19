@@ -35,7 +35,7 @@
     "tests/test_directive_042.py"
   ],
   "test_result": "57 passed (D043 + D042 + D041)",
-  "commit_hash": "pending",
-  "tag": "directive-043-nonsummable-tree-geometry-internal-2026-06-18",
+  "commit_hash": "fe45f82",
+  "tag": "directive-043-nonsummable-ray-classification-internal-2026-06-19",
   "do_not_modify": ["T080", "T081", "T081I", "T085", "nonsummable_ray_reduction.py"]
 }

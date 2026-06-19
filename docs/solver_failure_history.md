@@ -407,6 +407,154 @@ row[5] = -ij[comp][1]
 
 ---
 
+## Directive 028 — Intrusion saturation and cluster surgery (2026-06-18)
+
+**Outcome B:** Two-gate saturated clusters closed (T051, T052 locally); finite multi-gate and global T050/T053/T054 remain open.
+
+**Key result:** Dirty lobes are not automatically unsurgerable; saturation + two-gate cluster surgery extends clean-forest path.
+
+**Residual narrowed to:** INFINITE_MULTIGATE_INTRUSION_RAY, UNBOUNDED_BRANCHING_INTRUSION_TREE, NON_JORDAN_SATURATION_HULL, DENSE_GATE_ACCUMULATION.
+
+---
+
+## Directive 029 — Multi-gate ear decomposition (2026-06-18)
+
+**Outcome B:** Ear theorem proved at graph level (T055, T056); area allocation exact but quantitative c(m) open; T057/T053B locally for outerplanar bounded-gate clusters without geometric gap.
+
+**Gap:** Graph-theoretic ear vs geometric saturated subcluster for non-hull-adjacent leaf blocks.
+
+---
+
+## Directive 030 — Hull-adjacent geometric ears and bounded-gate allocation (2026-06-18)
+
+**Outcome A:** T058, T059, quantitative allocation, and T053B proved locally for bounded-gate finite Jordan-hull intrusion trees.
+
+**Closed:** Geometric-ear gap via hull-adjacency + weak-dual leaf; join bound \(J_M(r)=O(M^2r^2)\).
+
+---
+
+## Directive 031 — Sparse/dense gate dichotomy (2026-06-18)
+
+**Outcome A:** T060 proved for gate-sparse (\(M_n r_n\to0\)) sequences. T061 dense classifier formalized.
+
+**Key parameter:** \(\Lambda=M r\) — uniform gate bound not required for sparse extraction.
+
+---
+
+## Directive 032 — Dense winding layers (2026-06-18)
+
+**Outcome B:** T062 finite-center and T064 concentrated descent proved locally; diffuse lamination residual remains.
+
+**Key:** Fixed defect forces \(|\mathbb A_{\widetilde Z}|\to\infty\); T063 concentration-compactness.
+
+---
+
+## Directive 033 — Diffuse winding laminations (2026-06-18)
+
+**Outcome B:** T066 ordered two-gate lamination surgery proved locally; multi-gate, eccentric, annular-band (T067) remain.
+
+**Key:** Precise lamination definition, leaf topology, finite surgery exhaustion with uniform signature control.
+
+---
+
+## Directive 034 — Multi-gate and thin-eccentric surgery (2026-06-18)
+
+**Outcome A:** T068 finite-multigate and T069 thin-eccentric laminations proved locally.
+
+**Key:** Measurable ear selection, cross-leaf compatibility, three-limit signature bounds, width-based thin surgery.
+
+---
+
+## Directive 035 — Infinite-gate measures and order energy (2026-06-18)
+
+**Outcome C:** T068I proved under gate-order assumption; T070 zero-inversion ordering proved locally.
+
+**Key:** Scale-weighted \(\nu_L\), saturated truncations, gate-tail cross signature, inversion energy.
+
+---
+
+## Directive 036 — Positive-inversion gate orders (2026-06-18)
+
+**Outcome B:** T073 finite-width positive-inversion surgery proved locally.
+
+**Key:** Monotone width = LDS, measurable blocks, cross-block signature control.
+
+---
+
+## Directive 037 — Countable monotone blocks (2026-06-18)
+
+**Outcome A:** T073I and T075 proved for summable countable-block class; clean-room verified.
+
+**Key:** L1_BLOCK_SIGNATURE, tail interaction \(\frac12(2S\tau+\tau^2)\), SUMMABLE_BLOCK_GEOMETRY.
+
+---
+
+## Directive 038 — Nonsummable order tails and permuton rigidity (2026-06-18)
+
+**Outcome B:** T076 concentrated and finite-center branches closed at classifier level; genuinely diffuse permutons remain.
+
+**Key:** Intrinsic \(\mathcal T_*\), cross-block \(\Xi_n\)/\(\Sigma\), augmented permuton, T077 rigidity target.
+
+**Fix:** `intrinsic_order_tail.py` — optimal tail cost uses decompositions with block count \(>N\); attribute `T_D_N_delta`.
+
+---
+
+## Directive 039 — Planar permuton rigidity (2026-06-18)
+
+**Outcome B:** T077-A proved locally; unbounded depth/branching is the remaining permuton route.
+
+**Key:** \(\mathcal P_J\) geometric realizability, planar inversion extremal bound, augmented permuton with depth, T065PR partial.
+
+---
+
+## Directive 040 — Infinite intrusion trees (2026-06-18)
+
+**Outcome B:** T079 and T080 proved locally for summable shrinking rays; branching trees (T081) remain.
+
+**Key:** Canonical intrusion tree, T078 dichotomy, SUMMABLE_RAY_SIGNATURE, ray-end T051 chain.
+
+---
+
+## Directive 041 — Branching Carleson tree surgery (2026-06-18)
+
+**Outcome B:** T081 proved locally for locally finite trees; infinite local branching (T081I) remains.
+
+**Key:** Tree attachment identity, derived signature measure, BRANCHING_SIGNATURE_CARLESON, clean-room T081.
+
+---
+
+## Directive 042 — Countably branching trees (2026-06-18)
+
+**Outcome A:** T081I proved and clean-room verified; nonsummable child/end geometry remains.
+
+**Key:** CHILD_L1_SIGNATURE, countable wedge convergence, two-parameter F_{D,N}, T084/T082I partial.
+
+---
+
+## Directive 043 — Nonsummable tree geometry (2026-06-18)
+
+**Outcome B:** T085 proved locally; diffuse end measures remain.
+
+**Key:** Intrinsic nonsummability, child concentration, end-measure independence, T086/T084R/T082F partial.
+
+---
+
+## Directive 044 — Diffuse tree-end measures (2026-06-18)
+
+**Outcome B:** T087 proved and clean-room verified; non-Carleson Cantor ends remain.
+
+**Key:** END_SIGNATURE_CARLESON, antichain surgery, endpoint maps, T086/T088/T084E partial.
+
+---
+
+## Directive 045 — Non-Carleson Cantor ends (2026-06-19)
+
+**Outcome E:** Diagnostic tangent reduction; endpoint-map gap on spatial Cantor ends.
+
+**Key:** Bad-cylinder stopping, normalized tangents, T089/T090/T086R/T084C partial. Blocker: `POINT_VALUED_ENDPOINT_MAP_NOT_ESTABLISHED`.
+
+---
+
 ## Directive 022 — Cross-scale annular towers (2026-06-18)
 
 **Outcome E:** Reference Jordan tower + packet-level margins proved; no \(w_1\)-certified cross-scale component; \(\Theta > \rho_{\mathrm{tower}}\).

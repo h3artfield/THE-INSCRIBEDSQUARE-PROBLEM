@@ -1,0 +1,36 @@
+{
+  "directive": "045",
+  "frozen": true,
+  "frozen_by": "directive-046",
+  "outcome": "E",
+  "theorem_status": {
+    "T087": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T089": "CONJECTURAL_CORE_TARGET",
+    "T090": "CONJECTURAL_TARGET",
+    "T086R": "CONJECTURAL_STRUCTURAL_TARGET",
+    "T084C": "CONJECTURAL_TARGET",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION"
+  },
+  "intrinsic_density": "D(v)=m(v)/Phi(v); NONUNIFORM_CARLESON_TAIL on variable-ratio Cantor",
+  "bad_cylinder_antichain": "maximal A-bad cylinders; child-order independent",
+  "normalization": "H_tilde, mu_tilde, Phi_tilde with density ratio identity",
+  "tangent_compactness": "partial; END_MAP_GRAPH_FAILURE on spatial Cantor spread",
+  "variable_ratio_cantor_blocker": "POINT_VALUED_ENDPOINT_MAP_NOT_ESTABLISHED",
+  "blocker_detail": "point_valued_ae=False on build_variable_ratio_cantor_tree(levels=4, ratio=0.58)",
+  "residual_ledger": [
+    "NONCARLESON_CANTOR_END_TANGENT",
+    "ENDPOINT_MAP_OBSTRUCTION",
+    "INFINITE_CENTER_END_TANGENT",
+    "NON_JORDAN_SATURATION_HULL",
+    "PARAMETER_DISCONNECTED_LIMIT",
+    "POSITIVE_SCALE_NONANNULAR_CLUSTER"
+  ],
+  "regression_tests": [
+    "tests/test_directive_045.py",
+    "tests/test_directive_044.py"
+  ],
+  "test_result": "75 passed (D045 + D044 + D043 + D042)",
+  "commit_hash": "f07c8c8",
+  "tag": "directive-045-noncarleson-end-tangent-diagnostic-internal-2026-06-19",
+  "do_not_modify": ["T080", "T081", "T081I", "T085", "T087"]
+}
