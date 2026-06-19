@@ -451,11 +451,35 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 ---
 
-## T036 — Controlled defect-tree bridge
+## T037 — Uniform defect subsequence dichotomy
 
-**Status.** CONJECTURAL_TARGET (restricted class)
+**Status.** PROVED_LOCALLY (Directive 016)
 
-**Source / proof file.** `docs/controlled_defect_tree_bridge.md`
+**Source / proof file.** `docs/uniform_defect_selection.md`
+
+---
+
+## T038 — Protected square family persistence
+
+**Status.** CONJECTURAL_TARGET
+
+**Source / proof file.** `docs/protected_square_families.md`
+
+---
+
+## T032† — Generalized intrinsic bridge
+
+**Status.** CONJECTURAL_FULL_BRIDGE (primary over T032*)
+
+**Source / proof file.** `docs/generalized_intrinsic_bridge.md`
+
+---
+
+## T036-N — Nested-lobe controlled bridge
+
+**Status.** CONTROLLED_CLASS_TARGET
+
+**Source / proof file.** `docs/nested_lobe_controlled_bridge.md`
 
 ---
 

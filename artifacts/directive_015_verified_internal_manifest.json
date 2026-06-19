@@ -1,0 +1,22 @@
+{
+  "commit_hash": "70dcb45",
+  "directive": "015",
+  "directive_014_dependency": "directive-014-robust-degree-internal-2026-06-18",
+  "tag": "directive-015-intrinsic-degree-internal-2026-06-18",
+  "theorem_ledger": {
+    "T029": "PROVED_LOCALLY",
+    "T030": "PROVED_LOCALLY",
+    "T031": "PROVED_LOCALLY",
+    "T034": "PROVED_LOCALLY",
+    "T035": "PROVED_LOCALLY",
+    "T032_star": "CONJECTURAL_FULL_BRIDGE",
+    "T036": "CONJECTURAL"
+  },
+  "t034_t035_proof_modules": [
+    "uniform_defect_selection.py",
+    "semialgebraic_degree.py",
+    "area_tight_selection.py"
+  ],
+  "semialgebraic_search": "exhaustive_polygon_search.py",
+  "test_output": "30 passed (Directive 015 robust_degree suite)"
+}

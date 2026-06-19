@@ -292,3 +292,13 @@ row[5] = -ij[comp][1]
 **Outcome E:** T029–T031 proved in abstract framework; T032/T033 open.
 
 **Note:** \(\rho_\square^{\mathrm{cert}}=0\) must not be confused with mathematical absence of protected squares.
+
+---
+
+## Directive 016 — Uniform defect + family invariant (2026-06-18)
+
+**T037:** PROVED — uniform defect dichotomy closes T035-GAP.
+
+**Circle:** CIRCLE_HAS_NO_PROTECTED_PRODUCT_BOX; generalized family invariant required.
+
+**T038:** CONJECTURAL family persistence.
