@@ -1,0 +1,49 @@
+{
+  "directive": "050",
+  "frozen": true,
+  "frozen_by": "directive-051",
+  "outcome": "E",
+  "exact_blocker": "NORMALIZED_DEFICITS_REMAIN_ORDER_ONE",
+  "theorem_status": {
+    "T087": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T091": "PROVED_LOCALLY_CLASSIFIER",
+    "T092": "PROVED_LOCALLY_CLASSIFIER",
+    "T093": "PROVED_LOCALLY",
+    "T094-A": "REPAIRABLE_GAP",
+    "T095": "CONJECTURAL_DEFICIT_TARGET",
+    "T096": "CONJECTURAL_SELECTION_TARGET",
+    "T094": "CONJECTURAL_RIGIDITY_TARGET",
+    "T089R": "CONJECTURAL_CORE_TARGET",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION"
+  },
+  "commit_hash": "6dc7c41",
+  "tag": "directive-050-equality-core-pruning-diagnostic-internal-2026-06-19",
+  "corona_telescoping_budget": {
+    "formula": "Phi(v)-P_L(v) >= c*D_L(v) - boundary - bad",
+    "c": 0.15,
+    "boundary_fraction": 0.05,
+    "bad_fraction": 0.02,
+    "module": "corona_deficit_budget.py"
+  },
+  "normalized_deficit_audit": {
+    "median_d_k": 1.0,
+    "good_mass_at_epsilon_0.1": 0.0,
+    "module": "ledger_deficits.py"
+  },
+  "equality_core_pruning_failure": {
+    "positive_signature_core": false,
+    "reason": "normalized deficits O(1); pointwise equality-core not coercive",
+    "module": "equality_core_pruning.py"
+  },
+  "semicontinuity_table": {
+    "NOT_CLOSED": ["RETAINED_SKELETON", "SIGN_GROUPING"],
+    "module": "deficit_semicontinuity.py"
+  },
+  "clean_room_verdict": "T094_A_REPAIRABLE_GAP",
+  "regression_tests": [
+    "tests/test_directive_050.py",
+    "tests/test_directive_049.py"
+  ],
+  "test_result": "148 passed (D050-D042 fast suite)",
+  "do_not_modify": ["T087", "T091", "T092", "T093", "multigeneration_packing.py"]
+}

@@ -595,7 +595,19 @@ row[5] = -ij[comp][1]
 
 **Key:** Twelve raw/normalized deficits, corona telescoping budget, Markov pruning by signature scale, semicontinuity audit (RETAINED_SKELETON, SIGN_GROUPING not closed).
 
+**Exact blocker:** `NORMALIZED_DEFICITS_REMAIN_ORDER_ONE` — pointwise equality-core strategy not coercive.
+
 **Theorems:** T095 CONJECTURAL_DEFICIT_TARGET; T096 CONJECTURAL_SELECTION_TARGET; T094-A CONJECTURAL_REPAIRED_TARGET; clean room T094_A_REPAIRABLE_GAP.
+
+---
+
+## Directive 051 — Bellman potentials and critical invariant models (2026-06-19)
+
+**Outcome E:** Diagnostic state reduction; compact neutral transition family (T097) not certified on tested fixture.
+
+**Key:** Augmented state \((\Phi,R,S,J,C,B,G)\), transfer recursion, Bellman search with exact rational certification, occupation/invariant measures, coboundary corrections.
+
+**Theorems:** T097 CONJECTURAL_STATE_TARGET; T098 CONJECTURAL_CORE_TARGET; T099 CONJECTURAL_RIGIDITY_TARGET; clean room T098_REPAIRABLE_GAP.
 
 ---
 

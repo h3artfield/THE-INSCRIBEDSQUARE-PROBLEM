@@ -1321,6 +1321,36 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 ---
 
+## T097 — Exact neutral-state transfer
+
+**Statement.** Admissible neutral singleton-end nodes admit augmented-state decomposition with compact certified transfer family; nonclosed scalar deficits appear as state coordinates.
+
+**Status.** CONJECTURAL_STATE_TARGET (Directive 051)
+
+**Source / proof file.** `docs/neutral_transfer_operators.md`
+
+---
+
+## T098 — Neutral Bellman contraction
+
+**Statement.** Positive homogeneous Bellman potential comparable to \(\Phi_{\mathrm{end}}\) yields multigeneration contraction without requiring small individual ledger deficits.
+
+**Status.** CONJECTURAL_CORE_TARGET (Directive 051)
+
+**Source / proof file.** `docs/t098_neutral_bellman_contraction.md`
+
+---
+
+## T099 — Critical state rigidity
+
+**Statement.** Invariant zero-slack state measures route to solved branches or explicit diffuse critical residual.
+
+**Status.** CONJECTURAL_RIGIDITY_TARGET (Directive 051)
+
+**Source / proof file.** `docs/t099_critical_state_rigidity.md`
+
+---
+
 ## T089R — Singleton end rigidity (closure chain)
 
 **Statement.** T093 coverage + T094 close NONCARLESON_SINGLETON_CANTOR_END_TANGENT.
