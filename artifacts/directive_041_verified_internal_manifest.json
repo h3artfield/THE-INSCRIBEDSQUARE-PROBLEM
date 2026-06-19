@@ -1,0 +1,37 @@
+{
+  "directive": "041",
+  "frozen": true,
+  "frozen_by": "directive-042",
+  "outcome": "B",
+  "theorem_status": {
+    "T078": "PROVED_LOCALLY",
+    "T079": "PROVED_LOCALLY",
+    "T080": "PROVED_LOCALLY",
+    "T081": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T081I": "CONJECTURAL_EXTENSION",
+    "T083": "CONJECTURAL_PARTIAL",
+    "T082R": "CONJECTURAL_PARTIAL",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION"
+  },
+  "tree_attachment_identity": "exact A_{Q_F} = sum R + sum C + A_{Z_F,J}",
+  "signature_measure": "derived mu_sig from wedge algebra",
+  "branching_carleson": "local bound + vanishing deep tails + spatial shrinking",
+  "t081_clean_room": "T081_CLEAN_ROOM_VERIFIED",
+  "finite_subtree_exhaustion": "F_N monotone; uniform closeness",
+  "residual_ledger": [
+    "NONSUMMABLE_INTRUSION_RAY",
+    "DIFFUSE_END_MEASURE_TREE",
+    "INFINITE_CENTER_BRANCHING_TREE",
+    "NON_JORDAN_SATURATION_HULL",
+    "PARAMETER_DISCONNECTED_LIMIT",
+    "POSITIVE_SCALE_NONANNULAR_CLUSTER"
+  ],
+  "regression_tests": [
+    "tests/test_directive_041.py",
+    "tests/test_directive_040.py"
+  ],
+  "test_result": "19 passed (D041) + 16 passed (D040)",
+  "commit_hash": "e930d910",
+  "tag": "directive-041-branching-carleson-tree-surgery-internal-2026-06-18",
+  "do_not_modify": ["T080", "T081", "branching_tree_area_tightness.py", "t081_clean_room.py"]
+}

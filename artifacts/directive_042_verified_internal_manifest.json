@@ -1,0 +1,36 @@
+{
+  "directive": "042",
+  "frozen": true,
+  "frozen_by": "directive-043",
+  "outcome": "A",
+  "theorem_status": {
+    "T080": "PROVED_LOCALLY",
+    "T081": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T081I": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T084": "CONJECTURAL_STRUCTURAL_TARGET",
+    "T082I": "CONJECTURAL_TARGET",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION"
+  },
+  "countable_child_identity": "A_N(v) = sum A_{w_i} + 0.5 sum wedge + parent/remainder",
+  "absolute_wedge_estimate": "sum |Delta_i wedge Delta_j| <= 0.5 L(v)^2",
+  "child_tail_estimate": "L(v)*tau_v(N) + 0.5*tau_v(N)^2",
+  "two_parameter_exhaustion": "F_{D,N} depth + child-index compatible",
+  "t081i_clean_room": "T081I_CLEAN_ROOM_VERIFIED",
+  "residual_ledger": [
+    "NONSUMMABLE_CHILD_NODE",
+    "NONSUMMABLE_INTRUSION_RAY",
+    "DIFFUSE_END_MEASURE_TREE",
+    "INFINITE_CENTER_BRANCHING_TREE",
+    "NON_JORDAN_SATURATION_HULL",
+    "PARAMETER_DISCONNECTED_LIMIT",
+    "POSITIVE_SCALE_NONANNULAR_CLUSTER"
+  ],
+  "regression_tests": [
+    "tests/test_directive_042.py",
+    "tests/test_directive_041.py"
+  ],
+  "test_result": "53 passed (D042 + D041 + D040)",
+  "commit_hash": "pending",
+  "tag": "directive-042-countably-branching-intrusion-trees-internal-2026-06-18",
+  "do_not_modify": ["T080", "T081", "T081I", "branching_tree_area_tightness.py", "t081_clean_room.py", "t081i_proof.py", "t081i_clean_room.py"]
+}

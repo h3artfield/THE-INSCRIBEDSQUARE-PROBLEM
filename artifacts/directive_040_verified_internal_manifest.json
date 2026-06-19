@@ -1,0 +1,35 @@
+{
+  "directive": "040",
+  "frozen": true,
+  "frozen_by": "directive-041",
+  "outcome": "B",
+  "theorem_status": {
+    "T078": "PROVED_LOCALLY",
+    "T079": "PROVED_LOCALLY",
+    "T080": "PROVED_LOCALLY",
+    "T081": "CONJECTURAL_TARGET",
+    "T082": "CONJECTURAL_PARTIAL",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION"
+  },
+  "canonical_intrusion_tree": "order-independent parent-child; LOCALLY_FINITE vs INFINITE_LOCAL_BRANCHING",
+  "defect_pruning": "adaptive theta rule; mass-preserving",
+  "t078": "ray-branching dichotomy; Konig locally finite",
+  "t079": "shrinking two-gate ray saturation O(r_j); T051",
+  "t080": "SUMMABLE_RAY_SIGNATURE; area-tight exhaustion",
+  "residual_ledger": [
+    "NONSUMMABLE_INTRUSION_RAY",
+    "DIFFUSE_END_MEASURE_TREE",
+    "INFINITE_CENTER_BRANCHING_TREE",
+    "NON_JORDAN_SATURATION_HULL",
+    "PARAMETER_DISCONNECTED_LIMIT",
+    "POSITIVE_SCALE_NONANNULAR_CLUSTER"
+  ],
+  "regression_tests": [
+    "tests/test_directive_040.py",
+    "tests/test_directive_039.py"
+  ],
+  "test_result": "16 passed (D040) + 16 passed (D039)",
+  "commit_hash": "e930d910",
+  "tag": "directive-040-infinite-intrusion-trees-internal-2026-06-18",
+  "do_not_modify": ["T078", "T079", "T080", "infinite_ray_surgery.py", "ray_end_hull.py", "summable_ray_signature.py"]
+}
