@@ -1,8 +1,20 @@
 {
   "directive": "021",
-  "outcome": "A",
+  "frozen": true,
+  "commit_hash": "5f257b6f0de1ffe05952a73b0c6e96bf88c2e83e",
   "tag": "directive-021-annular-graph-bridge-internal-2026-06-18",
-  "t036_n1_ann_status": "PROVED_LOCALLY",
+  "outcome": "A",
+  "theorem_status": {
+    "T036-N1-ANN": "PROVED_LOCALLY",
+    "T036-N1-ANN_positive_scale_corollary": "PROVED_LOCALLY",
+    "T036-N2": "CONJECTURAL_SCALE_ESCAPE",
+    "T036-N3": "CONJECTURAL_CROSS_SCALE_TARGET",
+    "T032_section": "CONJECTURAL_FULL_BRIDGE"
+  },
+  "t039_dependency_hash": "f72085442aa8c245",
+  "reference_annular_certificate_hash": "f069e62e37bf5c27",
+  "psi_certified": 0.011756194490192239,
+  "rho_cyc": 0.013666056051755554,
   "certified_regime": {
     "K": 1.005,
     "L": 0.01,
@@ -11,23 +23,12 @@
     "w_corr": 0.005,
     "zeta": 0.002
   },
-  "psi_certified": 0.011756194490192239,
-  "rho_cyc": 0.013666056051755554,
+  "c_ann": 0.12,
   "fast_suite_command": "PYTHONHASHSEED=0 python -m pytest tests/ -q -m fast",
-  "fast_suite_run1": "343 passed (includes partial annular tests)",
   "fast_suite_run2": "361 passed, 4 deselected in 1001.46s",
   "slow_suite_command": "PYTHONHASHSEED=0 python -m pytest tests/test_suite_stability.py -q -m slow",
-  "slow_suite_note": "deterministic-twice hardened to ignore timing suffix",
-  "reference_certificate": "artifacts/reference_annular_cyclic_certificate.json",
-  "report": "artifacts/directive_021_report.md",
-  "modules": [
-    "src/squarepeg/defect_geometry/annular_graph.py",
-    "src/squarepeg/defect_geometry/eccentricity_audit.py",
-    "src/squarepeg/defect_geometry/radial_correspondence.py",
-    "src/squarepeg/defect_geometry/packet_reference_bound.py",
-    "src/squarepeg/defect_geometry/annular_graph_certificate.py",
-    "src/squarepeg/defect_geometry/positive_scale_compactness.py",
-    "src/squarepeg/defect_geometry/recursive_annular_model.py"
-  ],
-  "tests": "tests/test_annular_graph.py"
+  "test_gate": "TEST_GATE_PASSED",
+  "proof_doc_hash": "8c1345f626ba2d4f",
+  "report_hash": "2f220ee640041ddc",
+  "illustration_svg_hash": "bdd2d72be38e9d7f"
 }

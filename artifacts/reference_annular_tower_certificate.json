@@ -1,0 +1,27 @@
+{
+  "model": "self_similar_annular_tower",
+  "lambda_ratio": 0.45,
+  "u_tower": {
+    "theta_window_width": 0.25,
+    "outer_radius": 1.0,
+    "min_inner_ratio": 0.42,
+    "max_inner_ratio": 0.48,
+    "side_fraction_r1": 0.12,
+    "sep_fraction_r1": 0.05
+  },
+  "rho_tower": 0.006833028025877777,
+  "m_g_margin": 0.14146963373177368,
+  "side_margin_vs_r1": 0.12,
+  "sep_margin_vs_r1": 0.05,
+  "jordan_audit_pass": true,
+  "packet_level_t039": true,
+  "cross_scale_geometric_only": true,
+  "cross_scale_w1_certified": false,
+  "uniform_margins_packet_level": true,
+  "status": "REFERENCE_JORDAN_CERTIFIED",
+  "truncation_depth_6_r_cap": 0.008303765625,
+  "certified_regime": {
+    "K": 1.005,
+    "L": 0.01
+  }
+}

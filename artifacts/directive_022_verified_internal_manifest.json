@@ -1,0 +1,28 @@
+{
+  "directive": "022",
+  "outcome": "E",
+  "dependency": "directive-021-annular-graph-bridge-internal-2026-06-18",
+  "test_gate": "TEST_GATE_PASSED",
+  "test_gate_note": "Slow stability hardened; timing suffix ignored only",
+  "fast_suite": "379 passed expected (361 + 18 tower tests)",
+  "reference_tower_certificate": "artifacts/reference_annular_tower_certificate.json",
+  "theta_vs_rho_tower": "0.0113 > 0.0068 — regime empty",
+  "failed_support_pattern": "OUTER_INNER_LEVELS w1 cross-scale; accumulated Theta",
+  "theorem_status": {
+    "T036-N3-ANN": "CONJECTURAL_TARGET",
+    "T040": "CONJECTURAL_SELECTION_TARGET",
+    "T036-N1-ANN": "PROVED_LOCALLY",
+    "T032_section": "CONJECTURAL_FULL_BRIDGE"
+  },
+  "report": "artifacts/directive_022_report.md",
+  "modules": [
+    "coherent_tower.py",
+    "reference_tower.py",
+    "tower_truncation.py",
+    "cross_scale_rhombus.py",
+    "tower_cyclic_certificate.py",
+    "tower_reference_bound.py",
+    "packet_tower_selection.py",
+    "tower_falsification.py"
+  ]
+}

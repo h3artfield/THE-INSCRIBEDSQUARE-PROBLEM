@@ -356,3 +356,11 @@ row[5] = -ij[comp][1]
 **Positive-scale corollary:** PROVED_LOCALLY when \(\limsup r_n > 0\).
 
 **T032§, T036-N3:** Not attacked; scale-escape and cross-scale remain conjectural.
+
+---
+
+## Directive 022 — Cross-scale annular towers (2026-06-18)
+
+**Outcome E:** Reference Jordan tower + packet-level margins proved; no \(w_1\)-certified cross-scale component; \(\Theta > \rho_{\mathrm{tower}}\).
+
+**T036-N3-ANN, T040:** CONJECTURAL. T032§ not attacked.

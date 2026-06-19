@@ -25,3 +25,4 @@ artifacts/*.json
 !artifacts/full_suite_baseline.json
 !artifacts/directive_*_report.md
 !artifacts/reference_annular_cyclic_certificate.json
+!artifacts/reference_annular_tower_certificate.json

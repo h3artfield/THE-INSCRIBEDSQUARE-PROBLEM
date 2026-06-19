@@ -537,9 +537,25 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 ## T036-N3 — Cross-scale cyclic component
 
-**Status.** CONJECTURAL_CROSS_SCALE_TARGET
+**Status.** CONJECTURAL_CROSS_SCALE_TARGET (Directive 022 Outcome E — no fixed-scale certificate)
 
-**Source / proof file.** `docs/cross_scale_cyclic_component.md`
+**Source / proof file.** `docs/cross_scale_cyclic_component.md`, `docs/t036_n3_annular_proof.md`
+
+---
+
+## T036-N3-ANN — Coherent annular-tower square theorem
+
+**Status.** CONJECTURAL_TARGET
+
+**Source / proof file.** `docs/t036_n3_annular_proof.md`
+
+---
+
+## T040 — Annular packet tower selection
+
+**Status.** CONJECTURAL_SELECTION_TARGET
+
+**Source / proof file.** `docs/annular_packet_tower_selection.md`
 
 ---
 

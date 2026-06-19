@@ -26,3 +26,18 @@
 ## Optional prototype
 
 `illustrations/nested_lobe_bridge_preview.mp4` — Matplotlib frame sequence if generated; explanatory only.
+
+---
+
+## Act II — Scale escape (Directive 022, 15–25s)
+
+**Label: CONJECTURAL UNTIL T036-N3-ANN IS PROVED**
+
+| Time | Scene |
+|------|-------|
+| 45–50s | Zoom into shrinking annular packets \(r_j = \lambda^j r_1\) |
+| 50–55s | Packet squares shrink with side \(\ge 0.12 r_j \to 0\) |
+| 55–60s | Outer tower windows at fixed \(r_1\) remain highlighted |
+| 60–65s | Attempt cross-scale rhombus (gen 0 + gen k vertices) |
+| 65–70s | Deep k: support collapses; \(\Theta > \rho_{\mathrm{tower}}\) gauge red |
+
