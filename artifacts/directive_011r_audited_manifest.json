@@ -1,0 +1,29 @@
+{
+  "release_id": "directive-011r-audited-2026-06-18",
+  "release_date": "2026-06-18",
+  "directive": "011R",
+  "git": {
+    "tag": "directive-011r-audited-2026-06-18",
+    "commit": "3b9ab29e5c50e85c6d24ce616f36ca7ff94d892d",
+    "directive_011_tag": "directive-011-internal-2026-06-18",
+    "directive_011_commit": "7435ddbaf62f18afb51dfdf987e07cf4f0759b87"
+  },
+  "canonical_curve_hash_sha256": "c535f4e3cc643ed945854ba53d818444245e00c014648625b8603c344d648ae7",
+  "report_hashes_sha256": {
+    "artifacts/directive_011_report.md": "770079fdf7c38624096bbf2ee2a7ab444ebf9771a8b978fdd0a81bfcfbf2f112",
+    "artifacts/directive_011R_report.md": "ba74e4599f07e7c7e3a62e6c100fa555cba0f88f0808a26814c9aa2e83c01fa2"
+  },
+  "polygon_certificate_hash_sha256": "e1671cbc26c03d0a177892e75b1999b8dcbd0811ee5635f3b4ed56c330cd71ac",
+  "tests": {
+    "command": "python -m pytest tests/ -q -m \"not slow\"",
+    "result": "204 passed, 5 deselected",
+    "duration_seconds": 1055.6,
+    "date": "2026-06-18"
+  },
+  "theorem_status": {
+    "T024-A": "RESTRICTED_CLASS_ONLY",
+    "T024-B": "STRONG_TOPOLOGY_ONLY",
+    "T025": "OPEN_FOR_CANONICAL_SMOOTH_DOUBLE_SPIRAL"
+  },
+  "external_verification": false
+}
