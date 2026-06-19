@@ -1,0 +1,37 @@
+{
+  "directive": "044",
+  "frozen": true,
+  "frozen_by": "directive-045",
+  "outcome": "B",
+  "theorem_status": {
+    "T080": "PROVED_LOCALLY",
+    "T081": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T081I": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T085": "PROVED_LOCALLY_CLASSIFIER",
+    "T087": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T086": "CONJECTURAL_STRUCTURAL_TARGET",
+    "T084E": "CONJECTURAL_PARTIAL",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION"
+  },
+  "end_measure": "canonical mu_end on cylinders from wedge signature",
+  "exhaustion_independence": "leaf-end mass stable under F_N and F_{D,N}",
+  "end_signature_carleson": "cylinder bound + vanishing tails + shrinking",
+  "t087_clean_room": "T087_CLEAN_ROOM_VERIFIED",
+  "residual_ledger": [
+    "CANTOR_INTRUSION_END_RESIDUAL",
+    "NONCARLESON_CANTOR_END_TANGENT",
+    "DIFFUSE_END_MEASURE_TREE",
+    "INFINITE_CENTER_BRANCHING_TREE",
+    "NON_JORDAN_SATURATION_HULL",
+    "PARAMETER_DISCONNECTED_LIMIT",
+    "POSITIVE_SCALE_NONANNULAR_CLUSTER"
+  ],
+  "regression_tests": [
+    "tests/test_directive_044.py",
+    "tests/test_directive_043.py"
+  ],
+  "test_result": "61 passed (D044 + D043 + D042)",
+  "commit_hash": "pending",
+  "tag": "directive-044-carleson-diffuse-end-surgery-internal-2026-06-19",
+  "do_not_modify": ["T080", "T081", "T081I", "T085", "T087", "cantor_end_surgery.py", "t087_clean_room.py", "end_signature_carleson.py"]
+}
