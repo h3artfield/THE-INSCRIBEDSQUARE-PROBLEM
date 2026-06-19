@@ -1,0 +1,31 @@
+{
+  "directive": "033",
+  "frozen": true,
+  "frozen_by": "directive-034",
+  "outcome": "B",
+  "theorem_status": {
+    "T064D": "PROVED_LOCALLY_PARTIAL",
+    "T066": "PROVED_LOCALLY",
+    "T067": "CONJECTURAL",
+    "T065R": "CONJECTURAL_TARGET",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION"
+  },
+  "lamination_definition": "DIFFUSE_NONCROSSING_WINDING_LAMINATION nine components",
+  "compactness_theorem": "Blaschke_selection_planar_compact_sets",
+  "t066_signature": "uniform beta, sigma, chi; tail defect -> 0",
+  "residual_ledger": [
+    "DIFFUSE_MULTIGATE_WINDING_LAMINATION",
+    "ECCENTRIC_NESTED_WINDING_LAMINATION",
+    "NON_JORDAN_WINDING_LAMINATION",
+    "PARAMETER_DISCONNECTED_WINDING_LAMINATION",
+    "POSITIVE_INVERSION_GATE_LAMINATION",
+    "INFINITE_INTRUSION_TREE",
+    "NON_JORDAN_SATURATION_HULL",
+    "POSITIVE_SCALE_NONANNULAR_CLUSTER"
+  ],
+  "tests": ["tests/test_directive_033.py"],
+  "test_result": "16 passed",
+  "commit_hash": "e930d910",
+  "tag": "directive-033-diffuse-lamination-surgery-internal-2026-06-18",
+  "do_not_modify": ["T043R", "T046", "T044R", "T051", "T052", "T053B", "T060", "T062", "T064", "T066"]
+}

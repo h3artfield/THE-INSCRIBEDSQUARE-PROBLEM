@@ -1,0 +1,33 @@
+{
+  "directive": "035",
+  "frozen": true,
+  "frozen_by": "directive-036",
+  "outcome": "C",
+  "theorem_status": {
+    "T068I": "PROVED_LOCALLY_GATE_ORDERED",
+    "T070": "PROVED_LOCALLY",
+    "T071": "CONJECTURAL_PARTIAL",
+    "T072": "CONJECTURAL_PARTIAL",
+    "T065I": "CONJECTURAL_PARTIAL",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION"
+  },
+  "gate_measure": "scale-weighted Borel nu_L on dL",
+  "weighted_complexity": "G(L) from join bound M^2 r^2",
+  "tail_cross_signature": "SigTail_N includes cross-interactions",
+  "t068i_proof": "INTEGRABLE_GATE_SIGNATURE + gate-order assumption",
+  "t070_proof": "I(L)=0 => a.e. order agreement",
+  "residual_ledger": [
+    "POSITIVE_INVERSION_GATE_LAMINATION",
+    "PARAMETER_DISCONNECTED_WINDING_LAMINATION",
+    "MULTICENTER_THICK_WINDING_LAMINATION",
+    "INFINITE_GATE_JORDAN_LAMINATION",
+    "NON_JORDAN_WINDING_LAMINATION",
+    "INFINITE_INTRUSION_TREE",
+    "INFINITE_CENTER_THICK_WINDING_LAMINATION"
+  ],
+  "tests": ["tests/test_directive_035.py"],
+  "test_result": "15 passed",
+  "commit_hash": "e930d910",
+  "tag": "directive-035-infinite-gate-measures-order-energy-internal-2026-06-18",
+  "do_not_modify": ["T066", "T068", "T069", "T068I", "T070"]
+}

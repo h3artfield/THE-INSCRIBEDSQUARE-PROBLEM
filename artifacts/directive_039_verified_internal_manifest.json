@@ -1,0 +1,35 @@
+{
+  "directive": "039",
+  "frozen": true,
+  "frozen_by": "directive-040",
+  "outcome": "B",
+  "theorem_status": {
+    "T073I": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T075": "PROVED_LOCALLY",
+    "T076": "PROVED_LOCALLY concentrated and finite-center",
+    "T077-A": "PROVED_LOCALLY",
+    "T074R": "CONJECTURAL",
+    "T077": "CONJECTURAL",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION"
+  },
+  "jordan_gate_realizability": "finite Jordan disk + noncrossing intrusion arcs; P_J audit",
+  "bounded_depth_bound": "rho_inv <= f(D,B,K)",
+  "t077a_proof": "planar inversion extremal bound excludes genuinely diffuse permuton",
+  "augmented_permuton": "mu_N on boundary x parameter x spatial x scale x depth",
+  "residual_ledger": [
+    "INFINITE_INTRUSION_TREE",
+    "UNBOUNDED_BRANCHING_INTRUSION_TREE",
+    "NON_JORDAN_SATURATION_HULL",
+    "PARAMETER_DISCONNECTED_LIMIT",
+    "INFINITE_CENTER_THICK_LAMINATION",
+    "POSITIVE_SCALE_NONANNULAR_CLUSTER"
+  ],
+  "regression_tests": [
+    "tests/test_directive_039.py",
+    "tests/test_directive_038.py"
+  ],
+  "test_result": "16 passed (D039) + 24 passed (D038-D037)",
+  "commit_hash": "e930d910",
+  "tag": "directive-039-planar-permuton-rigidity-internal-2026-06-18",
+  "do_not_modify": ["T068I", "T070", "T073", "T073I", "T075", "T077-A", "permuton_rigidity.py"]
+}

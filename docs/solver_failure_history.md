@@ -585,6 +585,18 @@ row[5] = -ij[comp][1]
 
 **Key:** 12-entry equality ledger, compatibility graph, explicit Φ_desc coverage audit; clean room T094_REPAIRABLE_GAP.
 
+**Exact statement:** `NEUTRAL_DEFICITS_NOT_UNIFORMLY_VANISHING` — a uniformity failure, not a T093 or equality-strategy failure.
+
+---
+
+## Directive 050 — Deficit budgets and T094-A repair (2026-06-19)
+
+**Outcome E:** Diagnostic deficit reduction; repair chain stops at signature-weighted pruning (normalized deficits \(O(1)\) on tested neutral coronas).
+
+**Key:** Twelve raw/normalized deficits, corona telescoping budget, Markov pruning by signature scale, semicontinuity audit (RETAINED_SKELETON, SIGN_GROUPING not closed).
+
+**Theorems:** T095 CONJECTURAL_DEFICIT_TARGET; T096 CONJECTURAL_SELECTION_TARGET; T094-A CONJECTURAL_REPAIRED_TARGET; clean room T094_A_REPAIRABLE_GAP.
+
 ---
 
 ## Directive 022 — Cross-scale annular towers (2026-06-18)

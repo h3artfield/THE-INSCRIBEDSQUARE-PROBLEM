@@ -1,0 +1,34 @@
+{
+  "directive": "034",
+  "frozen": true,
+  "frozen_by": "directive-035",
+  "outcome": "A",
+  "theorem_status": {
+    "T066": "PROVED_LOCALLY",
+    "T068": "PROVED_LOCALLY",
+    "T069": "PROVED_LOCALLY",
+    "T067R": "PROVED_LOCALLY_CLASSIFIER",
+    "T068I": "CONJECTURAL_EXTENSION",
+    "T065S": "CONJECTURAL_TARGET",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION"
+  },
+  "t068_measurable_ear_selection": "deterministic smallest-diameter rule",
+  "compatible_maximal_ears": "E_max nested/disjoint absorption",
+  "transverse_tail_estimate": "sigma <= C(M) d^2 + Tail_N",
+  "t069_width_area": "A_att <= C sum w(L) diam(L)",
+  "residual_ledger": [
+    "INFINITE_GATE_JORDAN_LAMINATION",
+    "POSITIVE_INVERSION_GATE_LAMINATION",
+    "PARAMETER_DISCONNECTED_WINDING_LAMINATION",
+    "MULTICENTER_THICK_WINDING_LAMINATION",
+    "NON_JORDAN_WINDING_LAMINATION",
+    "INFINITE_INTRUSION_TREE",
+    "NON_JORDAN_SATURATION_HULL",
+    "POSITIVE_SCALE_NONANNULAR_CLUSTER"
+  ],
+  "tests": ["tests/test_directive_034.py"],
+  "test_result": "14 passed",
+  "commit_hash": "e930d910",
+  "tag": "directive-034-multigate-thin-eccentric-surgery-internal-2026-06-18",
+  "do_not_modify": ["T043R", "T046", "T044R", "T051", "T052", "T053B", "T060", "T062", "T064", "T066", "T068", "T069"]
+}

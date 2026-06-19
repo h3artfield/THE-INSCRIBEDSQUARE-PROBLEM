@@ -1,0 +1,32 @@
+{
+  "directive": "029",
+  "frozen": true,
+  "frozen_by": "directive-030",
+  "outcome": "B",
+  "theorem_status": {
+    "T055": "PROVED_LOCALLY",
+    "T056": "PROVED_LOCALLY_GRAPH_LEVEL",
+    "T057": "PROVED_LOCALLY_CONDITIONAL_GEOMETRIC",
+    "T050R": "STRUCTURAL_CLASSIFICATION_FORMALIZED",
+    "T053B": "CONJECTURAL_CONTROLLED_EXTRACTION",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION"
+  },
+  "geometric_ear_gap": "Graph ear gates not hull-adjacent on saturation boundary",
+  "area_decomposition": "ear_area_allocation.decompose_ear_area with Chen join term",
+  "ear_removal_order": "EAR_REMOVAL_ORDER_DEPENDENT_BUT_TERMINATING innermost-first",
+  "module_hashes": {
+    "gate_word.py": "d029_gate_word",
+    "gate_graph.py": "d029_gate_graph",
+    "outerplanar_structure.py": "d029_t055",
+    "geometric_ear.py": "d029_t056",
+    "bounded_gate_cluster.py": "d029_t057",
+    "ear_area_allocation.py": "d029_area"
+  },
+  "tests": [
+    "tests/test_directive_029.py"
+  ],
+  "test_result": "16 passed",
+  "commit_hash": "e930d910",
+  "tag": "directive-029-multigate-ear-decomposition-internal-2026-06-18",
+  "do_not_modify": ["T043R", "T046", "T044R", "T051", "T052"]
+}

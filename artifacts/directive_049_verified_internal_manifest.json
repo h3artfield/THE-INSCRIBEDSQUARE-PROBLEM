@@ -1,0 +1,67 @@
+{
+  "directive": "049",
+  "frozen": true,
+  "frozen_by": "directive-050",
+  "outcome": "E",
+  "exact_statement": "NEUTRAL_DEFICITS_NOT_UNIFORMLY_VANISHING",
+  "theorem_status": {
+    "T087": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T091": "PROVED_LOCALLY_CLASSIFIER",
+    "T092": "PROVED_LOCALLY_CLASSIFIER",
+    "T093": "PROVED_LOCALLY",
+    "T094-A": "REPAIRABLE_GAP",
+    "T094": "CONJECTURAL_RIGIDITY_TARGET",
+    "T089R": "CONJECTURAL_CORE_TARGET",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION"
+  },
+  "commit_hash": "a90f8ea",
+  "tag": "directive-049-neutral-tangent-deficit-diagnostic-internal-2026-06-19",
+  "equality_ledger": [
+    "WEDGE_PRODUCT",
+    "TRIANGLE_NORM",
+    "CAUCHY_SCHWARZ",
+    "CHILD_INCREMENT",
+    "HULL_DIAMETER",
+    "CROSSCUT_AREA",
+    "RETAINED_SKELETON",
+    "CENTER_PACKING",
+    "FINITE_CENTER_GROUP",
+    "SIGN_GROUPING",
+    "CORONA_TRUNCATION",
+    "MULTIGEN_PACKING"
+  ],
+  "compatibility_graph": {
+    "incompatible_pairs": [
+      ["TRIANGLE_NORM", "WEDGE_PRODUCT", "same vectors cannot be parallel and orthogonal unless zero"],
+      ["RETAINED_SKELETON", "CHILD_INCREMENT", "full child partition vs positive retained skeleton"],
+      ["MULTIGEN_PACKING", "SIGN_GROUPING", "strict contraction vs sign-cancellation equality"]
+    ],
+    "compatible_remaining": 63
+  },
+  "quantitative_stability": {
+    "module": "equality_stability.py",
+    "combined_deficit_threshold": 0.2,
+    "per_entry_modulus": "omega(epsilon) in near_equality_stability.md",
+    "templates_parameterized": 8
+  },
+  "coverage_audit": {
+    "measure": "SIGNATURE_SCALE_PHI_END",
+    "definition": "cov_L(v)=P_L(v)/Phi_desc(v) where Phi_desc(v)=sum_{u succ v} Phi_end(u)",
+    "threshold": 0.25,
+    "module": "t093_coverage_audit.py",
+    "uncovered_tracking": "Phi_desc - P_L audited separately; neutral residual cannot hide non-Carleson density"
+  },
+  "clean_room_verdict": "T094_REPAIRABLE_GAP",
+  "neutral_tangent_audit": {
+    "compactness_holds": true,
+    "all_deficits_vanish": false,
+    "deep_sequence_exists": true
+  },
+  "no_full_standard_critical_countermodel": true,
+  "regression_tests": [
+    "tests/test_directive_049.py",
+    "tests/test_directive_048.py"
+  ],
+  "test_result": "134 passed (D049-D042 fast suite)",
+  "do_not_modify": ["T087", "T091", "T092", "T093", "multigeneration_packing.py"]
+}

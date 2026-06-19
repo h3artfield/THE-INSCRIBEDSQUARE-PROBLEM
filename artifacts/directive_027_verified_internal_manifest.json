@@ -1,15 +1,31 @@
 {
   "directive": "027",
+  "frozen": true,
+  "frozen_by": "directive-028",
   "outcome": "C",
-  "t045r_status": "CONJECTURAL_FULL_EXTRACTION",
+  "theorem_status": {
+    "T043R": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T046": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T044R": "PROVED_LOCALLY",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION",
+    "T047": "CONJECTURAL",
+    "T049": "INTERLEAVING_REFERENCE_UNPROTECTED"
+  },
+  "clean_forest_extraction": "PROVED_LOCALLY when lobes clean, laminar, gate-ordered",
   "residual_class": "MULTICENTER_ALTERNATING_INTRUSION_TREE",
   "interleaving_reference": "INTERLEAVING_REFERENCE_UNPROTECTED",
+  "dyadic_stopping": "chen_child_signature, is_bad_interval",
+  "chen_correction_hashes": {
+    "dyadic_stopping.py": "5fe525642dbe26ca",
+    "bad_interval_cover.py": "2501aa6823a7b705"
+  },
   "module_hashes": {
     "dyadic_stopping.py": "5fe525642dbe26ca",
     "bad_interval_cover.py": "2501aa6823a7b705",
     "clean_lobe.py": "b4795bdcd18612c5",
     "t045_extraction.py": "e981527166311207",
-    "interleaving_reference.py": "16fd40bb45eea19e"
+    "interleaving_reference.py": "16fd40bb45eea19e",
+    "intrusion_graph.py": "frozen-d027"
   },
   "report_hash": "6fd91dc60c0dab23",
   "tests": [
@@ -17,5 +33,6 @@
   ],
   "test_result": "7 passed",
   "commit_hash": "d3e7a62",
-  "tag": "directive-027-universal-extraction-internal-2026-06-18"
+  "tag": "directive-027-universal-extraction-internal-2026-06-18",
+  "do_not_modify": ["T043R", "T046", "T044R"]
 }

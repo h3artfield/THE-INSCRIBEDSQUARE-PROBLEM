@@ -1,0 +1,31 @@
+{
+  "directive": "032",
+  "frozen": true,
+  "frozen_by": "directive-033",
+  "outcome": "B",
+  "theorem_status": {
+    "T063": "PROVED_LOCALLY",
+    "T064": "PROVED_LOCALLY_PARAMETER_CONSECUTIVE",
+    "T062": "PROVED_LOCALLY_FINITE_CENTER",
+    "T061R": "CONJECTURAL_REFINEMENT",
+    "T065": "CONJECTURAL_TARGET",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION"
+  },
+  "winding_amplification": "A_Z_tilde = epsilon_0 / r_n^2 -> infinity",
+  "layer_cake_identity": "integral w^+ = sum_k Area{w>=k}",
+  "winding_layer_tree": "E_{n,k+1} subset E_{n,k}; component tree",
+  "concentration_classifier": "CONCENTRATED | DIFFUSE | MULTICENTER",
+  "disconnected_concentration": "DISCONNECTED_CONCENTRATION when spatial-only",
+  "t062_t064": "finite-center and consecutive concentration PROVED_LOCALLY",
+  "residual_ledger": [
+    "DIFFUSE_NONCROSSING_WINDING_LAMINATION",
+    "INFINITE_INTRUSION_TREE",
+    "NON_JORDAN_SATURATION_HULL",
+    "POSITIVE_SCALE_NONANNULAR_CLUSTER"
+  ],
+  "tests": ["tests/test_directive_032.py"],
+  "test_result": "13 passed",
+  "commit_hash": "e930d910",
+  "tag": "directive-032-dense-winding-concentration-internal-2026-06-18",
+  "do_not_modify": ["T043R", "T046", "T044R", "T051", "T052", "T053B", "T060"]
+}

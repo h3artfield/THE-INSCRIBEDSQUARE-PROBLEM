@@ -1,0 +1,35 @@
+{
+  "directive": "036",
+  "frozen": true,
+  "frozen_by": "directive-037",
+  "outcome": "B",
+  "theorem_status": {
+    "T068I": "PROVED_LOCALLY_GATE_ORDERED",
+    "T070": "PROVED_LOCALLY",
+    "T073": "PROVED_LOCALLY",
+    "T073I": "CONJECTURAL_EXTENSION",
+    "T074": "CONJECTURAL_PARTIAL",
+    "T071R": "CONJECTURAL_PARTIAL",
+    "T072R": "CONJECTURAL_PARTIAL",
+    "T065O": "CONJECTURAL_PARTIAL",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION"
+  },
+  "cyclic_order": "seam-invariant canonical encoding",
+  "monotone_width": "w(pi_N) = LDS length (Mirsky)",
+  "measurable_blocks": "deterministic monotone block selection",
+  "cross_block_estimate": "A_cross bounded by K^2 r^2 join constant",
+  "t073_proof": "w_* <= K with vanishing cross-block signature",
+  "residual_ledger": [
+    "NONSUMMABLE_ORDER_BLOCK_LAMINATION",
+    "DIFFUSE_GATE_PERMUTON_RESIDUAL",
+    "INFINITE_WIDTH_INFINITE_CENTER_LAMINATION",
+    "PARAMETER_DISCONNECTED_WINDING_LAMINATION",
+    "NON_JORDAN_WINDING_LAMINATION",
+    "INFINITE_INTRUSION_TREE"
+  ],
+  "tests": ["tests/test_directive_036.py"],
+  "test_result": "13 passed",
+  "commit_hash": "e930d910",
+  "tag": "directive-036-positive-inversion-monotone-blocks-internal-2026-06-18",
+  "do_not_modify": ["T066", "T068", "T069", "T068I", "T070", "T073"]
+}

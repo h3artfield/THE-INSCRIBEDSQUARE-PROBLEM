@@ -1,0 +1,44 @@
+{
+  "directive": "037",
+  "frozen": true,
+  "frozen_by": "directive-038",
+  "outcome": "A",
+  "theorem_status": {
+    "T073": "PROVED_LOCALLY",
+    "T073I": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T075": "PROVED_LOCALLY",
+    "T074R": "CONJECTURAL",
+    "T072S": "CONJECTURAL_PARTIAL",
+    "T065C": "CONJECTURAL_PARTIAL",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION"
+  },
+  "countable_wedge_identity": "A_<=N = sum_j A_j + sum_{i<j} A_ij",
+  "L1_BLOCK_SIGNATURE": "limsup_n S_n(delta) < inf; lim_N lim_delta limsup_n tau_{n,N}(delta) = 0",
+  "head_tail_estimates": {
+    "S_n_delta": "sup_{|J|<=delta} sum_j V_j(J)",
+    "tau_n_N_delta": "sup_{|J|<=delta} sum_{j>N} V_j(J)",
+    "cross_tail_bound": "sum_{max(i,j)>N} |A_ij| <= (1/2)(2 S tau + tau^2)"
+  },
+  "t073i_clean_room": {
+    "verdict": "T073I_CLEAN_ROOM_VERIFIED",
+    "reviewer_questions": 12,
+    "limit_order": "limsup_n, delta down, N up"
+  },
+  "t075_measurable_decomposition": "greedy longest-chain monotone blocks; PROVED_LOCALLY for summable geometry",
+  "regression_tests": [
+    "tests/test_directive_037.py",
+    "tests/test_directive_036.py"
+  ],
+  "test_result": "13 passed (D037) + 42 passed (D036–D034 regression)",
+  "residual_ledger": [
+    "NONSUMMABLE_ORDER_BLOCK_LAMINATION",
+    "DIFFUSE_GATE_PERMUTON_RESIDUAL",
+    "INFINITE_WIDTH_INFINITE_CENTER_LAMINATION",
+    "PARAMETER_DISCONNECTED_WINDING_LAMINATION",
+    "NON_JORDAN_WINDING_LAMINATION",
+    "INFINITE_INTRUSION_TREE"
+  ],
+  "commit_hash": "e930d910",
+  "tag": "directive-037-countable-monotone-blocks-internal-2026-06-18",
+  "do_not_modify": ["T068I", "T070", "T073", "T073I", "T075"]
+}

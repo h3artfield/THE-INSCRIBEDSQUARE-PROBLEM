@@ -1,0 +1,23 @@
+{
+  "directive": "031",
+  "frozen": true,
+  "frozen_by": "directive-032",
+  "outcome": "A",
+  "theorem_status": {
+    "T053B": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T060": "PROVED_LOCALLY",
+    "T061": "PROVED_LOCALLY_CLASSIFIER",
+    "T062": "PARTIAL_FINITE_CENTER",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION"
+  },
+  "sparse_hypothesis": "M_n*r_n -> 0",
+  "join_constants": {"C0": 0.5, "C1": 4.5},
+  "signed_grouping": "dominant sign >= epsilon/4",
+  "dense_residual": "limsup M_n*r_n >= lambda_0",
+  "t061_alternatives": ["CONCENTRATED", "DIFFUSE", "MULTICENTER", "SIGNATURE_BLOCKS"],
+  "tests": ["tests/test_directive_031.py"],
+  "test_result": "14 passed",
+  "commit_hash": "e930d910",
+  "tag": "directive-031-sparse-dense-gate-dichotomy-internal-2026-06-18",
+  "do_not_modify": ["T043R", "T046", "T044R", "T051", "T052", "T053B", "T060"]
+}

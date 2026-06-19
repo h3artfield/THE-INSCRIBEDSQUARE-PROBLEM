@@ -1,0 +1,39 @@
+{
+  "directive": "038",
+  "frozen": true,
+  "frozen_by": "directive-039",
+  "outcome": "B",
+  "theorem_status": {
+    "T073I": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T075": "PROVED_LOCALLY",
+    "T076": "PROVED_LOCALLY_CLASSIFIER concentrated and finite-center",
+    "T074R": "CONJECTURAL",
+    "T077": "CONJECTURAL",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION"
+  },
+  "intrinsic_tail": "T_*(N,delta) = inf over measurable decompositions; NONSUMMABLE_ORDER_TAIL",
+  "optimal_tail_fix": "decompositions with block_count > N; attribute T_D_N_delta",
+  "cross_interaction": "Xi_n, Sigma_n(J;N), failure classification",
+  "t076_classifier": [
+    "CONCENTRATED_ORDER_INTERACTION",
+    "FINITE_CENTER_ORDER_INTERACTION",
+    "DIFFUSE_ORDER_INTERACTION",
+    "INFINITE_INTRUSION_OR_NONJORDAN"
+  ],
+  "genuinely_diffuse_definition": "order marginal not on countable union of locally finite monotone graphs",
+  "residual_ledger": [
+    "GENUINELY_DIFFUSE_JORDAN_GATE_PERMUTON",
+    "INFINITE_WIDTH_INFINITE_CENTER_LAMINATION",
+    "INFINITE_INTRUSION_TREE",
+    "NON_JORDAN_WINDING_LAMINATION",
+    "PARAMETER_DISCONNECTED_WINDING_LAMINATION"
+  ],
+  "regression_tests": [
+    "tests/test_directive_038.py",
+    "tests/test_directive_037.py"
+  ],
+  "test_result": "11 passed (D038) + 13 passed (D037)",
+  "commit_hash": "e930d910",
+  "tag": "directive-038-nonsummable-order-tails-internal-2026-06-18",
+  "do_not_modify": ["T068I", "T070", "T073", "T073I", "T075", "permuton_rigidity.py"]
+}

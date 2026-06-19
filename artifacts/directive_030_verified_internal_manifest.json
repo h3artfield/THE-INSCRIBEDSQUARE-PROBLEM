@@ -1,0 +1,29 @@
+{
+  "directive": "030",
+  "frozen": true,
+  "frozen_by": "directive-031",
+  "outcome": "A",
+  "theorem_status": {
+    "T058": "PROVED_LOCALLY",
+    "T059": "PROVED_LOCALLY",
+    "T053B": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION"
+  },
+  "t058_proof": "hull_adjacent_ear.audit_t058",
+  "t059_join_estimate": "J_M(r) = 0.5*binom(3M,2)*C_collar^2*r^2",
+  "q_of_m": "3M",
+  "clean_room": "T053B_CLEAN_ROOM_VERIFIED",
+  "residual_after_t053b": [
+    "UNBOUNDED_GATE_DENSITY_CLUSTER",
+    "INFINITE_INTRUSION_TREE",
+    "NON_JORDAN_SATURATION_HULL",
+    "POSITIVE_SCALE_NONANNULAR_CLUSTER"
+  ],
+  "tests": [
+    "tests/test_directive_030.py"
+  ],
+  "test_result": "12 passed",
+  "commit_hash": "e930d910",
+  "tag": "directive-030-hull-adjacent-ears-internal-2026-06-18",
+  "do_not_modify": ["T043R", "T046", "T044R", "T051", "T052", "T053B"]
+}

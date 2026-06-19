@@ -1283,11 +1283,41 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 ## T094 — Critical equality rigidity
 
-**Statement.** Every Jordan-realizable singleton equality tangent routes to T087, concentration, finite-center, annular/thin, or degeneration. T094-A: vanishing neutral deficits imply full ledger equality in tangent limits.
+**Statement.** Every Jordan-realizable singleton equality tangent routes to T087, concentration, finite-center, annular/thin, or degeneration.
 
-**Status.** CONJECTURAL_RIGIDITY_TARGET; T094-A open (Directive 049)
+**Status.** CONJECTURAL_RIGIDITY_TARGET (Directive 049)
 
 **Source / proof file.** `docs/t094_critical_equality_rigidity.md`
+
+---
+
+## T094-A — Equality-core tangent theorem
+
+**Statement.** Every deep neutral-corona sequence has, after subsequence selection, contraction (T095), concentration/finite-center, bad residual, or a positive-signature tangent satisfying the complete equality ledger.
+
+**Status.** CONJECTURAL_REPAIRED_TARGET (Directive 050); first gap at signature-weighted pruning + semicontinuity
+
+**Source / proof file.** `docs/t094a_equality_core_tangent.md`
+
+---
+
+## T095 — Deficit-to-contraction
+
+**Statement.** Persistent cumulative deficit \(\mathfrak D_L(v)\ge\epsilon\Phi(v)\) with controlled boundary implies \(P_L(v)\le(1-\eta(\epsilon))\Phi(v)\).
+
+**Status.** CONJECTURAL_DEFICIT_TARGET (Directive 050)
+
+**Source / proof file.** `docs/deficit_to_multigeneration_contraction.md`
+
+---
+
+## T096 — Positive-signature equality-core extraction
+
+**Statement.** Long neutral coronas with \(\mathfrak D_L=o(\Phi)\) contain a coherent positive-signature subtree of unbounded depth with uniformly vanishing normalized deficits.
+
+**Status.** CONJECTURAL_SELECTION_TARGET (Directive 050)
+
+**Source / proof file.** `docs/tree_equality_core_selection.md`
 
 ---
 

@@ -1,0 +1,46 @@
+{
+  "directive": "028",
+  "frozen": true,
+  "frozen_by": "directive-029",
+  "outcome": "B",
+  "theorem_status": {
+    "T050": "CONJECTURAL_STRUCTURAL_TARGET",
+    "T051": "PROVED_LOCALLY",
+    "T052": "PROVED_LOCALLY",
+    "T053": "CONJECTURAL_TARGET",
+    "T054": "CONJECTURAL_MULTIGATE_TARGET",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION"
+  },
+  "t051_proof_hash": "cluster_crosscut_t051_local",
+  "t052_proof_hash": "cluster_signature_t052_local",
+  "saturation_order_proof": "saturation_order_independent",
+  "two_gate_definition": "two_gate_cluster.audit_two_gate_cluster",
+  "collar_crosscut": "cluster_crosscut.collar_arc_crosscut",
+  "residual_classes": [
+    "INFINITE_MULTIGATE_INTRUSION_RAY",
+    "UNBOUNDED_BRANCHING_INTRUSION_TREE",
+    "NON_JORDAN_SATURATION_HULL",
+    "DENSE_GATE_ACCUMULATION"
+  ],
+  "module_hashes": {
+    "intrusion_noncrossing.py": "d028_noncrossing",
+    "saturation.py": "d028_saturation",
+    "cluster_crosscut.py": "d028_t051",
+    "cluster_signature.py": "d028_t052",
+    "multigate_cluster.py": "d028_t054"
+  },
+  "tests": [
+    "tests/test_intrusion_noncrossing.py",
+    "tests/test_saturation_order.py",
+    "tests/test_two_gate_cluster.py",
+    "tests/test_cluster_crosscut.py",
+    "tests/test_finite_intrusion_tree.py",
+    "tests/test_cluster_forest.py",
+    "tests/test_multigate_cluster.py",
+    "tests/test_infinite_intrusion_tree.py"
+  ],
+  "test_result": "20 passed",
+  "commit_hash": "e930d910",
+  "tag": "directive-028-intrusion-saturation-internal-2026-06-18",
+  "do_not_modify": ["T043R", "T046", "T044R", "T051", "T052"]
+}
