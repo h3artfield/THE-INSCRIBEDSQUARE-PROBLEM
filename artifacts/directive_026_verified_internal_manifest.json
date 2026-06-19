@@ -1,0 +1,19 @@
+{
+  "directive": "026",
+  "outcome": "A",
+  "current_class": "CURRENT_ANNULAR_CLASS_INSUFFICIENT",
+  "t046_status": "PROVED_LOCALLY",
+  "t044r_status": "PROVED_LOCALLY",
+  "route": "HYBRID_ROUTE",
+  "module_hashes": {
+    "annular_attachment_order.py": "8c3612e82b78b1b1",
+    "ordered_annular_forest.py": "41bad5589789f541",
+    "t046_signature_theorem.py": "0636db06a428f659",
+    "t044r_annular_bridge.py": "ff66f2001a4f4769"
+  },
+  "report_hash": "8e70d0a231d7dcb8",
+  "tests": [
+    "tests/test_annular_t044r.py"
+  ],
+  "test_result": "10 passed"
+}

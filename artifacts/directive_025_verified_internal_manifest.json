@@ -1,8 +1,8 @@
 {
   "directive": "025",
   "outcome": "C",
-  "t043r_status": "PROVED_LOCALLY",
-  "t044r_status": "CONTROLLED_FULL_BRIDGE_TARGET",
+  "t043r_status": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+  "t044r_status": "PROVED_LOCALLY",
   "clean_room": "T043R_CLEAN_ROOM_VERIFIED",
   "attachment_2var_verdict": "ATTACHMENT_2VAR_REQUIRES_EXTRA_STRUCTURE",
   "module_hashes": {
@@ -26,5 +26,8 @@
   ],
   "test_result": "35 passed (D025 surgery batch)",
   "commit_hash": "9abb422",
-  "tag": "directive-025-t043r-proof-internal-2026-06-18"
+  "tag": "directive-025-t043r-proof-internal-2026-06-18",
+  "frozen": true,
+  "frozen_by_directive": "026",
+  "t045_status": "CONJECTURAL_FULL_EXTRACTION"
 }

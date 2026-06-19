@@ -391,6 +391,14 @@ row[5] = -ij[comp][1]
 
 ---
 
+## Directive 026 — Annular T044R bridge (2026-06-18)
+
+**Outcome A:** T046 and T044R PROVED_LOCALLY; `CURRENT_ANNULAR_CLASS_INSUFFICIENT`; `ORDERED_ANNULAR_SURGERY_FOREST` sufficient.
+
+**T045:** Not attacked.
+
+---
+
 ## Directive 022 — Cross-scale annular towers (2026-06-18)
 
 **Outcome E:** Reference Jordan tower + packet-level margins proved; no \(w_1\)-certified cross-scale component; \(\Theta > \rho_{\mathrm{tower}}\).

@@ -593,23 +593,25 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 **Statement.** Surgered \(Q_n\to\gamma\) uniformly and area-tight; T022 applies.
 
-**Status.** PROVED_LOCALLY (Directive 025)
+**Status.** PROVED_LOCALLY_CLEAN_ROOM_VERIFIED (Directive 025–026)
 
 **Source / proof file.** `docs/signature_controlled_surgery.md`, `t043r_proof.py`
 
 ---
 
-## T044 — Controlled annular scale escape (superseded)
+## T046 — Ordered annular forest signature theorem
 
-**Status.** SUPERSEDED by T044R (Directive 024)
+**Status.** PROVED_LOCALLY (Directive 026)
+
+**Source / proof file.** `docs/t046_annular_signature_theorem.md`
 
 ---
 
 ## T044R — Controlled annular surgery dichotomy
 
-**Status.** CONTROLLED_FULL_BRIDGE_TARGET
+**Status.** PROVED_LOCALLY (Directive 026)
 
-**Source / proof file.** `docs/controlled_annular_surgery_bridge.md`
+**Source / proof file.** `docs/t044r_controlled_annular_bridge.md`
 
 ---
 
