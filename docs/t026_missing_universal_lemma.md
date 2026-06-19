@@ -4,15 +4,17 @@
 
 ---
 
-## Unresolved assertion
+## Unresolved assertion (Directive 014 update)
 
-> If a Jordan curve has **no** area-tight simple polygonal approximation sequence, then some four ordered compact parameter intervals carry a square map of **nonzero Brouwer degree**.
+> If every compatible protected-window subsequence along cyclic polygonal interpolants \(P_n\to\gamma\) has \(\rho_\square^{\mathrm{cert}}\to0\) (**degree collapse**), then some subsequence is **area-tight**.
 
-This is the precise missing step between T024-A (double-spiral area obstruction) and a universal square via degree (T026 branch 2).
+This is **T032**. The T026 missing step is equivalently:
+
+> No area-tight sequence \(\Rightarrow\) some four-window configuration with nonzero degree at positive \(C^0\) scale (T031 branch).
 
 ---
 
-## Why the double spiral supports the possibility
+## Why the double spiral supports branch (2) but not T032
 
 | Phenomenon | Evidence |
 |------------|----------|

@@ -1,0 +1,26 @@
+{
+  "boundary_cover_hash_sha256": "6e8313bdf86e4124ce3d5ee0dd6c0ee667fe387b21ed324c1e8548568f8efc15",
+  "canonical_curve_hash_sha256": "c535f4e3cc643ed945854ba53d818444245e00c014648625b8603c344d648ae7",
+  "commit_hash": "cbcb56c6128171c0fa0ed1002a10371feb3077c9",
+  "degree_sign": -1,
+  "directive": "014",
+  "directive_014_outcome": "E_DIAGNOSTIC_REDUCTION",
+  "eta0": 1.1111111111111113e-05,
+  "independent_replay_hash_sha256": "09a6161a5c042beda7fab1ab3a2d92b374be40be1d81abd9cb9403f8ac05d633",
+  "root_certificate_hash_sha256": "277680042bde9b11f7e3cf01279883a9b8ff5d64a3eb5e2c01bc2bea6578f5b2",
+  "separation_note": "pairwise LB >= 0.335 on canonical B",
+  "side_length_bounds": [
+    0.3555080686211281,
+    0.37328347205218454
+  ],
+  "t025_status": "PROVED_LOCALLY_BY_DIRECT_INTERVAL_CERTIFICATE",
+  "t027_status": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+  "t028_status": "PROVED_AS_COROLLARY",
+  "t029_status": "PROVED_LOCALLY",
+  "t030_status": "PROVED_LOCALLY",
+  "t031_status": "PROVED_LOCALLY",
+  "t032_status": "CONJECTURAL_FULL_BRIDGE",
+  "t033_status": "FINITE_SCALE_DICHOTOMY_TARGET",
+  "tag": "t025-t027-robust-square-internal-2026-06-18",
+  "test_output": ".................                                                        [100%]\n17 passed in 0.52s"
+}

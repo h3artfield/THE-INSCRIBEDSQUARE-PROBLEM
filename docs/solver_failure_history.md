@@ -272,3 +272,11 @@ row[5] = -ij[comp][1]
 **Resolution:** Square certified by \(F=0\) interval enclosure + midpoint; rotation check not used in 013 replay pass criteria.
 
 **Status:** Documented; not a soundness failure.
+
+---
+
+## Directive 014 — Robust degree abstraction (2026-06-18)
+
+**Outcome E:** T029–T031 proved in abstract framework; T032/T033 open.
+
+**Note:** \(\rho_\square^{\mathrm{cert}}=0\) must not be confused with mathematical absence of protected squares.

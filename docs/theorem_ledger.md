@@ -377,11 +377,61 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 **Statement.** Every Jordan curve either admits an area-tight simple polygonal approximation sequence, or contains a four-window configuration with **nonzero square-map Brouwer degree**.
 
-**Status.** CONJECTURAL_FULL_BRIDGE (refined Directive 013)
+**Status.** CONJECTURAL_FULL_BRIDGE (refined Directive 013–014)
 
-**Source.** `docs/area_tight_or_square_dichotomy.md`, `docs/t026_missing_universal_lemma.md`
+**Source.** `docs/area_tight_or_square_dichotomy.md`, `docs/t026_missing_universal_lemma.md`, `docs/degree_collapse_to_area_tightness.md`
 
-**Do not attempt proof in Directive 013.**
+**Do not attempt proof in Directive 014.**
+
+---
+
+## T029 — Protected square degree theorem
+
+**Statement.** Protected square box \((\gamma,B)\) \(\Rightarrow\) nondegenerate inscribed square in \(B\).
+
+**Status.** PROVED_LOCALLY (Directive 014)
+
+**Source / proof file.** `docs/protected_square_degree.md`, `src/squarepeg/robust_degree/`
+
+---
+
+## T030 — Robust square openness
+
+**Statement.** \(\rho_\square(\gamma,B)>0\) \(\Rightarrow\) all sufficiently \(C^0\)-close curves have inscribed squares.
+
+**Status.** PROVED_LOCALLY (Directive 014; recovers T027)
+
+**Source / proof file.** `docs/robust_square_radius.md`
+
+---
+
+## T031 — Positive robust-degree limit criterion
+
+**Statement.** \(\limsup_n\rho_\square^{\mathrm{cert}}(P_n,B)>0\) with compatible windows \(\Rightarrow\) limit curve has square.
+
+**Status.** PROVED_LOCALLY (Directive 014)
+
+**Source / proof file.** `docs/robust_degree_limit_criterion.md`
+
+---
+
+## T032 — Degree-collapse-to-area-tightness selection
+
+**Statement.** Robust-degree collapse on all compatible subsequences \(\Rightarrow\) area-tight subsequence exists.
+
+**Status.** CONJECTURAL_FULL_BRIDGE
+
+**Source / proof file.** `docs/degree_collapse_to_area_tightness.md`
+
+---
+
+## T033 — Finite-scale dichotomy
+
+**Statement.** Fine polygons: protected \(\rho\ge\varepsilon\) OR small \(\alpha(\delta)\).
+
+**Status.** FINITE_SCALE_DICHOTOMY_TARGET
+
+**Source / proof file.** `docs/finite_scale_dichotomy.md`
 
 ---
 
