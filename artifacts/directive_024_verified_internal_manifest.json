@@ -42,5 +42,7 @@
     "tests/test_annular_forest_bridge.py",
     "tests/test_defect_surgery.py"
   ],
-  "test_result": "405 passed (fast suite, 2026-06-18)"
+  "test_result": "405 passed (fast suite, 2026-06-18)",
+  "commit_hash": "86c7206",
+  "tag": "directive-024-signature-surgery-internal-2026-06-18"
 }
