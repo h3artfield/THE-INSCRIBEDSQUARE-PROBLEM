@@ -1,17 +1,9 @@
-# T036-N1 — Nested-Lobe Rhombus Target
+# T036 Nested-Lobe Next Target (updated Directive 020)
 
-**Status:** `CONJECTURAL_GEOMETRIC_TARGET`
+T036-N1 is **conditionally proved**: \(\Psi<\rho_{\mathrm{cyc}}\Rightarrow\) cyclic-odd component.
 
-After T039 (PROVED_LOCALLY), reassess whether nested same-sign lobe chains produce:
+Unconditional bridge requires \(\mathcal D_{\mathrm{nest}}^{\mathrm{ann}}\).
 
-- isolated protected square, or
-- cyclic-odd rhombus component, or
-- neither.
+Reference annular model: see `docs/reference_annular_rhombus_component.md`.
 
-### T036-N1 (conjectural)
-
-A sufficiently long, quantitatively separated same-sign nested lobe chain produces a collision-free cyclic-odd protected rhombus component with robustness radius bounded below at the packet's outer scale.
-
-**Not attempted** in Directive 019.
-
-See `nested_lobe_class.py` for prior controlled-class scaffolding.
+T032§ remains conjectural and was not attempted.

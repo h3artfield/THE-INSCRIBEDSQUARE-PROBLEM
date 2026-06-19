@@ -1,14 +1,22 @@
 {
-  "commit_hash": "8985458",
+  "commit_hash": "2e16c89",
   "directive": "019",
-  "directive_018_dependency": "directive-018-cyclic-odd-verified-pending-audit-2026-06-18",
-  "tag": "directive-019-cyclic-odd-audit-internal-2026-06-18",
-  "outcome": "A",
-  "clean_room_verdict": "T038_CURVE_CLEAN_ROOM_VERIFIED",
-  "t039_status": "PROVED_LOCALLY",
+  "tag": "directive-019-cyclic-odd-general-internal-2026-06-18",
+  "alternate_tag": "directive-019-cyclic-odd-audit-internal-2026-06-18",
+  "theorem_ledger": {
+    "T037": "PROVED_LOCALLY",
+    "T038_Curve": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T039": "PROVED_LOCALLY",
+    "T032_section": "CONJECTURAL_FULL_BRIDGE",
+    "T036_N1": "CONJECTURAL_GEOMETRIC_TARGET"
+  },
+  "t038_curve_audit": "T038_CURVE_CLEAN_ROOM_VERIFIED",
+  "t039_proof_modules": ["relative_rhombus_class.py", "t039_persistence.py", "twisted_section_zero.py"],
+  "sign_line": "MOBIUS_W1_NONZERO",
+  "ci_command": "pytest tests/ -m fast -q --tb=no",
   "flake_verdicts": {
     "test_semicircle_relative_area_bounded": "RESOURCE_OR_TIMEOUT_FAILURE",
     "test_fixture_simple_ccw": "NONREPRODUCIBLE"
   },
-  "test_output": "34+ passed (directive_019 + cyclic_odd)"
+  "test_output": "34+ passed (directive_019 suite)"
 }

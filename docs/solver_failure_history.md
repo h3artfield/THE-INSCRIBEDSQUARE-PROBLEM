@@ -334,3 +334,13 @@ row[5] = -ij[comp][1]
 **Flakes:** semicircle RESOURCE_OR_TIMEOUT_FAILURE; hexagon NONREPRODUCIBLE (Fraction hardening).
 
 **T032§, T036-N1:** Not attacked.
+
+---
+
+## Directive 020 — Nested-lobe to cyclic-odd bridge (2026-06-18)
+
+**Outcome C:** Reference \(\Gamma_{\mathrm{ref}}\) T039 proved; unconditional T036-N1 fails — need ANNULAR_GRAPH hypothesis.
+
+**Package:** `src/squarepeg/defect_geometry/`
+
+**T032§:** Not attacked.

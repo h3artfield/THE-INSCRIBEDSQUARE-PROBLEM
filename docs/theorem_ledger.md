@@ -507,11 +507,27 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 ---
 
-## T036-N1 — Nested-lobe rhombus component
+## T036-N1 — Nested-lobe cyclic-rhombus lemma
 
-**Status.** CONJECTURAL_GEOMETRIC_TARGET (Directive 019 reassessment)
+**Status.** CONDITIONAL_PROVED (Directive 020); unconditional requires \(\mathcal D_{\mathrm{nest}}^{\mathrm{ann}}\)
 
-**Source / proof file.** `docs/t036_nested_lobe_next_target.md`
+**Source / proof file.** `docs/t036_n1_proof.md`, `docs/packet_reference_comparison.md`
+
+---
+
+## T036-N2 — Scale-escape alternative
+
+**Status.** CONJECTURAL_SELECTION_TARGET
+
+**Source / proof file.** `docs/scale_escape_alternative.md`
+
+---
+
+## T036-N3 — Cross-scale cyclic component
+
+**Status.** CONJECTURAL_CROSS_SCALE_TARGET
+
+**Source / proof file.** `docs/cross_scale_cyclic_component.md`
 
 ---
 
