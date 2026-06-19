@@ -1351,6 +1351,36 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 ---
 
+## T100 — Neutral transition escape classification
+
+**Statement.** Every admissible neutral transition subsequence routes to a geometric branch, removable coboundary, or compact-core convergence.
+
+**Status.** PROVED_LOCALLY on tested fixture (Directive 052)
+
+**Source / proof file.** `docs/neutral_escape_profile_classification.md`
+
+---
+
+## T097C — Compactified neutral-state transfer
+
+**Statement.** Neutral transitions route or belong to sequentially compact \(\mathscr A_{\mathrm{core}}\) with closed limit recursion.
+
+**Status.** CONJECTURAL_CORE_TARGET (Directive 052)
+
+**Source / proof file.** `docs/t097c_compactified_state_transfer.md`
+
+---
+
+## T098C — Compact-core Bellman alternative
+
+**Statement.** On \(\mathscr A_{\mathrm{core}}\), either certified Bellman contraction or critical invariant measure.
+
+**Status.** CONJECTURAL_DUALITY_TARGET (Directive 052); not applicable until core populated
+
+**Source / proof file.** `docs/compact_core_bellman_duality.md`
+
+---
+
 ## T089R — Singleton end rigidity (closure chain)
 
 **Statement.** T093 coverage + T094 close NONCARLESON_SINGLETON_CANTOR_END_TANGENT.

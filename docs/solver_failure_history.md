@@ -607,7 +607,19 @@ row[5] = -ij[comp][1]
 
 **Key:** Augmented state \((\Phi,R,S,J,C,B,G)\), transfer recursion, Bellman search with exact rational certification, occupation/invariant measures, coboundary corrections.
 
+**Exact blocker:** `ADMISSIBLE_NEUTRAL_TRANSITION_FAMILY_NOT_COMPACT`.
+
 **Theorems:** T097 CONJECTURAL_STATE_TARGET; T098 CONJECTURAL_CORE_TARGET; T099 CONJECTURAL_RIGIDITY_TARGET; clean room T098_REPAIRABLE_GAP.
+
+---
+
+## Directive 052 — Neutral transition escape and compactification (2026-06-19)
+
+**Outcome C:** Geometric escapes classified and routed; compact-core transfer closure (T097C) remains open.
+
+**Key:** Escape audit on geometric records, coboundary gauge quotient, projective normalization, measure-valued transitions, Bellman deferred until compact core.
+
+**Theorems:** T100 PROVED_LOCALLY (routing); T097C CONJECTURAL_CORE_TARGET; T098C not applicable; clean room T097C_REPAIRABLE_GAP.
 
 ---
 

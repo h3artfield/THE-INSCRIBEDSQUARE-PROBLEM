@@ -1,0 +1,40 @@
+{
+  "directive": "051",
+  "frozen": true,
+  "frozen_by": "directive-052",
+  "outcome": "E",
+  "exact_blocker": "ADMISSIBLE_NEUTRAL_TRANSITION_FAMILY_NOT_COMPACT",
+  "theorem_status": {
+    "T087": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T091": "PROVED_LOCALLY_CLASSIFIER",
+    "T092": "PROVED_LOCALLY_CLASSIFIER",
+    "T093": "PROVED_LOCALLY",
+    "T094-A": "REPAIRABLE_GAP",
+    "T097": "CONJECTURAL_STATE_TARGET",
+    "T098": "CONJECTURAL_CORE_TARGET",
+    "T099": "CONJECTURAL_RIGIDITY_TARGET",
+    "T089R": "CONJECTURAL_CORE_TARGET",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION"
+  },
+  "commit_hash": "af29c7c",
+  "tag": "directive-051-neutral-transfer-compactness-diagnostic-internal-2026-06-19",
+  "augmented_state": {
+    "coordinates": ["Phi", "R", "S", "J", "C", "B", "G"],
+    "module": "augmented_neutral_state.py"
+  },
+  "transfer_recursion": "X(v)=E(v)+sum A(v,w)X(w); module=neutral_transfer_operator.py",
+  "state_cone": "neutral_state_cone.py",
+  "bellman_search": {
+    "linear": "bellman_potential.py",
+    "exact_cert": "bellman_exact_certificate.py",
+    "result": "no INTERVAL_VERIFIED contraction on uncompactified family"
+  },
+  "occupation_measure": "neutral_occupation_measure.py",
+  "clean_room_verdict": "T098_REPAIRABLE_GAP",
+  "regression_tests": [
+    "tests/test_directive_051.py",
+    "tests/test_directive_050.py"
+  ],
+  "test_result": "166 passed (D051-D042 fast suite)",
+  "do_not_modify": ["T087", "T091", "T092", "T093", "multigeneration_packing.py"]
+}

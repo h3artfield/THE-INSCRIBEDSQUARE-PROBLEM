@@ -1,0 +1,616 @@
+{
+  "source": "directive_051_noncompact_witness",
+  "family_compact": false,
+  "witness_parent": "L3_5_0",
+  "witness_label": "SCALE_RATIO_ESCAPE",
+  "transitions": [
+    {
+      "parent_id": "L3_5_0",
+      "child_id": "L4_10",
+      "parent_diameter": 0.062240727999999995,
+      "child_diameter": 0.062240727999999995,
+      "scale_ratio": 1.0,
+      "child_count": 1,
+      "gate_count": 2,
+      "center_offset": 0.0,
+      "wedge_total": 0.0,
+      "retained": 0.0014599791611549368,
+      "sign_imbalance": 0.0,
+      "crosscut": 0.009958516479999999,
+      "Phi": 0.015495632887879933,
+      "X": [
+        0.015495632887879933,
+        0.0014599791611549368,
+        0.0,
+        0.0,
+        0.009958516479999999,
+        0.0007747816443939967,
+        0.12448145599999999
+      ],
+      "E": [
+        0.0,
+        0.0,
+        0.009958516479999999,
+        0.0014599791611549368,
+        0.0,
+        0.0007747816443939967,
+        0.0
+      ],
+      "escape_labels": [
+        "SCALE_RATIO_ESCAPE"
+      ],
+      "intrinsic": "ROUTED_BRANCH",
+      "route": "POSITIVE_SCALE_END_RAY"
+    },
+    {
+      "parent_id": "L3_0_1",
+      "child_id": "L4_1",
+      "parent_diameter": 0.062240727999999995,
+      "child_diameter": 0.062240727999999995,
+      "scale_ratio": 1.0,
+      "child_count": 1,
+      "gate_count": 2,
+      "center_offset": 0.0,
+      "wedge_total": 0.0,
+      "retained": 0.0014599791611549368,
+      "sign_imbalance": 0.0,
+      "crosscut": 0.009958516479999999,
+      "Phi": 0.015495632887879933,
+      "X": [
+        0.015495632887879933,
+        0.0014599791611549368,
+        0.0,
+        0.0,
+        0.009958516479999999,
+        0.0007747816443939967,
+        0.12448145599999999
+      ],
+      "E": [
+        0.0,
+        0.0,
+        0.009958516479999999,
+        0.0014599791611549368,
+        0.0,
+        0.0007747816443939967,
+        0.0
+      ],
+      "escape_labels": [
+        "SCALE_RATIO_ESCAPE"
+      ],
+      "intrinsic": "ROUTED_BRANCH",
+      "route": "POSITIVE_SCALE_END_RAY"
+    },
+    {
+      "parent_id": "L3_1_1",
+      "child_id": "L4_3",
+      "parent_diameter": 0.062240727999999995,
+      "child_diameter": 0.062240727999999995,
+      "scale_ratio": 1.0,
+      "child_count": 1,
+      "gate_count": 2,
+      "center_offset": 0.0,
+      "wedge_total": 0.0,
+      "retained": 0.0014599791611549368,
+      "sign_imbalance": 0.0,
+      "crosscut": 0.009958516479999999,
+      "Phi": 0.015495632887879933,
+      "X": [
+        0.015495632887879933,
+        0.0014599791611549368,
+        0.0,
+        0.0,
+        0.009958516479999999,
+        0.0007747816443939967,
+        0.12448145599999999
+      ],
+      "E": [
+        0.0,
+        0.0,
+        0.009958516479999999,
+        0.0014599791611549368,
+        0.0,
+        0.0007747816443939967,
+        0.0
+      ],
+      "escape_labels": [
+        "SCALE_RATIO_ESCAPE"
+      ],
+      "intrinsic": "ROUTED_BRANCH",
+      "route": "POSITIVE_SCALE_END_RAY"
+    },
+    {
+      "parent_id": "L3_6_1",
+      "child_id": "L4_13",
+      "parent_diameter": 0.062240727999999995,
+      "child_diameter": 0.062240727999999995,
+      "scale_ratio": 1.0,
+      "child_count": 1,
+      "gate_count": 2,
+      "center_offset": 0.0,
+      "wedge_total": 0.0,
+      "retained": 0.0014599791611549368,
+      "sign_imbalance": 0.0,
+      "crosscut": 0.009958516479999999,
+      "Phi": 0.015495632887879933,
+      "X": [
+        0.015495632887879933,
+        0.0014599791611549368,
+        0.0,
+        0.0,
+        0.009958516479999999,
+        0.0007747816443939967,
+        0.12448145599999999
+      ],
+      "E": [
+        0.0,
+        0.0,
+        0.009958516479999999,
+        0.0014599791611549368,
+        0.0,
+        0.0007747816443939967,
+        0.0
+      ],
+      "escape_labels": [
+        "SCALE_RATIO_ESCAPE"
+      ],
+      "intrinsic": "ROUTED_BRANCH",
+      "route": "POSITIVE_SCALE_END_RAY"
+    },
+    {
+      "parent_id": "L3_1_0",
+      "child_id": "L4_2",
+      "parent_diameter": 0.062240727999999995,
+      "child_diameter": 0.062240727999999995,
+      "scale_ratio": 1.0,
+      "child_count": 1,
+      "gate_count": 2,
+      "center_offset": 0.0,
+      "wedge_total": 0.0,
+      "retained": 0.0014599791611549368,
+      "sign_imbalance": 0.0,
+      "crosscut": 0.009958516479999999,
+      "Phi": 0.015495632887879933,
+      "X": [
+        0.015495632887879933,
+        0.0014599791611549368,
+        0.0,
+        0.0,
+        0.009958516479999999,
+        0.0007747816443939967,
+        0.12448145599999999
+      ],
+      "E": [
+        0.0,
+        0.0,
+        0.009958516479999999,
+        0.0014599791611549368,
+        0.0,
+        0.0007747816443939967,
+        0.0
+      ],
+      "escape_labels": [
+        "SCALE_RATIO_ESCAPE"
+      ],
+      "intrinsic": "ROUTED_BRANCH",
+      "route": "POSITIVE_SCALE_END_RAY"
+    },
+    {
+      "parent_id": "L3_7_0",
+      "child_id": "L4_14",
+      "parent_diameter": 0.062240727999999995,
+      "child_diameter": 0.062240727999999995,
+      "scale_ratio": 1.0,
+      "child_count": 1,
+      "gate_count": 2,
+      "center_offset": 0.0,
+      "wedge_total": 0.0,
+      "retained": 0.0014599791611549368,
+      "sign_imbalance": 0.0,
+      "crosscut": 0.009958516479999999,
+      "Phi": 0.015495632887879933,
+      "X": [
+        0.015495632887879933,
+        0.0014599791611549368,
+        0.0,
+        0.0,
+        0.009958516479999999,
+        0.0007747816443939967,
+        0.12448145599999999
+      ],
+      "E": [
+        0.0,
+        0.0,
+        0.009958516479999999,
+        0.0014599791611549368,
+        0.0,
+        0.0007747816443939967,
+        0.0
+      ],
+      "escape_labels": [
+        "SCALE_RATIO_ESCAPE"
+      ],
+      "intrinsic": "ROUTED_BRANCH",
+      "route": "POSITIVE_SCALE_END_RAY"
+    },
+    {
+      "parent_id": "L3_0_0",
+      "child_id": "L4_0",
+      "parent_diameter": 0.062240727999999995,
+      "child_diameter": 0.062240727999999995,
+      "scale_ratio": 1.0,
+      "child_count": 1,
+      "gate_count": 2,
+      "center_offset": 0.0,
+      "wedge_total": 0.0,
+      "retained": 0.0014599791611549368,
+      "sign_imbalance": 0.0,
+      "crosscut": 0.009958516479999999,
+      "Phi": 0.015495632887879933,
+      "X": [
+        0.015495632887879933,
+        0.0014599791611549368,
+        0.0,
+        0.0,
+        0.009958516479999999,
+        0.0007747816443939967,
+        0.12448145599999999
+      ],
+      "E": [
+        0.0,
+        0.0,
+        0.009958516479999999,
+        0.0014599791611549368,
+        0.0,
+        0.0007747816443939967,
+        0.0
+      ],
+      "escape_labels": [
+        "SCALE_RATIO_ESCAPE"
+      ],
+      "intrinsic": "ROUTED_BRANCH",
+      "route": "POSITIVE_SCALE_END_RAY"
+    },
+    {
+      "parent_id": "L3_7_1",
+      "child_id": "L4_15",
+      "parent_diameter": 0.062240727999999995,
+      "child_diameter": 0.062240727999999995,
+      "scale_ratio": 1.0,
+      "child_count": 1,
+      "gate_count": 2,
+      "center_offset": 0.0,
+      "wedge_total": 0.0,
+      "retained": 0.0014599791611549368,
+      "sign_imbalance": 0.0,
+      "crosscut": 0.009958516479999999,
+      "Phi": 0.015495632887879933,
+      "X": [
+        0.015495632887879933,
+        0.0014599791611549368,
+        0.0,
+        0.0,
+        0.009958516479999999,
+        0.0007747816443939967,
+        0.12448145599999999
+      ],
+      "E": [
+        0.0,
+        0.0,
+        0.009958516479999999,
+        0.0014599791611549368,
+        0.0,
+        0.0007747816443939967,
+        0.0
+      ],
+      "escape_labels": [
+        "SCALE_RATIO_ESCAPE"
+      ],
+      "intrinsic": "ROUTED_BRANCH",
+      "route": "POSITIVE_SCALE_END_RAY"
+    },
+    {
+      "parent_id": "L3_4_0",
+      "child_id": "L4_8",
+      "parent_diameter": 0.062240727999999995,
+      "child_diameter": 0.062240727999999995,
+      "scale_ratio": 1.0,
+      "child_count": 1,
+      "gate_count": 2,
+      "center_offset": 0.0,
+      "wedge_total": 0.0,
+      "retained": 0.0014599791611549368,
+      "sign_imbalance": 0.0,
+      "crosscut": 0.009958516479999999,
+      "Phi": 0.015495632887879933,
+      "X": [
+        0.015495632887879933,
+        0.0014599791611549368,
+        0.0,
+        0.0,
+        0.009958516479999999,
+        0.0007747816443939967,
+        0.12448145599999999
+      ],
+      "E": [
+        0.0,
+        0.0,
+        0.009958516479999999,
+        0.0014599791611549368,
+        0.0,
+        0.0007747816443939967,
+        0.0
+      ],
+      "escape_labels": [
+        "SCALE_RATIO_ESCAPE"
+      ],
+      "intrinsic": "ROUTED_BRANCH",
+      "route": "POSITIVE_SCALE_END_RAY"
+    },
+    {
+      "parent_id": "L3_6_0",
+      "child_id": "L4_12",
+      "parent_diameter": 0.062240727999999995,
+      "child_diameter": 0.062240727999999995,
+      "scale_ratio": 1.0,
+      "child_count": 1,
+      "gate_count": 2,
+      "center_offset": 0.0,
+      "wedge_total": 0.0,
+      "retained": 0.0014599791611549368,
+      "sign_imbalance": 0.0,
+      "crosscut": 0.009958516479999999,
+      "Phi": 0.015495632887879933,
+      "X": [
+        0.015495632887879933,
+        0.0014599791611549368,
+        0.0,
+        0.0,
+        0.009958516479999999,
+        0.0007747816443939967,
+        0.12448145599999999
+      ],
+      "E": [
+        0.0,
+        0.0,
+        0.009958516479999999,
+        0.0014599791611549368,
+        0.0,
+        0.0007747816443939967,
+        0.0
+      ],
+      "escape_labels": [
+        "SCALE_RATIO_ESCAPE"
+      ],
+      "intrinsic": "ROUTED_BRANCH",
+      "route": "POSITIVE_SCALE_END_RAY"
+    },
+    {
+      "parent_id": "L3_4_1",
+      "child_id": "L4_9",
+      "parent_diameter": 0.062240727999999995,
+      "child_diameter": 0.062240727999999995,
+      "scale_ratio": 1.0,
+      "child_count": 1,
+      "gate_count": 2,
+      "center_offset": 0.0,
+      "wedge_total": 0.0,
+      "retained": 0.0014599791611549368,
+      "sign_imbalance": 0.0,
+      "crosscut": 0.009958516479999999,
+      "Phi": 0.015495632887879933,
+      "X": [
+        0.015495632887879933,
+        0.0014599791611549368,
+        0.0,
+        0.0,
+        0.009958516479999999,
+        0.0007747816443939967,
+        0.12448145599999999
+      ],
+      "E": [
+        0.0,
+        0.0,
+        0.009958516479999999,
+        0.0014599791611549368,
+        0.0,
+        0.0007747816443939967,
+        0.0
+      ],
+      "escape_labels": [
+        "SCALE_RATIO_ESCAPE"
+      ],
+      "intrinsic": "ROUTED_BRANCH",
+      "route": "POSITIVE_SCALE_END_RAY"
+    },
+    {
+      "parent_id": "L3_3_1",
+      "child_id": "L4_7",
+      "parent_diameter": 0.062240727999999995,
+      "child_diameter": 0.062240727999999995,
+      "scale_ratio": 1.0,
+      "child_count": 1,
+      "gate_count": 2,
+      "center_offset": 0.0,
+      "wedge_total": 0.0,
+      "retained": 0.0014599791611549368,
+      "sign_imbalance": 0.0,
+      "crosscut": 0.009958516479999999,
+      "Phi": 0.015495632887879933,
+      "X": [
+        0.015495632887879933,
+        0.0014599791611549368,
+        0.0,
+        0.0,
+        0.009958516479999999,
+        0.0007747816443939967,
+        0.12448145599999999
+      ],
+      "E": [
+        0.0,
+        0.0,
+        0.009958516479999999,
+        0.0014599791611549368,
+        0.0,
+        0.0007747816443939967,
+        0.0
+      ],
+      "escape_labels": [
+        "SCALE_RATIO_ESCAPE"
+      ],
+      "intrinsic": "ROUTED_BRANCH",
+      "route": "POSITIVE_SCALE_END_RAY"
+    },
+    {
+      "parent_id": "L3_2_0",
+      "child_id": "L4_4",
+      "parent_diameter": 0.062240727999999995,
+      "child_diameter": 0.062240727999999995,
+      "scale_ratio": 1.0,
+      "child_count": 1,
+      "gate_count": 2,
+      "center_offset": 0.0,
+      "wedge_total": 0.0,
+      "retained": 0.0014599791611549368,
+      "sign_imbalance": 0.0,
+      "crosscut": 0.009958516479999999,
+      "Phi": 0.015495632887879933,
+      "X": [
+        0.015495632887879933,
+        0.0014599791611549368,
+        0.0,
+        0.0,
+        0.009958516479999999,
+        0.0007747816443939967,
+        0.12448145599999999
+      ],
+      "E": [
+        0.0,
+        0.0,
+        0.009958516479999999,
+        0.0014599791611549368,
+        0.0,
+        0.0007747816443939967,
+        0.0
+      ],
+      "escape_labels": [
+        "SCALE_RATIO_ESCAPE"
+      ],
+      "intrinsic": "ROUTED_BRANCH",
+      "route": "POSITIVE_SCALE_END_RAY"
+    },
+    {
+      "parent_id": "L3_5_1",
+      "child_id": "L4_11",
+      "parent_diameter": 0.062240727999999995,
+      "child_diameter": 0.062240727999999995,
+      "scale_ratio": 1.0,
+      "child_count": 1,
+      "gate_count": 2,
+      "center_offset": 0.0,
+      "wedge_total": 0.0,
+      "retained": 0.0014599791611549368,
+      "sign_imbalance": 0.0,
+      "crosscut": 0.009958516479999999,
+      "Phi": 0.015495632887879933,
+      "X": [
+        0.015495632887879933,
+        0.0014599791611549368,
+        0.0,
+        0.0,
+        0.009958516479999999,
+        0.0007747816443939967,
+        0.12448145599999999
+      ],
+      "E": [
+        0.0,
+        0.0,
+        0.009958516479999999,
+        0.0014599791611549368,
+        0.0,
+        0.0007747816443939967,
+        0.0
+      ],
+      "escape_labels": [
+        "SCALE_RATIO_ESCAPE"
+      ],
+      "intrinsic": "ROUTED_BRANCH",
+      "route": "POSITIVE_SCALE_END_RAY"
+    },
+    {
+      "parent_id": "L3_2_1",
+      "child_id": "L4_5",
+      "parent_diameter": 0.062240727999999995,
+      "child_diameter": 0.062240727999999995,
+      "scale_ratio": 1.0,
+      "child_count": 1,
+      "gate_count": 2,
+      "center_offset": 0.0,
+      "wedge_total": 0.0,
+      "retained": 0.0014599791611549368,
+      "sign_imbalance": 0.0,
+      "crosscut": 0.009958516479999999,
+      "Phi": 0.015495632887879933,
+      "X": [
+        0.015495632887879933,
+        0.0014599791611549368,
+        0.0,
+        0.0,
+        0.009958516479999999,
+        0.0007747816443939967,
+        0.12448145599999999
+      ],
+      "E": [
+        0.0,
+        0.0,
+        0.009958516479999999,
+        0.0014599791611549368,
+        0.0,
+        0.0007747816443939967,
+        0.0
+      ],
+      "escape_labels": [
+        "SCALE_RATIO_ESCAPE"
+      ],
+      "intrinsic": "ROUTED_BRANCH",
+      "route": "POSITIVE_SCALE_END_RAY"
+    },
+    {
+      "parent_id": "L3_3_0",
+      "child_id": "L4_6",
+      "parent_diameter": 0.062240727999999995,
+      "child_diameter": 0.062240727999999995,
+      "scale_ratio": 1.0,
+      "child_count": 1,
+      "gate_count": 2,
+      "center_offset": 0.0,
+      "wedge_total": 0.0,
+      "retained": 0.0014599791611549368,
+      "sign_imbalance": 0.0,
+      "crosscut": 0.009958516479999999,
+      "Phi": 0.015495632887879933,
+      "X": [
+        0.015495632887879933,
+        0.0014599791611549368,
+        0.0,
+        0.0,
+        0.009958516479999999,
+        0.0007747816443939967,
+        0.12448145599999999
+      ],
+      "E": [
+        0.0,
+        0.0,
+        0.009958516479999999,
+        0.0014599791611549368,
+        0.0,
+        0.0007747816443939967,
+        0.0
+      ],
+      "escape_labels": [
+        "SCALE_RATIO_ESCAPE"
+      ],
+      "intrinsic": "ROUTED_BRANCH",
+      "route": "POSITIVE_SCALE_END_RAY"
+    }
+  ]
+}
