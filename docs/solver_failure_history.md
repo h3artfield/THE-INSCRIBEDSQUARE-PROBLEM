@@ -555,6 +555,14 @@ row[5] = -ij[comp][1]
 
 ---
 
+## Directive 046 — Endpoint correspondences (2026-06-19)
+
+**Outcome B:** Continuum ends routed to positive-scale geometry via T091/T092 classifiers.
+
+**Key:** Compact-valued \(\Phi\), canonical incidence measure, variable-ratio Cantor → POSSIBILITY_D_GENUINE_CONTINUUM. T089R singleton rigidity remains open.
+
+---
+
 ## Directive 022 — Cross-scale annular towers (2026-06-18)
 
 **Outcome E:** Reference Jordan tower + packet-level margins proved; no \(w_1\)-certified cross-scale component; \(\Theta > \rho_{\mathrm{tower}}\).

@@ -30,7 +30,7 @@
     "tests/test_directive_044.py"
   ],
   "test_result": "75 passed (D045 + D044 + D043 + D042)",
-  "commit_hash": "f07c8c8",
+  "commit_hash": "42c9b6e",
   "tag": "directive-045-noncarleson-end-tangent-diagnostic-internal-2026-06-19",
   "do_not_modify": ["T080", "T081", "T081I", "T085", "T087"]
 }

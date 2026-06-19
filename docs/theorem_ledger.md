@@ -1201,6 +1201,56 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 ---
 
+## T089R — Finite-center endpoint-correspondence rigidity
+
+**Statement.** Normalized bad tangent with nested Jordan hulls, measurable compact-valued \(\Phi\), connected parameters, finite incidence-center complexity, \(\mu_+(E_+)=0\), and no degeneration satisfies renormalized end-Carleson.
+
+**Status.** CONJECTURAL_CORE_TARGET (Directive 046)
+
+**Source / proof file.** `docs/finite_center_endpoint_rigidity.md`
+
+---
+
+## T090R — Correspondence Frostman criterion
+
+**Statement.** Set-valued cylinder Frostman inequality on \(m(v)\) vs \(\Psi_{\mathrm{geom}}(v)\) implies END_SIGNATURE_CARLESON; positive-diameter component via T091.
+
+**Status.** CONJECTURAL_TARGET; partial (Directive 046)
+
+**Source / proof file.** `docs/correspondence_frostman_criterion.md`
+
+---
+
+## T091 — Continuum-end positive-scale reduction
+
+**Statement.** Positive-diameter nested Jordan ends have positive limiting spatial scale; route to annular, finite-center, nonannular, or degeneration geometry.
+
+**Status.** PROVED_LOCALLY_CLASSIFIER (Directive 046)
+
+**Source / proof file.** `docs/continuum_end_positive_scale_reduction.md`
+
+---
+
+## T092 — Endpoint correspondence dichotomy
+
+**Statement.** Every normalized non-Carleson tangent has singleton a.e., positive-diameter mass, incompatible nesting, non-Jordan degeneration, or graph compactness failure.
+
+**Status.** PROVED_LOCALLY_CLASSIFIER (Directive 046)
+
+**Source / proof file.** `docs/endpoint_repaired_noncarleson_reduction.md`
+
+---
+
+## T086E — Endpoint-repaired non-Carleson reduction
+
+**Statement.** Nonatomic end measures failing T087 reduce via incidence routes, T091 continuum geometry, or `NONCARLESON_SINGLETON_CANTOR_END_TANGENT`.
+
+**Status.** CONJECTURAL_TARGET; partial (Directive 046)
+
+**Source / proof file.** `docs/endpoint_repaired_noncarleson_reduction.md`
+
+---
+
 ## T084R — Nonsummable child and end reduction
 
 **Statement.** Every tree failing T080/T081/T081I admits a subtree in one of the T085/T086 residual classes or explicit non-tree geometry.
