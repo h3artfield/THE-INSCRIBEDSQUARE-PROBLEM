@@ -1375,9 +1375,49 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 **Statement.** On \(\mathscr A_{\mathrm{core}}\), either certified Bellman contraction or critical invariant measure.
 
-**Status.** CONJECTURAL_DUALITY_TARGET (Directive 052); not applicable until core populated
+**Status.** CONJECTURAL_DUALITY_TARGET (Directive 052); NOT_APPLICABLE on empty core; retired if T102 universal
 
 **Source / proof file.** `docs/compact_core_bellman_duality.md`
+
+---
+
+## T101 — Admissible neutral transition exhaustion
+
+**Statement.** Every realizable neutral singleton-end transition satisfies a routing predicate covering concentration, positive scale, branching, center, gate, parameter, non-Jordan, or coboundary reduction.
+
+**Status.** PROVED_FINITE_DOMAIN (Directive 053); universal infinite-dimensional closure open
+
+**Source / proof file.** `docs/neutral_transition_routing_ledger.md`
+
+---
+
+## T102 — Empty neutral-core theorem
+
+**Statement.** \(\mathscr A_{\mathrm{core}}=\varnothing\) under singleton shrinking Jordan hypotheses.
+
+**Status.** PROVED_FINITE_DOMAIN (Directive 053)
+
+**Source / proof file.** `docs/empty_neutral_core_theorem.md`
+
+---
+
+## T103 — Coherent route extraction
+
+**Statement.** Deep neutral coronas admit coherent single-branch subsystems, T093 contraction, or explicit global residual.
+
+**Status.** CONJECTURAL_SELECTION_TARGET (Directive 053)
+
+**Source / proof file.** `docs/coherent_route_extraction.md`
+
+---
+
+## T089E — Empty-core singleton-end reduction
+
+**Statement.** T101–T103 eliminate the independent neutral singleton Cantor residual.
+
+**Status.** CONJECTURAL_REDUCTION_TARGET (Directive 053)
+
+**Source / proof file.** `docs/empty_core_singleton_reduction.md`
 
 ---
 

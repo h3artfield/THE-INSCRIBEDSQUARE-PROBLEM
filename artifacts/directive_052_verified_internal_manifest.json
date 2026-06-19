@@ -1,0 +1,38 @@
+{
+  "directive": "052",
+  "frozen": true,
+  "frozen_by": "directive-053",
+  "outcome": "C",
+  "theorem_status": {
+    "T087": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T091": "PROVED_LOCALLY_CLASSIFIER",
+    "T092": "PROVED_LOCALLY_CLASSIFIER",
+    "T093": "PROVED_LOCALLY",
+    "T100": "PROVED_LOCALLY on frozen transition fixture",
+    "T097C": "CONJECTURAL_CORE_TARGET",
+    "T098C": "NOT_APPLICABLE on tested empty core",
+    "T089R": "CONJECTURAL_CORE_TARGET",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION"
+  },
+  "commit_hash": "8899280",
+  "tag": "directive-052-neutral-transition-escape-classification-internal-2026-06-19",
+  "frozen_fixture": "data/regressions/neutral_transition_escape_fixture.json",
+  "fixture_transitions": 16,
+  "routing": "all 16 transitions -> POSITIVE_SCALE (T091)",
+  "compact_core_after_routing": "COMPACT_CORE_EMPTY_AFTER_ROUTING",
+  "escape_classes": [
+    "SCALE_RATIO_ESCAPE",
+    "CHILD_COUNT_ESCAPE",
+    "GATE_COMPLEXITY_ESCAPE",
+    "RETAINED_RESERVE_ESCAPE",
+    "SIGN_IMBALANCE_ESCAPE",
+    "NORMALIZATION_DENOMINATOR_COLLAPSE"
+  ],
+  "clean_room_verdict": "T097C_REPAIRABLE_GAP",
+  "regression_tests": [
+    "tests/test_directive_052.py",
+    "tests/test_directive_051.py"
+  ],
+  "test_result": "186 passed (D052-D042 fast suite)",
+  "do_not_modify": ["T087", "T091", "T092", "T093", "multigeneration_packing.py"]
+}
