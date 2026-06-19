@@ -1,0 +1,22 @@
+{
+  "commit_hash": "5a8b0b7",
+  "directive": "014",
+  "implementation_version": "squarepeg.robust_degree v1",
+  "protected_degree_definitions": "protected_box.py, perturbation_radius.py, square_map.py",
+  "tag": "directive-014-robust-degree-internal-2026-06-18",
+  "t025_t027_manifest": "artifacts/t025_t027_verified_internal_manifest.json",
+  "t025_t027_dependency_hashes": {
+    "boundary_cover": "6e8313bdf86e4124ce3d5ee0dd6c0ee667fe387b21ed324c1e8548568f8efc15",
+    "canonical_curve": "c535f4e3cc643ed945854ba53d818444245e00c014648625b8603c344d648ae7",
+    "independent_replay": "09a6161a5c042beda7fab1ab3a2d92b374be40be1d81abd9cb9403f8ac05d633",
+    "root_certificate": "277680042bde9b11f7e3cf01279883a9b8ff5d64a3eb5e2c01bc2bea6578f5b2"
+  },
+  "test_output": "17 passed (robust_degree + T025/T027 replay)",
+  "theorem_ledger": {
+    "T029": "PROVED_LOCALLY",
+    "T030": "PROVED_LOCALLY",
+    "T031": "PROVED_LOCALLY",
+    "T032": "CONJECTURAL",
+    "T033": "TARGET"
+  }
+}

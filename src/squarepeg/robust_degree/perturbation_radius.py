@@ -45,7 +45,7 @@ def rho_square_box(
     boundary_margin: float | None = None,
 ) -> tuple[float, CertStatus]:
     """
-    sup { eta > 0 : E(eta) < m and separation survives }.
+    Certified lower bound on intrinsic rho_square(gamma, B) — NOT the intrinsic invariant.
 
     Returns (radius, status). Zero radius with not_certified if box not protected.
     """

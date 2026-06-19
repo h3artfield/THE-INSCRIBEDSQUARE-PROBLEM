@@ -7,7 +7,7 @@ from enum import Enum
 from typing import Literal
 
 from squarepeg.robust_degree.area_defect import alpha_P_delta, alpha_sequence_limsup
-from squarepeg.robust_degree.polygon_extractor import rho_square_cert_polygon
+from squarepeg.robust_degree.polygon_extractor import rho_square_certified_lower_bound_polygon
 from squarepeg.curves.polygon import PolygonCurve
 from squarepeg.exact_squares.solver import solve_polygon_full
 
@@ -82,7 +82,7 @@ def diagnose_polygon_sequence(
     rhos: list[float] = []
     for n_idx, poly in enumerate(polygons):
         result = solve_polygon_full(poly)
-        rho, breakdown = rho_square_cert_polygon(poly, result)
+        rho, breakdown = rho_square_certified_lower_bound_polygon(poly, result)
         rhos.append(rho)
         g = _poly_to_gamma(poly)
         alpha = alpha_P_delta(g, deltas[min(n_idx, len(deltas) - 1)])

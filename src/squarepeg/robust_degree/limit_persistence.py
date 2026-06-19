@@ -108,14 +108,51 @@ def t031_positive_limsup_persistence(
     return result.square_exists
 
 
-def noncollapse_extract_square(
-    gamma_n: Sequence[CurveFn],
-    box: ProtectedSquareBox,
-    margins: Sequence[float],
+def t031_a_certified_positive_limsup(
+    gamma_limit: CurveFn,
+    boxes: Sequence[ProtectedSquareBox],
+    underline_rhos: Sequence[float],
+    *,
+    boundary_margins: Sequence[float] | None = None,
 ) -> bool:
-    """Compactness-style: uniform m > 0 on fixed B => limit has square (T031 corollary)."""
-    if min(margins) <= 0:
+    """
+    T031-A (certified): limsup underline_rho_k(P_n, B) > 0 => limit curve has square.
+
+    Valid for certified lower bounds only — does not imply T031-B alone.
+    """
+    return t031_positive_limsup_persistence(
+        gamma_limit, boxes, underline_rhos, boundary_margins=boundary_margins
+    )
+
+
+def t031_b_intrinsic_positive_limsup(
+    gamma_limit: CurveFn,
+    gamma_sequence: Sequence[CurveFn],
+    boxes: Sequence[ProtectedSquareBox],
+    intrinsic_rhos: Sequence[float],
+    *,
+    boundary_margins: Sequence[float],
+    separations: Sequence[float],
+) -> bool:
+    """
+    T031-B (intrinsic): limsup rho_square(P_n) > 0 with compatible windows
+    => limit curve contains nondegenerate square.
+
+    Proof: pick eta > 0 with infinitely many n having rho(P_n,B) >= eta.
+    Uniform convergence preserves boundary margin and separation on fixed B.
+    Intrinsic rho(P_n,B) >= eta => degree persists for perturbations < eta.
+    Limit gamma inherits protected box; intrinsic rho(gamma,B) > 0; T030 applies.
+    """
+    if not intrinsic_rhos or max(intrinsic_rhos) <= 0:
         return False
-    # Limit curve approximated by last gamma_n
-    gamma = gamma_n[-1]
-    return t030_robust_openness(gamma, box, boundary_margin=min(margins)).square_exists
+    if min(boundary_margins) <= 0 or min(separations) <= 0:
+        return False
+    eta = 0.5 * max(intrinsic_rhos)
+    from squarepeg.robust_degree.intrinsic_radius import intrinsic_rho_box
+
+    best_idx = max(range(len(intrinsic_rhos)), key=lambda i: intrinsic_rhos[i])
+    box = boxes[best_idx]
+    m = boundary_margins[best_idx]
+    s = separations[best_idx]
+    rho_limit = intrinsic_rho_box(gamma_limit, box, boundary_margin=m, separation_margin=s)
+    return rho_limit >= eta

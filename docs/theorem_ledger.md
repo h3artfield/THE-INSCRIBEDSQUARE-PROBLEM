@@ -415,23 +415,53 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 ---
 
-## T032 — Degree-collapse-to-area-tightness selection
+## T032* — Intrinsic degree-collapse-to-area-tightness
 
-**Statement.** Robust-degree collapse on all compatible subsequences \(\Rightarrow\) area-tight subsequence exists.
+**Statement.** Intrinsic \(\rho_\square(P_{n_k})\to 0\) on compatible windows \(\Rightarrow\) area-tight subsequence.
 
-**Status.** CONJECTURAL_FULL_BRIDGE
+**Status.** CONJECTURAL_FULL_BRIDGE (replaces certificate-based T032 — withdrawn F014)
 
-**Source / proof file.** `docs/degree_collapse_to_area_tightness.md`
+**Source / proof file.** `docs/t032_intrinsic_bridge.md`
 
 ---
 
 ## T033 — Finite-scale dichotomy
 
-**Statement.** Fine polygons: protected \(\rho\ge\varepsilon\) OR small \(\alpha(\delta)\).
-
 **Status.** FINITE_SCALE_DICHOTOMY_TARGET
 
-**Source / proof file.** `docs/finite_scale_dichotomy.md`
+---
+
+## T034 — Protected-box semidecidability (rational polygons)
+
+**Statement.** Intrinsic \(\rho>\eta\) \(\Rightarrow\) exhaustive search eventually certifies \(\underline\rho_k>\eta'\) for all \(\eta'<\eta\).
+
+**Status.** PROVED_LOCALLY (Directive 015)
+
+**Source / proof file.** `docs/protected_box_semidecidability.md`
+
+---
+
+## T035 — Area-tight subsequence criterion
+
+**Statement.** Diagonal criterion with \(\delta_j=2^{-j}\) equivalent to area-tightness.
+
+**Status.** PROVED_LOCALLY (Directive 015)
+
+**Source / proof file.** `docs/area_tight_subsequence_selection.md`
+
+---
+
+## T036 — Controlled defect-tree bridge
+
+**Status.** CONJECTURAL_TARGET (restricted class)
+
+**Source / proof file.** `docs/controlled_defect_tree_bridge.md`
+
+---
+
+## T032 (withdrawn)
+
+Certificate-based collapse statement **invalid** — see F014, `docs/intrinsic_vs_certified_robust_degree.md`.
 
 ---
 

@@ -16,4 +16,5 @@ artifacts/*.json
 !artifacts/t025_smooth_square_certificate.json
 !artifacts/t025_boundary_exclusion_certificate.json
 !artifacts/t025_t027_verified_internal_manifest.json
+!artifacts/directive_014_verified_internal_manifest.json
 !artifacts/directive_*_report.md

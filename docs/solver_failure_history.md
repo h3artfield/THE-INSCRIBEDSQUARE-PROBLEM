@@ -275,6 +275,18 @@ row[5] = -ij[comp][1]
 
 ---
 
+## F014 — Certified-radius collapse is not intrinsic degree collapse (Directive 015)
+
+**Symptom:** T032-L1 used \(\underline\rho_k\) or `rho_square_certified` tending to zero.
+
+**Issue:** \(\underline\rho_k(P)\le\rho_\square(P)\); finite search failure \(\not\Rightarrow\) intrinsic collapse. Logical, not merely computational.
+
+**Fix:** T032* uses intrinsic \(\rho_\square\) only; F014 logged; certificate statements withdrawn.
+
+**Status:** Closed (logic repaired).
+
+---
+
 ## Directive 014 — Robust degree abstraction (2026-06-18)
 
 **Outcome E:** T029–T031 proved in abstract framework; T032/T033 open.

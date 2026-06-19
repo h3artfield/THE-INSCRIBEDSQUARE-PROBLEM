@@ -28,7 +28,7 @@ class ProtectedSquareCertificate:
     protected_box: ProtectedSquareBox
     degree_cert: DegreeCertificate | None
     conversion_status: ConversionStatus
-    rho_cert: float = 0.0
+    rho_certified_lower_bound: float = 0.0
     messages: list[str] = field(default_factory=list)
 
 
@@ -92,12 +92,12 @@ def convert_isolated_square(
     deg = from_protected_box(checked)
     rho, _ = rho_square_box(gamma, checked, boundary_margin=checked.boundary_margin)
     return ProtectedSquareCertificate(
-        cert, checked, deg, "converted", rho_cert=rho, messages=["rank-6 isolated converted"]
+        cert, checked, deg, "converted", rho_certified_lower_bound=rho, messages=["rank-6 isolated converted"]
     )
 
 
-def rho_square_cert_polygon(polygon: PolygonCurve, solve_result) -> tuple[float, dict]:
-    """rho_square^{cert}(P) = max_Q rho over isolated rank-6 certificates."""
+def rho_square_certified_lower_bound_polygon(polygon: PolygonCurve, solve_result) -> tuple[float, dict]:
+    """Computational lower bound underline_rho at fixed search level — NOT intrinsic rho."""
     breakdown = {
         "isolated": 0,
         "converted": 0,
@@ -111,7 +111,11 @@ def rho_square_cert_polygon(polygon: PolygonCurve, solve_result) -> tuple[float,
         conv = convert_isolated_square(polygon, cert)
         if conv.conversion_status == "converted":
             breakdown["converted"] += 1
-            best = max(best, conv.rho_cert)
+            best = max(best, conv.rho_certified_lower_bound)
         else:
             breakdown["failed"] += 1
     return best, breakdown
+
+
+# Deprecated alias
+rho_square_cert_polygon = rho_square_certified_lower_bound_polygon

@@ -1,6 +1,6 @@
-# T032 — Degree-Collapse-to-Area-Tightness Selection
+# Directive 015 — T032* replaces certificate-based T032 (withdrawn F014).
 
-**Status:** `CONJECTURAL_FULL_BRIDGE`
+See `docs/t032_intrinsic_bridge.md`.
 
 ---
 
