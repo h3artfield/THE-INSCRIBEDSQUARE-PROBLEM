@@ -381,6 +381,16 @@ row[5] = -ij[comp][1]
 
 ---
 
+## Directive 025 — T043R proof (2026-06-18)
+
+**Outcome C:** T043R PROVED_LOCALLY; attachment (2)-variation requires extra structure; T044R annular implication open.
+
+**Proved:** exact master surgery-area identity; clean-room verification; SIMPLE_SIGNATURE / bounded multiplicity bounds.
+
+**ATTACHMENT_2VAR_REQUIRES_EXTRA_STRUCTURE** — true sup (2)-variation needs simplicity or winding bounds.
+
+---
+
 ## Directive 022 — Cross-scale annular towers (2026-06-18)
 
 **Outcome E:** Reference Jordan tower + packet-level margins proved; no \(w_1\)-certified cross-scale component; \(\Theta > \rho_{\mathrm{tower}}\).

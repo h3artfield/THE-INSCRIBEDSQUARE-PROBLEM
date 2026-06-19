@@ -25,4 +25,4 @@ def test_signature_passes_when_controlled():
 
 @pytest.mark.fast
 def test_version_b_implies_signature():
-    assert version_implies_signature("B_att2_variation") is True
+    assert version_implies_signature("B_att2_variation") is None

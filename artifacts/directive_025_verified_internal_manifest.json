@@ -1,0 +1,28 @@
+{
+  "directive": "025",
+  "outcome": "C",
+  "t043r_status": "PROVED_LOCALLY",
+  "t044r_status": "CONTROLLED_FULL_BRIDGE_TARGET",
+  "clean_room": "T043R_CLEAN_ROOM_VERIFIED",
+  "attachment_2var_verdict": "ATTACHMENT_2VAR_REQUIRES_EXTRA_STRUCTURE",
+  "module_hashes": {
+    "exact_component_decomposition.py": "95f32d37fc080563",
+    "attachment_signature.py": "835686690992dfb9",
+    "t043r_proof.py": "244f9cafc262d970",
+    "t043r_clean_room.py": "b5b2d160241ca850",
+    "attachment_2var_audit.py": "efb47eb106829321",
+    "simple_signature.py": "b272c799d511ad49",
+    "bounded_winding_signature.py": "3550514b4f1f6cca",
+    "bounded_multiplicity_signature.py": "e9f367b80f506bb5",
+    "annular_signature_audit.py": "0659bc90d012b848"
+  },
+  "report_hash": "ed7f1edd3b8e99c9",
+  "tests": [
+    "tests/test_exact_component_decomposition.py",
+    "tests/test_t043r_proof.py",
+    "tests/test_attachment_2var_audit.py",
+    "tests/test_signature_classes.py",
+    "tests/test_attachment_signature.py"
+  ],
+  "test_result": "35 passed (D025 surgery batch)"
+}

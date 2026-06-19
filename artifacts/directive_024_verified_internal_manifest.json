@@ -44,5 +44,8 @@
   ],
   "test_result": "405 passed (fast suite, 2026-06-18)",
   "commit_hash": "86c7206",
-  "tag": "directive-024-signature-surgery-internal-2026-06-18"
+  "tag": "directive-024-signature-surgery-internal-2026-06-18",
+  "frozen": true,
+  "frozen_by_directive": "025",
+  "fast_suite_result": "405 passed"
 }

@@ -65,11 +65,11 @@ def audit_signature_carleson(
 def version_implies_signature(version: SignatureVersion) -> bool | None:
     """Known implications toward SIGNATURE_CARLESON."""
     if version == "B_att2_variation":
-        return True  # V_att,2 -> 0 => attachment area -> 0 for short J
+        return None  # true sup (2)-var needs extra structure (Directive 025)
     if version == "A_linear_mass":
-        return None  # mu_1 -> 0 does not imply attachment area -> 0 alone
+        return None
     if version == "C_fat_packing":
-        return None  # packing controls mu_2 not attachment area directly
+        return None
     if version == "D_bounded_multiplicity":
         return None
     return None

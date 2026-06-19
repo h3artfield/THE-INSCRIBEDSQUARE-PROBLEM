@@ -589,9 +589,13 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 ## T043R — Signature-controlled surgery-to-area-tightness
 
-**Status.** CONJECTURAL_TARGET
+**Hypotheses:** `SIGNATURE_CARLESON` (Directive 025): uniform convergence, Jordan, \(r_n^{\max}\to0\), \(\beta_n,\sigma_n,\chi_n\to0\).
 
-**Source / proof file.** `docs/signature_controlled_surgery.md`
+**Statement.** Surgered \(Q_n\to\gamma\) uniformly and area-tight; T022 applies.
+
+**Status.** PROVED_LOCALLY (Directive 025)
+
+**Source / proof file.** `docs/signature_controlled_surgery.md`, `t043r_proof.py`
 
 ---
 
