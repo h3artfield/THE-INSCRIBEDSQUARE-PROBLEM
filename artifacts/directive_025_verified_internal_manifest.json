@@ -24,5 +24,7 @@
     "tests/test_signature_classes.py",
     "tests/test_attachment_signature.py"
   ],
-  "test_result": "35 passed (D025 surgery batch)"
+  "test_result": "35 passed (D025 surgery batch)",
+  "commit_hash": "9abb422",
+  "tag": "directive-025-t043r-proof-internal-2026-06-18"
 }
