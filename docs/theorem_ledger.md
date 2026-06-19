@@ -1271,6 +1271,36 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 ---
 
+## T093 — Multigeneration signature packing
+
+**Statement.** Under singleton shrinking Jordan hypotheses, \(P_L(v)\le(1-\eta)\Phi(v)\) for bounded \(L\) and \(\eta>0\).
+
+**Status.** PROVED_LOCALLY (Directive 048)
+
+**Source / proof file.** `docs/multigeneration_signature_packing.md`
+
+---
+
+## T094 — Critical equality rigidity
+
+**Statement.** Every Jordan-realizable singleton equality model routes to T087, T090R, concentration, finite-center, annular/thin, or degeneration.
+
+**Status.** CONJECTURAL_RIGIDITY_TARGET (Directive 048)
+
+**Source / proof file.** `docs/critical_equality_model_rigidity.md`
+
+---
+
+## T086M — Multigeneration singleton-end reduction
+
+**Statement.** Every singleton shrinking non-Carleson tangent routes via T093, solved branches, or exact critical equality model.
+
+**Status.** CONJECTURAL_STRUCTURAL_TARGET; partial (Directive 048)
+
+**Source / proof file.** `docs/multigeneration_singleton_end_rigidity.md`
+
+---
+
 ## T084R — Nonsummable child and end reduction
 
 **Statement.** Every tree failing T080/T081/T081I admits a subtree in one of the T085/T086 residual classes or explicit non-tree geometry.

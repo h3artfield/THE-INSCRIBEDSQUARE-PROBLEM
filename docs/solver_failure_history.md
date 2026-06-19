@@ -571,6 +571,14 @@ row[5] = -ij[comp][1]
 
 ---
 
+## Directive 048 — Multigeneration corona packing (2026-06-19)
+
+**Outcome B:** T093 multigeneration packing proved locally; T094/T089R equality rigidity remains.
+
+**Key:** Corona decomposition, exact signature budget, \(P_L(v)\le(1-\eta)\Phi(v)\) on tested models; neutral-corona rigidity open.
+
+---
+
 ## Directive 022 — Cross-scale annular towers (2026-06-18)
 
 **Outcome E:** Reference Jordan tower + packet-level margins proved; no \(w_1\)-certified cross-scale component; \(\Theta > \rho_{\mathrm{tower}}\).

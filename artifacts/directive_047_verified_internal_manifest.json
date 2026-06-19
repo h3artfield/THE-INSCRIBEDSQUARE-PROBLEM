@@ -1,0 +1,28 @@
+{
+  "directive": "047",
+  "frozen": true,
+  "frozen_by": "directive-048",
+  "outcome": "E",
+  "theorem_status": {
+    "T087": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T091": "PROVED_LOCALLY_CLASSIFIER",
+    "T092": "PROVED_LOCALLY_CLASSIFIER",
+    "T089R": "CONJECTURAL_CORE_TARGET",
+    "T090R": "CONJECTURAL_TARGET",
+    "T086E": "CONJECTURAL_TARGET_PARTIAL",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION"
+  },
+  "density_martingale": "classification=NONE",
+  "child_packing": "LOOSE_CONTRACTION; strict theta<1 not from hull inclusion",
+  "cross_child_defects": "retained skeleton, wedge non-additivity",
+  "self_similar_audit": "MODEL_DEPENDENT",
+  "exact_residual": "NONCARLESON_SINGLETON_CANTOR_END_TANGENT",
+  "regression_tests": [
+    "tests/test_directive_047.py",
+    "tests/test_directive_046.py"
+  ],
+  "test_result": "104 passed (D047-D042 fast suite)",
+  "commit_hash": "03c3d41",
+  "tag": "directive-047-singleton-cantor-packing-diagnostic-internal-2026-06-19",
+  "do_not_modify": ["T087", "T091", "T092"]
+}
