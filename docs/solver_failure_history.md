@@ -344,3 +344,15 @@ row[5] = -ij[comp][1]
 **Package:** `src/squarepeg/defect_geometry/`
 
 **T032§:** Not attacked.
+
+---
+
+## Directive 021 — Annular-graph defect packets (2026-06-18)
+
+**Outcome A:** T036-N1-ANN PROVED_LOCALLY in certified `ANNULAR_GRAPH` regime; packet-scale square with side \(\ge c_{\mathrm{ann}} d_{L_j}\).
+
+**Comparison:** Explicit \(\Psi\) bound; certified nonempty regime (\(K=1.005\), \(\Psi < \rho_{\mathrm{cyc}}\)).
+
+**Positive-scale corollary:** PROVED_LOCALLY when \(\limsup r_n > 0\).
+
+**T032§, T036-N3:** Not attacked; scale-escape and cross-scale remain conjectural.

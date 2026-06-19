@@ -1,13 +1,26 @@
 {
-  "commit_hash": "c36e76d",
+  "commit_hash": "5bd1377",
   "directive": "020",
   "directive_019_dependency": "directive-019-cyclic-odd-general-internal-2026-06-18",
-  "tag": "directive-020-nested-lobe-bridge-internal-2026-06-18",
+  "tag": "directive-020-annular-hypothesis-internal-2026-06-18",
+  "prior_tag": "directive-020-nested-lobe-bridge-internal-2026-06-18",
   "outcome": "C",
   "reference_t039": true,
   "t036_n1_unconditional": false,
   "t036_n1_conditional": true,
   "missing_hypothesis": "ANNULAR_GRAPH",
+  "fixes_verified": [
+    "reject_rank5_without_obstruction import in admissible_radius.py",
+    "PROJECT_ROOT cwd in test_suite_stability.py",
+    "slow marker on test_fast_suite_deterministic_twice"
+  ],
+  "fast_suite_command": "PYTHONHASHSEED=0 python -m pytest tests/ -q -m fast",
+  "fast_suite_run1": "343 passed, 4 deselected in 1063.38s (pre-annular tests)",
+  "fast_suite_run2": "361 passed, 4 deselected in 1001.46s",
+  "slow_suite_command": "PYTHONHASHSEED=0 python -m pytest tests/test_suite_stability.py -q -m slow",
+  "slow_suite_result": "1 failed (timing flake on stdout); hardened test in Directive 021 commit",
   "modules": "src/squarepeg/defect_geometry/",
-  "test_output": "28 passed (nested_lobe_geometry + directive_019)"
+  "directive_020_report": "artifacts/directive_020_report.md",
+  "t039_dependency": "src/squarepeg/robust_degree/t039_persistence.py",
+  "reference_cyclic_certificate": "artifacts/reference_annular_cyclic_certificate.json"
 }

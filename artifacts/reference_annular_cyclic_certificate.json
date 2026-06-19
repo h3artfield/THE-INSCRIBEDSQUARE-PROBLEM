@@ -1,0 +1,24 @@
+{
+  "model": "star_annular_Gamma_ref",
+  "rank_dg": 3,
+  "w1_pairing": 1,
+  "rho_cyc": 0.013666056051755554,
+  "rho_cyc_certified_input": 0.01,
+  "boundary_margin": 0.14146963373177368,
+  "t039_applies": true,
+  "g_star_reference": 0.45,
+  "side_margin": "see reference_rhombus_family audit",
+  "collision_margin": "see reference_rhombus_family audit",
+  "rhombus_boundary_margin": 0.14146963373177368,
+  "c0_perturbation_radius": 0.013666056051755554,
+  "certified_regime": {
+    "K": 1.005,
+    "L": 0.01,
+    "g_minus": 0.449,
+    "g_plus": 0.451,
+    "w_corr": 0.005,
+    "zeta": 0.002
+  },
+  "psi_certified": 0.011756194490192239,
+  "psi_sufficient": true
+}

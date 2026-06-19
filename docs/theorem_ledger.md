@@ -509,9 +509,21 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 ## T036-N1 — Nested-lobe cyclic-rhombus lemma
 
-**Status.** CONDITIONAL_PROVED (Directive 020); unconditional requires \(\mathcal D_{\mathrm{nest}}^{\mathrm{ann}}\)
+**Status.** CONDITIONAL_PROVED (Directive 020); strengthened by T036-N1-ANN (Directive 021)
 
 **Source / proof file.** `docs/t036_n1_proof.md`, `docs/packet_reference_comparison.md`
+
+---
+
+## T036-N1-ANN — Annular-graph nested-packet square theorem
+
+**Statement.** In certified `ANNULAR_GRAPH` regime, \(\mathcal D_{\mathrm{nest}}^{\mathrm{ann}}\) packets support cyclic-odd protected rhombus; T039 gives square with \(\operatorname{side}(Q) \ge c_{\mathrm{ann}} d_{L_j}\).
+
+**Status.** PROVED_LOCALLY (Directive 021)
+
+**Source / proof file.** `docs/t036_n1_annular_proof.md`, `docs/annular_packet_comparison_bound.md`
+
+**Depth.** Two controlled layers suffice (\(m_0=2\)).
 
 ---
 
@@ -579,9 +591,9 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 ## T036-N — Nested-lobe controlled bridge
 
-**Status.** CONTROLLED_CLASS_TARGET
+**Status.** PROVED_LOCALLY for \(\mathcal D_{\mathrm{nest}}^{\mathrm{ann}}\) (T036-N1-ANN)
 
-**Source / proof file.** `docs/nested_lobe_controlled_bridge.md`
+**Source / proof file.** `docs/nested_lobe_controlled_bridge.md`, `docs/t036_n1_annular_proof.md`
 
 ---
 

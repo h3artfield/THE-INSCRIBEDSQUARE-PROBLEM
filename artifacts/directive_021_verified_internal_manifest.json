@@ -1,0 +1,33 @@
+{
+  "directive": "021",
+  "outcome": "A",
+  "tag": "directive-021-annular-graph-bridge-internal-2026-06-18",
+  "t036_n1_ann_status": "PROVED_LOCALLY",
+  "certified_regime": {
+    "K": 1.005,
+    "L": 0.01,
+    "g_minus": 0.449,
+    "g_plus": 0.451,
+    "w_corr": 0.005,
+    "zeta": 0.002
+  },
+  "psi_certified": 0.011756194490192239,
+  "rho_cyc": 0.013666056051755554,
+  "fast_suite_command": "PYTHONHASHSEED=0 python -m pytest tests/ -q -m fast",
+  "fast_suite_run1": "343 passed (includes partial annular tests)",
+  "fast_suite_run2": "361 passed, 4 deselected in 1001.46s",
+  "slow_suite_command": "PYTHONHASHSEED=0 python -m pytest tests/test_suite_stability.py -q -m slow",
+  "slow_suite_note": "deterministic-twice hardened to ignore timing suffix",
+  "reference_certificate": "artifacts/reference_annular_cyclic_certificate.json",
+  "report": "artifacts/directive_021_report.md",
+  "modules": [
+    "src/squarepeg/defect_geometry/annular_graph.py",
+    "src/squarepeg/defect_geometry/eccentricity_audit.py",
+    "src/squarepeg/defect_geometry/radial_correspondence.py",
+    "src/squarepeg/defect_geometry/packet_reference_bound.py",
+    "src/squarepeg/defect_geometry/annular_graph_certificate.py",
+    "src/squarepeg/defect_geometry/positive_scale_compactness.py",
+    "src/squarepeg/defect_geometry/recursive_annular_model.py"
+  ],
+  "tests": "tests/test_annular_graph.py"
+}

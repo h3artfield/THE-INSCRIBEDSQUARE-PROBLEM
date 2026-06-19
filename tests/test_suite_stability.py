@@ -14,6 +14,19 @@ BASELINE_PATH = Path(__file__).resolve().parents[1] / "artifacts" / "full_suite_
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 
+def _normalize_pytest_output(text: str) -> str:
+    """Strip timing suffixes that vary between runs (Directive 021 stability)."""
+    import re
+
+    lines = text.strip().splitlines()
+    if not lines:
+        return ""
+    last = lines[-1]
+    # e.g. "361 passed, 4 deselected in 986.88s (0:16:26)"
+    normalized = re.sub(r" in [\d.]+s.*$", "", last)
+    return "\n".join(lines[:-1] + [normalized])
+
+
 @pytest.mark.slow
 def test_fast_suite_deterministic_twice():
     cmd = [sys.executable, "-m", "pytest", "tests/", "-m", "fast", "-q", "--tb=no"]
@@ -23,7 +36,7 @@ def test_fast_suite_deterministic_twice():
     r2 = subprocess.run(cmd, capture_output=True, text=True, env=env, cwd=PROJECT_ROOT)
     assert r1.returncode == 0, r1.stdout + r1.stderr
     assert r2.returncode == 0, r2.stdout + r2.stderr
-    assert r1.stdout.strip() == r2.stdout.strip()
+    assert _normalize_pytest_output(r1.stdout) == _normalize_pytest_output(r2.stdout)
 
 
 @pytest.mark.fast
