@@ -314,3 +314,13 @@ row[5] = -ij[comp][1]
 **Invariant:** \(\rho_\square^{\mathrm{gen}}\) family components withdrawn; \(\rho_\square^{\mathrm{obs}}\) formalized.
 
 **T032‡:** Primary bridge target; T036-N not attempted.
+
+---
+
+## Directive 018 — Cyclic-odd rhombus / T038-Curve (2026-06-18)
+
+**Outcome A:** T038-Curve PROVED_LOCALLY via rhombus continuation + Möbius sign line \(L_\chi\).
+
+**Key:** \(D(\tau u)=-D(u)\); distinct from trivial Directive 017 cokernel bundle.
+
+**T039, T032§:** Conjectural; not attacked.

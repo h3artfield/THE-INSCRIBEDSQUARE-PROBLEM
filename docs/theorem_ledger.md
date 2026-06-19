@@ -471,19 +471,57 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 **Statement.** Compact Morse-Bott family with \(\langle w_d(E),[Z]_2\rangle\ne0\) persists under small \(C^0\) perturbations.
 
-**Status.** CONJECTURAL_TARGET (Directive 017)
+**Status.** CONJECTURAL_TARGET — algebraic framework and countermodel complete; full analytic proof with tubular neighborhood hypotheses not closed (Directive 017–018)
 
 **Source / proof file.** `docs/obstruction_bundle_persistence_theorem.md`
 
 ---
 
-## T038-Curve — Curve-restricted circle persistence
+## T038-Curve — Cyclic-odd circle-family persistence
 
-**Statement.** Curve-induced perturbations of the unit circle force a zero of the obstruction section on the rotating square family.
+**Statement.** Every Jordan curve sufficiently close to the unit circle in \(C^0\) has a nondegenerate inscribed square in the cyclic-invariant neighborhood \(U\).
 
-**Status.** CONJECTURAL (Directive 017)
+**Status.** PROVED_LOCALLY (Directive 018)
 
-**Source / proof file.** `docs/curve_induced_circle_sections.md`
+**Source / proof file.** `docs/t038_curve_circle_proof.md`, `docs/cyclic_odd_persistence_theorem.md`
+
+---
+
+## T039 — Cyclic-odd rhombus continuation (general)
+
+**Statement.** Admissible cyclic-invariant rhombus components with sign-line obstruction persist under small \(C^0\) curve perturbations.
+
+**Status.** CONJECTURAL_GENERALIZATION (Directive 018)
+
+**Source / proof file.** `docs/t039_general_cyclic_odd_theorem.md`
+
+---
+
+## T032§ — Admissible-protected collapse to area-tightness
+
+**Statement.** Admissible-protected component radii \(\to0\) \(\Rightarrow\) area-tight subsequence.
+
+**Status.** CONJECTURAL_FULL_BRIDGE (primary over T032‡ if T038-Curve proved)
+
+**Source / proof file.** `docs/admissible_protected_bridge.md`
+
+---
+
+## ρ_square^adm — Admissible protected invariant
+
+**Definition.** Supremum over isolated Brouwer, Euler obstruction, and cyclic-odd rhombus components.
+
+**Status.** FORMALIZED (Directive 018)
+
+**Source / proof file.** `docs/admissible_protected_invariant.md`
+
+---
+
+## T038-Curve (historical entry — Directive 017)
+
+**Status.** Superseded statement — see cyclic-odd proof above.
+
+**Source / proof file.** `docs/curve_induced_circle_sections.md` (first-order calibration)
 
 ---
 

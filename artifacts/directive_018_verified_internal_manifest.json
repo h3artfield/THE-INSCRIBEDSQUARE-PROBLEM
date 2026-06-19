@@ -1,0 +1,30 @@
+{
+  "commit_hash": "PENDING",
+  "directive": "018",
+  "directive_017_dependency": "directive-017-obstruction-bundle-internal-2026-06-18",
+  "tag": "directive-018-cyclic-odd-rhombus-internal-2026-06-18",
+  "outcome": "A",
+  "theorem_ledger": {
+    "T037": "PROVED_LOCALLY",
+    "T038_prime": "CONJECTURAL_TARGET",
+    "T038_Curve": "PROVED_LOCALLY",
+    "T039": "CONJECTURAL_GENERALIZATION",
+    "T032_section": "CONJECTURAL_FULL_BRIDGE",
+    "T036-N": "CONTROLLED_CLASS_TARGET"
+  },
+  "rhombus_boundary_margin": 0.33129832852740737,
+  "sign_line_verdict": "MOBIUS_W1_NONZERO",
+  "eta_qualitative": 0.01,
+  "modules": [
+    "rhombus_map.py",
+    "cyclic_equivariance.py",
+    "circle_rhombus_family.py",
+    "rhombus_continuation.py",
+    "diagonal_sign_line.py",
+    "twisted_w1.py",
+    "cyclic_odd_persistence.py",
+    "continuous_curve_limit.py",
+    "admissible_radius.py"
+  ],
+  "test_output": "39 passed (test_cyclic_odd.py + test_obstruction_bundle.py)"
+}
