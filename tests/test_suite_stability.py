@@ -15,16 +15,14 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 
 def _normalize_pytest_output(text: str) -> str:
-    """Strip timing suffixes that vary between runs (Directive 021 stability)."""
+    """Extract semantic outcome line; ignore progress dots and timing (Directive 022)."""
     import re
 
     lines = text.strip().splitlines()
     if not lines:
         return ""
     last = lines[-1]
-    # e.g. "361 passed, 4 deselected in 986.88s (0:16:26)"
-    normalized = re.sub(r" in [\d.]+s.*$", "", last)
-    return "\n".join(lines[:-1] + [normalized])
+    return re.sub(r" in [\d.]+s.*$", "", last)
 
 
 @pytest.mark.slow
