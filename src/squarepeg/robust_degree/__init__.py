@@ -32,7 +32,8 @@ from squarepeg.robust_degree.perturbation_radius import (
 from squarepeg.robust_degree.polygon_extractor import (
     ProtectedSquareCertificate,
     convert_isolated_square,
-    rho_square_cert_polygon,
+    rho_square_certified_lower_bound_polygon,
+    rho_square_cert_polygon,  # deprecated alias
 )
 from squarepeg.robust_degree.protected_box import (
     ProtectedSquareBox,
