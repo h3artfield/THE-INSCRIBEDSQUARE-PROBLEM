@@ -323,15 +323,41 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 **Statement.** Every Jordan curve admits area-tight PL approximants.
 
-**Status.** CONJECTURAL_FULL_BRIDGE
+**Status.** **FALSE** for canonical double spiral (T024-A); conjecture open in general
 
 ---
 
 ## T024 — Double-spiral area obstruction
 
-**Statement.** \(\Gamma_{\mathrm{ds}}\) has no area-tight inscribed polygon sequence.
+**Statement.** No area-tight **cyclic inscribed polygonal interpolation** sequence for \(\Gamma_{\mathrm{ds}}\).
 
-**Status.** CONJECTURAL_TARGET (Directive 010 — not proved)
+**Status.** **T024-A RESTRICTED_CLASS_ONLY** (Directive 011R quantifier audit)
+
+**T024-B:** Strong subarc \(C^1\) primitive obstruction **proved**; **\(C^0\) Asano–Ike route OPEN**
+
+**Source / proof file.** `docs/t024_quantifier_audit.md`, `docs/t024_strong_topology_obstruction.md`, `docs/double_spiral_no_area_tightness.md`
+
+---
+
+## T025 — Canonical double-spiral square
+
+**Statement.** The canonical double spiral contains a nondegenerate inscribed square.
+
+**Status.** **UNDER_COMPACTNESS_AUDIT** → **`NOT_PROVED`** (smooth curve; Directive 011R)
+
+**Historical:** Directive 011 claimed `PROVED_BY_COMPACTNESS` — **withdrawn** (vertices on chords, not \(\gamma_+\)).
+
+**Polygon result:** literal identical rank-6 square for all \(N\ge 3\) on edges \((0,3,5,0)\).
+
+**Source / proof file.** `docs/t025_clean_room_audit.md`, `docs/t025_infinite_sequence_audit.md`
+
+---
+
+## T026 — Area-tight-or-square dichotomy
+
+**Status.** CONJECTURAL_FULL_BRIDGE (formulation only, Directive 011R)
+
+**Source.** `docs/area_tight_or_square_dichotomy.md`
 
 ---
 

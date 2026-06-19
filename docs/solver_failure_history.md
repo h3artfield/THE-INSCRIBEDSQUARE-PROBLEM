@@ -215,12 +215,18 @@ row[5] = -ij[comp][1]
 
 ---
 
-## Directive 010 — Residual curves (2026-06-18)
+## Directive 011 — Double-spiral T024/T025 (2026-06-18)
 
-**T019/T021 frozen:** `t019-t021-verified-release-2026-06-18`
+**T024-A:** PROVED (restricted cyclic PL class)  
+**T024-B:** Strong subarc C¹ only; C⁰ AI route OPEN  
+**T025:** Claimed compactness — see 011R
 
-**T022:** PROVED_LOCALLY (area-tight criterion)
+---
 
-**T023/T024:** CONJECTURAL — double spiral obstruction not closed
+## Directive 011R — Compactness audit (2026-06-18)
 
-**Verdict:** **Outcome C** — conditional criterion proved; universal bridge unresolved
+**T025:** NOT_PROVED on smooth curve; literal fixed polygon square all N≥3  
+**T024-A:** RESTRICTED_CLASS_ONLY (quantifiers audited)  
+**Directive 011 edge report corrected:** (0,3,5,0) not (0,3,5,4N+1)
+
+**Verdict:** Do not generalize spiral family until T025 smooth gap closed.

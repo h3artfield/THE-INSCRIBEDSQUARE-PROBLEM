@@ -105,7 +105,9 @@ class TruncatedDoubleSpiral:
         return pts
 
     def closed_polygon(self) -> list[Point]:
-        """Outer arm in, connector at origin, inner arm out (exploratory PL)."""
+        """Outer arm in, origin, inner arm out, outer connector chord."""
         outer = self.outer_vertices()
         inner = self.inner_vertices()
-        return outer + [(0.0, 0.0)] + inner
+        p_minus = gamma_minus(self.theta0, self.eps)
+        p_plus = gamma_plus(self.theta0)
+        return outer + [(0.0, 0.0)] + inner + [p_minus, p_plus]
