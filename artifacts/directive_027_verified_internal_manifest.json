@@ -15,5 +15,7 @@
   "tests": [
     "tests/test_defect_extraction.py"
   ],
-  "test_result": "7 passed"
+  "test_result": "7 passed",
+  "commit_hash": "d3e7a62",
+  "tag": "directive-027-universal-extraction-internal-2026-06-18"
 }
