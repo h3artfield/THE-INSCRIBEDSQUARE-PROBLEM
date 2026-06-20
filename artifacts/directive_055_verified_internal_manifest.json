@@ -1,0 +1,37 @@
+{
+  "directive": "055",
+  "frozen": true,
+  "frozen_by": "directive-056",
+  "outcome": "B",
+  "theorem_status": {
+    "T101-F": "PROVED_FINITE_DOMAIN",
+    "T102-F": "PROVED_FINITE_DOMAIN",
+    "T104": "PROVED_LOCALLY",
+    "T105R": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T106": "PROVED_LOCALLY",
+    "T107": "PROVED_LOCALLY",
+    "T108": "CONJECTURAL_EXHAUSTION_TARGET",
+    "T103": "CONJECTURAL_SELECTION_TARGET",
+    "T101-U": "CONJECTURAL",
+    "T102-U": "CONJECTURAL",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION"
+  },
+  "commit_hash": "9fa888a",
+  "tag": "directive-055-gate-order-augmented-closure-internal-2026-06-19",
+  "augmented_datum": "(X, K, Pi, Omega, Lambda, E, Gamma)",
+  "seam_independent": true,
+  "pair_reconstruction": true,
+  "collision_routing": true,
+  "weak_closure": "PROVED_LOCALLY",
+  "clean_room": "T105R_CLEAN_ROOM_VERIFIED",
+  "test_result": "239 passed (D055-D042 fast suite)",
+  "regression_tests": [
+    "tests/test_directive_055.py",
+    "tests/test_directive_054.py"
+  ],
+  "do_not_modify": [
+    "artifacts/universal_transition_coverage_certificate.json",
+    "t105r_measure_closure.py",
+    "transition_interval_certificate.py"
+  ]
+}

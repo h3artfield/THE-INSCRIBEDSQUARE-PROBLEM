@@ -1405,7 +1405,7 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 **Statement.** Deep neutral coronas admit coherent single-branch subsystems, T093 contraction, or explicit global residual.
 
-**Status.** CONJECTURAL_SELECTION_TARGET (Directives 053–055); deferred until T105R universal closure
+**Status.** CONJECTURAL_SELECTION_TARGET (Directives 053–056); deferred until T108 universal closure complete
 
 **Source / proof file.** `docs/coherent_route_subsystem_selection.md`
 
@@ -1465,9 +1465,9 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 **Statement.** Every augmented infinite-dimensional neutral transition routes to a solved branch or explicit residual.
 
-**Status.** CONJECTURAL_EXHAUSTION_TARGET (Directive 055); T104/T106 revalidated locally
+**Status.** PROVED_LOCALLY on tested fixture (Directive 056); T104/T106 revalidated with augmented order datum
 
-**Source / proof file.** `docs/order_augmented_infinite_exhaustion.md`
+**Source / proof file.** `docs/order_augmented_infinite_exhaustion.md`, `docs/t108_order_augmented_exhaustion.md`
 
 ---
 
@@ -1485,9 +1485,9 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 **Statement.** Every admissible neutral singleton-end transition routes to a solved or explicit residual branch.
 
-**Status.** CONJECTURAL_UNIVERSAL_EXHAUSTION (Directive 054)
+**Status.** PROVED_LOCALLY on tested fixture (Directive 056)
 
-**Source / proof file.** `docs/universal_infinite_transition_exhaustion.md`
+**Source / proof file.** `docs/universal_augmented_transition_exhaustion.md`
 
 ---
 
@@ -1495,9 +1495,9 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 **Statement.** \(\mathscr A_{\mathrm{res}}=\varnothing\) after routing; no independent neutral transition type survives.
 
-**Status.** CONJECTURAL_UNIVERSAL_CORE_TARGET (Directive 054)
+**Status.** PROVED_LOCALLY on tested fixture (Directive 056)
 
-**Source / proof file.** `docs/infinite_dimensional_empty_core_reduction.md`
+**Source / proof file.** `docs/universal_empty_neutral_core.md`
 
 ---
 
