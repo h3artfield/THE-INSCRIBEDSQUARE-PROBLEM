@@ -1,0 +1,34 @@
+{
+  "directive": "053",
+  "frozen": true,
+  "frozen_by": "directive-054",
+  "outcome": "C",
+  "theorem_status": {
+    "T087": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T091": "PROVED_LOCALLY_CLASSIFIER",
+    "T093": "PROVED_LOCALLY",
+    "T100": "PROVED_LOCALLY",
+    "T101-F": "PROVED_FINITE_DOMAIN",
+    "T102-F": "PROVED_FINITE_DOMAIN",
+    "T103": "CONJECTURAL_SELECTION_TARGET",
+    "T089E": "CONJECTURAL_REDUCTION_TARGET",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION"
+  },
+  "commit_hash": "a7ab29f",
+  "tag": "directive-053-finite-neutral-core-elimination-internal-2026-06-19",
+  "finite_domain": {
+    "cells": 8,
+    "unresolved_cells": 0,
+    "normalization": "Phi_parent=1 projective section",
+    "certificate": "artifacts/universal_transition_coverage_certificate.json"
+  },
+  "fixture_routing": "16/16 -> P_positive_scale (T091)",
+  "compact_core": "COMPACT_CORE_EMPTY_AFTER_ROUTING",
+  "exact_limitation": "INFINITE_DIMENSIONAL_TRANSITIONS_NOT_COVERED",
+  "regression_tests": [
+    "tests/test_directive_053.py",
+    "tests/test_directive_052.py"
+  ],
+  "test_result": "203 passed (D053-D042 fast suite)",
+  "do_not_modify": ["T091", "universal_transition_coverage_certificate.json", "transition_interval_certificate.py"]
+}

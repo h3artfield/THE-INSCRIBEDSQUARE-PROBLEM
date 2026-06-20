@@ -1405,9 +1405,9 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 **Statement.** Deep neutral coronas admit coherent single-branch subsystems, T093 contraction, or explicit global residual.
 
-**Status.** CONJECTURAL_SELECTION_TARGET (Directive 053)
+**Status.** CONJECTURAL_SELECTION_TARGET (Directives 053–054); universal uniform-constant stabilization open
 
-**Source / proof file.** `docs/coherent_route_extraction.md`
+**Source / proof file.** `docs/coherent_route_subsystem_selection.md`
 
 ---
 
@@ -1415,9 +1415,59 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 **Statement.** T101–T103 eliminate the independent neutral singleton Cantor residual.
 
-**Status.** CONJECTURAL_REDUCTION_TARGET (Directive 053)
+**Status.** CONJECTURAL_REDUCTION_TARGET (Directive 053); universal version open (Directive 054)
 
 **Source / proof file.** `docs/empty_core_singleton_reduction.md`
+
+---
+
+## T104 — Countable-child transition exhaustion
+
+**Statement.** Every countably branching neutral transition routes to T081I, concentration, center, parameter, non-Jordan, or positive-scale branches.
+
+**Status.** PROVED_LOCALLY on tested fixture (Directive 054)
+
+**Source / proof file.** `docs/countable_child_transition_exhaustion.md`
+
+---
+
+## T105 — Measure-valued transition closure
+
+**Statement.** Bounded coercive moment transitions are sequentially compact with closed recursion.
+
+**Status.** CONJECTURAL_MEASURE_CLOSURE_TARGET (Directive 054); gate-order NOT_CLOSED
+
+**Source / proof file.** `docs/measure_transition_tightness_and_closure.md`
+
+---
+
+## T106 — Unbounded gate-complexity exhaustion
+
+**Statement.** Unbounded gate/order complexity routes to T073I, finite-center, infinite intrusion, infinite-center, parameter disconnection, non-Jordan, or positive-scale.
+
+**Status.** PROVED_LOCALLY on tested fixture (Directive 054)
+
+**Source / proof file.** `docs/unbounded_gate_transition_exhaustion.md`
+
+---
+
+## T101-U — Universal transition exhaustion
+
+**Statement.** Every admissible neutral singleton-end transition routes to a solved or explicit residual branch.
+
+**Status.** CONJECTURAL_UNIVERSAL_EXHAUSTION (Directive 054)
+
+**Source / proof file.** `docs/universal_infinite_transition_exhaustion.md`
+
+---
+
+## T102-U — Universal empty neutral-core theorem
+
+**Statement.** \(\mathscr A_{\mathrm{res}}=\varnothing\) after routing; no independent neutral transition type survives.
+
+**Status.** CONJECTURAL_UNIVERSAL_CORE_TARGET (Directive 054)
+
+**Source / proof file.** `docs/infinite_dimensional_empty_core_reduction.md`
 
 ---
 

@@ -629,7 +629,19 @@ row[5] = -ij[comp][1]
 
 **Key:** Admissible transition space, routing ledger, interval certificate (0 unresolved cells), T102 empty on finite domain, T103 coherence open.
 
-**Theorems:** T101 PROVED_FINITE_DOMAIN; T102 PROVED_FINITE_DOMAIN; T103 CONJECTURAL; T089E CONJECTURAL; clean room T102_REPAIRABLE_GAP.
+**Exact limitation:** `INFINITE_DIMENSIONAL_TRANSITIONS_NOT_COVERED`.
+
+**Theorems:** T101-F PROVED_FINITE_DOMAIN; T102-F PROVED_FINITE_DOMAIN; T103 CONJECTURAL; T089E CONJECTURAL.
+
+---
+
+## Directive 054 — Infinite-dimensional exhaustion and route coherence (2026-06-19)
+
+**Outcome E:** Diagnostic infinite-dimensional reduction; T105 measure closure blocked at gate-order component.
+
+**Key:** Child transition measures, T104/T106 routing on fixture, T105 NOT_CLOSED, T103 coherence open, Bellman deferred.
+
+**Theorems:** T104 PROVED_LOCALLY; T105 CONJECTURAL; T106 PROVED_LOCALLY; T101-U/T102-U CONJECTURAL; clean room T102U_REPAIRABLE_GAP.
 
 ---
 
