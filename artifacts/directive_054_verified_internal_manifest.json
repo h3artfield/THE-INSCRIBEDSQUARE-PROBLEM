@@ -1,0 +1,38 @@
+{
+  "directive": "054",
+  "frozen": true,
+  "frozen_by": "directive-055",
+  "outcome": "E",
+  "theorem_status": {
+    "T101-F": "PROVED_FINITE_DOMAIN",
+    "T102-F": "PROVED_FINITE_DOMAIN",
+    "T104": "PROVED_LOCALLY",
+    "T105": "REPAIRABLE_GAP: GATE_ORDER_NOT_CLOSED",
+    "T106": "PROVED_LOCALLY",
+    "T103": "CONJECTURAL_SELECTION_TARGET",
+    "T101-U": "CONJECTURAL",
+    "T102-U": "CONJECTURAL",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION"
+  },
+  "commit_hash": "9cd102a",
+  "tag": "directive-054-gate-order-measure-closure-diagnostic-internal-2026-06-19",
+  "measure_valued_transition": true,
+  "t104_routing": "PROVED_LOCALLY on binary equal-ratio Cantor fixture",
+  "t106_routing": "PROVED_LOCALLY on binary equal-ratio Cantor fixture",
+  "weak_limit_audit": {
+    "child_state_measure": "WEAKLY_CONTINUOUS",
+    "scalar_coordinates": "WEAKLY_CONTINUOUS",
+    "gate_order": "NOT_CLOSED"
+  },
+  "failing_gate_order_sequence": "data/regressions/gate_order_weak_closure_fixture.json",
+  "auxiliary_requirement": "AUXILIARY_GATE_ORDER_MEASURE_REQUIRED",
+  "test_result": "222 passed (D054-D042 fast suite)",
+  "regression_tests": [
+    "tests/test_directive_054.py",
+    "tests/test_directive_053.py"
+  ],
+  "do_not_modify": [
+    "artifacts/universal_transition_coverage_certificate.json",
+    "transition_interval_certificate.py"
+  ]
+}

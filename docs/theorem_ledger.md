@@ -1405,7 +1405,7 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 **Statement.** Deep neutral coronas admit coherent single-branch subsystems, T093 contraction, or explicit global residual.
 
-**Status.** CONJECTURAL_SELECTION_TARGET (Directives 053–054); universal uniform-constant stabilization open
+**Status.** CONJECTURAL_SELECTION_TARGET (Directives 053–055); deferred until T105R universal closure
 
 **Source / proof file.** `docs/coherent_route_subsystem_selection.md`
 
@@ -1425,7 +1425,7 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 **Statement.** Every countably branching neutral transition routes to T081I, concentration, center, parameter, non-Jordan, or positive-scale branches.
 
-**Status.** PROVED_LOCALLY on tested fixture (Directive 054)
+**Status.** PROVED_LOCALLY on tested fixture (Directives 054–055; revalidated with augmented order datum)
 
 **Source / proof file.** `docs/countable_child_transition_exhaustion.md`
 
@@ -1435,9 +1435,39 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 **Statement.** Bounded coercive moment transitions are sequentially compact with closed recursion.
 
-**Status.** CONJECTURAL_MEASURE_CLOSURE_TARGET (Directive 054); gate-order NOT_CLOSED
+**Status.** Superseded by T105R (Directive 055); original gate-order component NOT_CLOSED (Directive 054)
 
 **Source / proof file.** `docs/measure_transition_tightness_and_closure.md`
+
+---
+
+## T105R — Gate-order-augmented measure transition closure
+
+**Statement.** Augmented transitions \((\Pi_v,\Omega_v,\Lambda_v)\) are sequentially compact with closed recursion under coercive moments.
+
+**Status.** PROVED_LOCALLY on tested fixture (Directive 055); universal version CONJECTURAL
+
+**Source / proof file.** `docs/t105r_measure_transition_closure.md`
+
+---
+
+## T107 — Weakly closed gate-order measure representation
+
+**Statement.** Finite/countable gate transitions admit seam-independent \((\Pi_v,\Omega_v,\Lambda_v)\) with controlled total variation and collision routing.
+
+**Status.** PROVED_LOCALLY on tested fixture (Directive 055)
+
+**Source / proof file.** `docs/marked_cyclic_gate_measures.md`
+
+---
+
+## T108 — Order-augmented infinite transition exhaustion
+
+**Statement.** Every augmented infinite-dimensional neutral transition routes to a solved branch or explicit residual.
+
+**Status.** CONJECTURAL_EXHAUSTION_TARGET (Directive 055); T104/T106 revalidated locally
+
+**Source / proof file.** `docs/order_augmented_infinite_exhaustion.md`
 
 ---
 
@@ -1445,7 +1475,7 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 **Statement.** Unbounded gate/order complexity routes to T073I, finite-center, infinite intrusion, infinite-center, parameter disconnection, non-Jordan, or positive-scale.
 
-**Status.** PROVED_LOCALLY on tested fixture (Directive 054)
+**Status.** PROVED_LOCALLY on tested fixture (Directives 054–055; revalidated with \(\Pi_v,\Omega_v,\Lambda_v\))
 
 **Source / proof file.** `docs/unbounded_gate_transition_exhaustion.md`
 

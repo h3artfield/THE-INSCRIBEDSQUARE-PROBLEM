@@ -645,6 +645,16 @@ row[5] = -ij[comp][1]
 
 ---
 
+## Directive 055 — Gate-order measures and weak closure (2026-06-19)
+
+**Outcome B:** T107 and T105R proved locally on fixture; order-augmented infinite exhaustion (T108) remains open.
+
+**Key:** Replace discrete `gate_order` with marked cyclic \(\Pi_v\), pair interaction \(\Omega_v\), collision \(\Lambda_v\); seam-independent cyclic order; T104/T106 revalidated; T103 deferred.
+
+**Theorems:** T107 PROVED_LOCALLY; T105R PROVED_LOCALLY; T108 CONJECTURAL; clean room T105R_CLEAN_ROOM_VERIFIED.
+
+---
+
 ## Directive 022 — Cross-scale annular towers (2026-06-18)
 
 **Outcome E:** Reference Jordan tower + packet-level margins proved; no \(w_1\)-certified cross-scale component; \(\Theta > \rho_{\mathrm{tower}}\).
