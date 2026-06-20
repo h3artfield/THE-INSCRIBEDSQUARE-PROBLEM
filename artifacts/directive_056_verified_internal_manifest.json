@@ -1,0 +1,41 @@
+{
+  "directive": "056",
+  "frozen": true,
+  "frozen_by": "directive-057",
+  "outcome": "A",
+  "theorem_status": {
+    "T105R": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T107": "PROVED_LOCALLY",
+    "T108": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T101-U": "PROVED_LOCALLY",
+    "T102-U": "PROVED_LOCALLY",
+    "T103": "CONJECTURAL_SELECTION_TARGET",
+    "T089E": "CONJECTURAL_REDUCTION_TARGET",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION"
+  },
+  "proof_commit_hash": "5cbbb2e",
+  "proof_commit_message": "Directive 056: prove augmented transition exhaustion",
+  "tag": "directive-056-augmented-transition-exhaustion-internal-2026-06-19",
+  "augmented_datum": "(X, K, Pi, Omega, Lambda, E, Gamma)",
+  "routing_ledger": "docs/augmented_transition_routing_ledger.md",
+  "collision_exhaustion": true,
+  "pair_interaction_concentration": true,
+  "finite_infinite_union": "T101-U PROVED_LOCALLY",
+  "empty_augmented_neutral_core": "T102-U PROVED_LOCALLY",
+  "clean_room": "T108_CLEAN_ROOM_VERIFIED",
+  "regression": {
+    "tests_passed": 254,
+    "exit_code": 0,
+    "duration": "approximately 2h 3m",
+    "suite": "D042-D056 fast suite"
+  },
+  "regression_tests": [
+    "tests/test_directive_056.py",
+    "tests/test_directive_055.py"
+  ],
+  "do_not_modify": [
+    "artifacts/universal_transition_coverage_certificate.json",
+    "t105r_measure_closure.py",
+    "transition_interval_certificate.py"
+  ]
+}
