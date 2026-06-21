@@ -665,6 +665,16 @@ row[5] = -ij[comp][1]
 
 ---
 
+## Directive 057 — Coherent route extraction (2026-06-19)
+
+**Outcome A:** T109, T110, T111, T103, and T089E proved locally; clean room T103_CLEAN_ROOM_VERIFIED.
+
+**Key:** Signature-weighted route responsibility, ancestry-compatible coherent subsystems, uniform constants, geometric oscillation cost.
+
+**Theorems:** T109/T110/T111 PROVED_LOCALLY; T103 PROVED_LOCALLY; T089E PROVED_LOCALLY.
+
+---
+
 ## Directive 022 — Cross-scale annular towers (2026-06-18)
 
 **Outcome E:** Reference Jordan tower + packet-level margins proved; no \(w_1\)-certified cross-scale component; \(\Theta > \rho_{\mathrm{tower}}\).

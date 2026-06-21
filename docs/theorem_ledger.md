@@ -1405,17 +1405,57 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 **Statement.** Deep neutral coronas admit coherent single-branch subsystems, T093 contraction, or explicit global residual.
 
-**Status.** CONJECTURAL_SELECTION_TARGET (Directives 053–056); deferred until T108 universal closure complete
+**Status.** PROVED_LOCALLY on tested fixture (Directive 057); proof chain T109+T110+T111
 
-**Source / proof file.** `docs/coherent_route_subsystem_selection.md`
+**Source / proof file.** `docs/t103_coherent_route_extraction.md`
 
 ---
 
-## T089E — Empty-core singleton-end reduction
+## T109 — Signature-weighted route density lemma
+
+**Statement.** Fixed positive signature fraction on slices yields coherent subsystem, concentration, finite-center split, bushy measure, or quantified oscillation.
+
+**Status.** PROVED_LOCALLY on tested fixture (Directive 057)
+
+**Source / proof file.** `docs/route_density_tree_selection.md`
+
+---
+
+## T110 — Uniform route constant extraction
+
+**Statement.** Positive-signature route subsystems admit uniform destination constants or reroute.
+
+**Status.** PROVED_LOCALLY on tested fixture (Directive 057)
+
+**Source / proof file.** `docs/route_constant_uniformity.md`
+
+---
+
+## T111 — Route-oscillation reduction
+
+**Statement.** Absent coherent fixed-route subsystem, corona satisfies T093 contraction or explicit global residual.
+
+**Status.** PROVED_LOCALLY on tested fixture (Directive 057)
+
+**Source / proof file.** `docs/route_oscillation_geometry.md`
+
+---
+
+## T089E — Coherent empty-core singleton-end reduction
+
+**Statement.** T108 + T102-U + T103 eliminate the independent neutral singleton Cantor residual.
+
+**Status.** PROVED_LOCALLY on tested fixture (Directive 057)
+
+**Source / proof file.** `docs/t089e_empty_core_singleton_reduction.md`
+
+---
+
+## T089E — (legacy) Empty-core singleton-end reduction
 
 **Statement.** T101–T103 eliminate the independent neutral singleton Cantor residual.
 
-**Status.** CONJECTURAL_REDUCTION_TARGET (Directive 053); universal version open (Directive 054)
+**Status.** Superseded by coherent T089E (Directive 057)
 
 **Source / proof file.** `docs/empty_core_singleton_reduction.md`
 
