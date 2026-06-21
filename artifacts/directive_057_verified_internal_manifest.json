@@ -1,0 +1,54 @@
+{
+  "directive": "057",
+  "frozen": true,
+  "outcome": "A",
+  "scope": "Outcome A proved locally on certified binary equal-ratio Cantor fixture; not an externally verified universal theorem",
+  "theorem_status": {
+    "T109": "PROVED_LOCALLY",
+    "T110": "PROVED_LOCALLY",
+    "T111": "PROVED_LOCALLY",
+    "T103": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T089E": "PROVED_LOCALLY_REDUCTION",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION"
+  },
+  "proof_commit_hash": "86242b6",
+  "proof_commit_message": "Directive 057: prove coherent route extraction",
+  "tag": "directive-057-coherent-route-extraction-internal-2026-06-20",
+  "frozen_directive_056": {
+    "proof_commit": "5cbbb2e",
+    "manifest_commit": "aa6282b",
+    "tag": "directive-056-augmented-transition-exhaustion-internal-2026-06-19"
+  },
+  "regression": {
+    "command": "python -m pytest -m fast tests/test_directive_042.py tests/test_directive_043.py tests/test_directive_044.py tests/test_directive_045.py tests/test_directive_046.py tests/test_directive_047.py tests/test_directive_048.py tests/test_directive_049.py tests/test_directive_050.py tests/test_directive_051.py tests/test_directive_052.py tests/test_directive_053.py tests/test_directive_054.py tests/test_directive_055.py tests/test_directive_056.py tests/test_directive_057.py -q --tb=line",
+    "passed": 268,
+    "failed": 0,
+    "deselected": 0,
+    "exit_code": 0,
+    "duration": "16:50:32 (60632.46s)",
+    "suite": "D042-D057 fast suite"
+  },
+  "directive_057_tests": {
+    "passed": 14,
+    "failed": 0,
+    "exit_code": 0,
+    "duration": "8:28:58 (30538.83s)"
+  },
+  "environment": {
+    "python": "3.10.6",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "PYTHONHASHSEED": "0",
+    "PYTHONUNBUFFERED": "1"
+  },
+  "clean_room": "T103_CLEAN_ROOM_VERIFIED",
+  "regression_tests": [
+    "tests/test_directive_057.py",
+    "tests/test_directive_056.py"
+  ],
+  "do_not_modify": [
+    "artifacts/directive_056_verified_internal_manifest.json",
+    "artifacts/universal_transition_coverage_certificate.json",
+    "t105r_measure_closure.py",
+    "transition_interval_certificate.py"
+  ]
+}
