@@ -1231,6 +1231,56 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 ---
 
+## T091-U — Universal positive-scale split
+
+**Statement.** Curve-level positive-scale clusters admit exhaustive annular/nonannular split routing to solved or named global residuals.
+
+**Status.** PROVED_LOCALLY on certified fixture (Directive 059)
+
+**Source / proof file.** `docs/t091_universal_positive_scale_split.md`
+
+---
+
+## T112 — Positive-scale cluster classification
+
+**Statement.** Positive-scale clusters classify exhaustively as annular, nonannular, or degenerate at curve level.
+
+**Status.** PROVED_LOCALLY on certified fixture (Directive 059)
+
+**Source / proof file.** `docs/positive_scale_cluster_geometry.md`
+
+---
+
+## T113 — Annular positive-scale route
+
+**Statement.** Annular positive-scale clusters route to protected-square / annular surgery.
+
+**Status.** PROVED_LOCALLY on certified fixture (Directive 059)
+
+**Source / proof file.** `docs/annular_positive_scale_route.md`
+
+---
+
+## T114 — Finite-center positive-scale reduction
+
+**Statement.** Finite-center positive-scale clusters reduce via T062 preserving cross-center data.
+
+**Status.** PROVED_LOCALLY on certified fixture (Directive 059)
+
+**Source / proof file.** `docs/finite_center_positive_scale_reduction.md`
+
+---
+
+## T115 — Nonannular positive-scale exhaustion
+
+**Statement.** Nonannular positive-scale failures route to named global residuals or persistent nonannular class.
+
+**Status.** PROVED_LOCALLY on certified fixture (Directive 059)
+
+**Source / proof file.** `docs/nonannular_positive_scale_residuals.md`
+
+---
+
 ## T092 — Endpoint correspondence dichotomy
 
 **Statement.** Every normalized non-Carleson tangent has singleton a.e., positive-diameter mass, incompatible nesting, non-Jordan degeneration, or graph compactness failure.

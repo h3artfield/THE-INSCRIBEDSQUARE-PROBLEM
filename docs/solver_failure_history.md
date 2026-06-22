@@ -685,6 +685,16 @@ row[5] = -ij[comp][1]
 
 ---
 
+## Directive 059 — Positive-scale nonannular cluster geometry (2026-06-22)
+
+**Outcome A:** Positive-scale clusters route to solved machinery on fixture; T091-U locally verified.
+
+**Key:** Curve-level cluster data, annular/nonannular split, T112–T115, T091-U.
+
+**Theorems:** T112/T113/T114/T115/T091-U PROVED_LOCALLY; T045R CONJECTURAL.
+
+---
+
 ## Directive 022 — Cross-scale annular towers (2026-06-18)
 
 **Outcome E:** Reference Jordan tower + packet-level margins proved; no \(w_1\)-certified cross-scale component; \(\Theta > \rho_{\mathrm{tower}}\).
