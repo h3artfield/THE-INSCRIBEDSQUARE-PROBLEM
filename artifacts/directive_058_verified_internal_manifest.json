@@ -1,0 +1,54 @@
+{
+  "directive": "058",
+  "frozen": true,
+  "outcome": "A",
+  "scope": "Ledger audit on certified fixture/domain; not an external universal square-peg proof",
+  "theorem_status": {
+    "T108": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T101-U": "PROVED_LOCALLY",
+    "T102-U": "PROVED_LOCALLY",
+    "T103": "PROVED_LOCALLY_CLEAN_ROOM_VERIFIED",
+    "T089E": "PROVED_LOCALLY_REDUCTION",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION"
+  },
+  "proof_commit_hash": "815ab06",
+  "proof_commit_message": "Directive 058: global residual ledger and T045R attack map",
+  "tag": "directive-058-global-residual-ledger-internal-2026-06-20",
+  "frozen_directive_057": {
+    "proof_commit": "86242b6",
+    "manifest_commit": "dc38553",
+    "tag": "directive-057-coherent-route-extraction-internal-2026-06-20"
+  },
+  "clean_room": "D058_CLEAN_ROOM_VERIFIED",
+  "recommended_directive_059_target": "POSITIVE_SCALE_NONANNULAR_CLUSTER",
+  "regression": {
+    "command": "python -m pytest -m fast tests/test_directive_042.py tests/test_directive_043.py tests/test_directive_044.py tests/test_directive_045.py tests/test_directive_046.py tests/test_directive_047.py tests/test_directive_048.py tests/test_directive_049.py tests/test_directive_050.py tests/test_directive_051.py tests/test_directive_052.py tests/test_directive_053.py tests/test_directive_054.py tests/test_directive_055.py tests/test_directive_056.py tests/test_directive_057.py tests/test_directive_058.py -q --tb=line",
+    "passed": 281,
+    "failed": 0,
+    "deselected": 0,
+    "exit_code": 0,
+    "duration": "13:44:05 (49445.11s)",
+    "suite": "D042-D058 fast suite"
+  },
+  "directive_058_tests": {
+    "passed": 13,
+    "failed": 0,
+    "exit_code": 0,
+    "duration": "0.35s"
+  },
+  "environment": {
+    "python": "3.10.6",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "PYTHONHASHSEED": "0",
+    "PYTHONUNBUFFERED": "1"
+  },
+  "artifacts": [
+    "artifacts/directive_058_residual_graph.json",
+    "artifacts/directive_058_t045r_attack_map.json"
+  ],
+  "do_not_modify": [
+    "artifacts/directive_057_verified_internal_manifest.json",
+    "artifacts/directive_056_verified_internal_manifest.json",
+    "artifacts/universal_transition_coverage_certificate.json"
+  ]
+}
