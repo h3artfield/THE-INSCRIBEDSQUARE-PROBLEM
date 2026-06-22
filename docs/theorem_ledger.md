@@ -625,9 +625,9 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 ## T045R — Universal protected-or-surgery extraction
 
-**Status.** CONJECTURAL_FULL_EXTRACTION (Directive 027; clean-forest path PROVED_LOCALLY)
+**Status.** CONJECTURAL_FULL_EXTRACTION (Directive 058 audit); clean-forest path PROVED_LOCALLY; blocked by six global residuals + extraction bridge
 
-**Source / proof file.** `docs/universal_defect_extraction.md`
+**Source / proof file.** `docs/universal_defect_extraction.md`, `docs/t045r_dependency_map.md`
 
 ---
 

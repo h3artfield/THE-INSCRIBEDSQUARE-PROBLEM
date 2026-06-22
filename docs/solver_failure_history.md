@@ -675,6 +675,16 @@ row[5] = -ij[comp][1]
 
 ---
 
+## Directive 058 — Global residual ledger and T045R attack map (2026-06-20)
+
+**Outcome A:** Ledger clean; NONCARLESON singleton Cantor removed as independent residual; D059 target POSITIVE_SCALE_NONANNULAR_CLUSTER.
+
+**Key:** Dependency graph, residual ledger, hidden-dependency scan, fixture scope audit, T045R attack map.
+
+**Theorems:** T045R CONJECTURAL; T108/T101-U/T102-U/T103/T089E scoped fixture-local.
+
+---
+
 ## Directive 022 — Cross-scale annular towers (2026-06-18)
 
 **Outcome E:** Reference Jordan tower + packet-level margins proved; no \(w_1\)-certified cross-scale component; \(\Theta > \rho_{\mathrm{tower}}\).
