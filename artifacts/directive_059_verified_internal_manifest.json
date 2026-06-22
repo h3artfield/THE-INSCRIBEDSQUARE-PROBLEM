@@ -1,0 +1,53 @@
+{
+  "directive": "059",
+  "frozen": true,
+  "outcome": "A",
+  "scope": "Outcome A proved locally on certified binary equal-ratio Cantor fixture; not an external universal square-peg proof",
+  "theorem_status": {
+    "T112": "PROVED_LOCALLY",
+    "T113": "PROVED_LOCALLY",
+    "T114": "PROVED_LOCALLY",
+    "T115": "PROVED_LOCALLY",
+    "T091-U": "PROVED_LOCALLY",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION"
+  },
+  "proof_commit_hash": "55b4b47",
+  "proof_commit_message": "Directive 059: positive-scale nonannular cluster geometry",
+  "tag": "directive-059-positive-scale-cluster-geometry-internal-2026-06-22",
+  "frozen_directive_058": {
+    "proof_commit": "815ab06",
+    "manifest_commit": "8372358",
+    "tag": "directive-058-global-residual-ledger-internal-2026-06-20"
+  },
+  "clean_room": "D059_CLEAN_ROOM_VERIFIED",
+  "primary_residual": "POSITIVE_SCALE_NONANNULAR_CLUSTER",
+  "regression": {
+    "command": "python -m pytest -m fast tests/test_directive_042.py tests/test_directive_043.py tests/test_directive_044.py tests/test_directive_045.py tests/test_directive_046.py tests/test_directive_047.py tests/test_directive_048.py tests/test_directive_049.py tests/test_directive_050.py tests/test_directive_051.py tests/test_directive_052.py tests/test_directive_053.py tests/test_directive_054.py tests/test_directive_055.py tests/test_directive_056.py tests/test_directive_057.py tests/test_directive_058.py tests/test_directive_059.py -q --tb=line",
+    "passed": 292,
+    "failed": 0,
+    "deselected": 0,
+    "exit_code": 0,
+    "duration": "9:37:10 (34630.53s)",
+    "suite": "D042-D059 fast suite"
+  },
+  "directive_059_tests": {
+    "passed": 11,
+    "failed": 0,
+    "exit_code": 0,
+    "duration": "2.88s"
+  },
+  "environment": {
+    "python": "3.10.6",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "PYTHONHASHSEED": "0",
+    "PYTHONUNBUFFERED": "1"
+  },
+  "artifacts_runtime": [
+    "artifacts/directive_059_positive_scale_routes.json"
+  ],
+  "do_not_modify": [
+    "artifacts/directive_058_verified_internal_manifest.json",
+    "artifacts/directive_057_verified_internal_manifest.json",
+    "artifacts/universal_transition_coverage_certificate.json"
+  ]
+}
