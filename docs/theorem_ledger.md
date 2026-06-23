@@ -1281,6 +1281,56 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 ---
 
+## T116 — Saturation hull taxonomy
+
+**Statement.** Non-Jordan saturation hull failures classify exhaustively at curve level; harmless quotient artifacts are separated from true non-Jordan failures.
+
+**Status.** PROVED_LOCALLY on certified fixture (Directive 060)
+
+**Source / proof file.** `docs/non_jordan_hull_taxonomy.md`
+
+---
+
+## T117 — Harmless non-Jordan hull replacement
+
+**Statement.** Harmless non-Jordan hulls admit Jordan replacement preserving cyclic order, square obstruction, annular data, pair interactions, collision mass, and positive-scale information.
+
+**Status.** PROVED_LOCALLY on certified fixture (Directive 060)
+
+**Source / proof file.** `docs/harmless_hull_replacement.md`
+
+---
+
+## T118 — Pinched-hull route classification
+
+**Statement.** Pinched or self-contacting saturation hulls route to protected annular machinery, collision degeneration, parameter-disconnected limits, or center geometry.
+
+**Status.** PROVED_LOCALLY on certified fixture (Directive 060)
+
+**Source / proof file.** `docs/pinched_hull_routes.md`
+
+---
+
+## T119 — Non-Jordan to parameter/center reduction
+
+**Statement.** Multi-boundary and nonlocally connected hull limits reduce to parameter-disconnected or infinite-center geometry with distinct routing.
+
+**Status.** PROVED_LOCALLY on certified fixture (Directive 060)
+
+**Source / proof file.** `docs/non_jordan_saturation_exhaustion.md`
+
+---
+
+## T120 — Non-Jordan saturation exhaustion
+
+**Statement.** Every non-Jordan saturation hull from positive-scale, collision, parameter, or infinite-center routing lands in solved machinery or a named global residual without introducing new residuals.
+
+**Status.** PROVED_LOCALLY on certified fixture (Directive 060)
+
+**Source / proof file.** `docs/non_jordan_saturation_exhaustion.md`
+
+---
+
 ## T092 — Endpoint correspondence dichotomy
 
 **Statement.** Every normalized non-Carleson tangent has singleton a.e., positive-diameter mass, incompatible nesting, non-Jordan degeneration, or graph compactness failure.

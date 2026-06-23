@@ -695,6 +695,18 @@ row[5] = -ij[comp][1]
 
 ---
 
+## Directive 060 — Non-Jordan saturation hull classification (2026-06-22)
+
+**Outcome A:** All saturation hulls Jordan on fixture; harmless quotient artifacts separated; non-Jordan routes exhaust to named globals.
+
+**Key:** Curve-level saturation hulls, failure taxonomy, harmless replacement, pinched/multi-boundary/NLC routes, T116–T120.
+
+**Theorems:** T116/T117/T118/T119/T120 PROVED_LOCALLY; T045R CONJECTURAL.
+
+**Residual:** `NON_JORDAN_SATURATION_HULL` eliminated on fixture; routes to existing globals when triggered.
+
+---
+
 ## Directive 022 — Cross-scale annular towers (2026-06-18)
 
 **Outcome E:** Reference Jordan tower + packet-level margins proved; no \(w_1\)-certified cross-scale component; \(\Theta > \rho_{\mathrm{tower}}\).
