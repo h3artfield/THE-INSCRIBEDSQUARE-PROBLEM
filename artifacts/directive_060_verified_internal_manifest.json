@@ -1,0 +1,55 @@
+{
+  "directive": "060",
+  "frozen": true,
+  "outcome": "A",
+  "scope": "Outcome A proved locally on certified binary equal-ratio Cantor fixture/domain; not an external universal square-peg proof",
+  "theorem_status": {
+    "T116": "PROVED_LOCALLY",
+    "T117": "PROVED_LOCALLY",
+    "T118": "PROVED_LOCALLY",
+    "T119": "PROVED_LOCALLY",
+    "T120": "PROVED_LOCALLY",
+    "T045R": "CONJECTURAL_FULL_EXTRACTION"
+  },
+  "proof_commit_hash": "a2899d5",
+  "proof_commit_message": "Directive 060: eliminate non-Jordan saturation hull residual",
+  "tag": "directive-060-non-jordan-saturation-hull-internal-2026-06-22",
+  "frozen_directive_059": {
+    "proof_commit": "55b4b47",
+    "manifest_commit": "e0ecd92",
+    "tag": "directive-059-positive-scale-cluster-geometry-internal-2026-06-22"
+  },
+  "baseline_before_d060": "e0ecd92",
+  "clean_room": "D060_CLEAN_ROOM_VERIFIED",
+  "primary_residual": "NON_JORDAN_SATURATION_HULL",
+  "regression": {
+    "command": "python -m pytest -m fast tests/test_directive_042.py tests/test_directive_043.py tests/test_directive_044.py tests/test_directive_045.py tests/test_directive_046.py tests/test_directive_047.py tests/test_directive_048.py tests/test_directive_049.py tests/test_directive_050.py tests/test_directive_051.py tests/test_directive_052.py tests/test_directive_053.py tests/test_directive_054.py tests/test_directive_055.py tests/test_directive_056.py tests/test_directive_057.py tests/test_directive_058.py tests/test_directive_059.py tests/test_directive_060.py -q --tb=line",
+    "passed": 303,
+    "failed": 0,
+    "deselected": 0,
+    "exit_code": 0,
+    "duration": "10:07:00 (36420.60s)",
+    "suite": "D042-D060 fast suite"
+  },
+  "directive_060_tests": {
+    "passed": 11,
+    "failed": 0,
+    "exit_code": 0,
+    "duration": "142.66s"
+  },
+  "environment": {
+    "python": "3.10.6",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "PYTHONHASHSEED": "0",
+    "PYTHONUNBUFFERED": "1"
+  },
+  "artifacts_runtime": [
+    "artifacts/directive_060_non_jordan_routes.json"
+  ],
+  "do_not_modify": [
+    "artifacts/directive_059_verified_internal_manifest.json",
+    "artifacts/directive_058_verified_internal_manifest.json",
+    "artifacts/directive_057_verified_internal_manifest.json",
+    "artifacts/universal_transition_coverage_certificate.json"
+  ]
+}
