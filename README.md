@@ -16,8 +16,11 @@ Overview, research paper, and test/evidence documentation live there. Markdown s
 
 ## Status
 
-- **Directive 001:** exact polygon foundation (PolygonCurve, square solver, certificates)
-- Adversarial optimization, Floer computation, and full-conjecture claims are **out of scope** until later milestones
+- **Directives 001–060:** frozen (latest tag `directive-060-non-jordan-saturation-hull-internal-2026-06-22`)
+- **Directive 061:** parameter-disconnected limit geometry — code + docs in repo; **manifest freeze pending** full milestone regression
+- **Regression:** tier 1 (`fast`) + tier 2 (`audit`) for daily work; tier 4 (`fast or deep`) before tags (~314 tests, overnight)
+- **Universal conjecture:** not proved — see `docs/publications/universal-theorem-gap-plain-language.md`
+- **Lean formalization:** not started (`formal/SquarePeg/` placeholder)
 
 ## Install
 

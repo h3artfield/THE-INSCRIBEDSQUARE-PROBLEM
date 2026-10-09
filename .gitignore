@@ -26,3 +26,4 @@ artifacts/*.json
 !artifacts/directive_*_report.md
 !artifacts/reference_annular_cyclic_certificate.json
 !artifacts/reference_annular_tower_certificate.json
+!artifacts/d042_d061_frozen_certificate_snapshot.json
