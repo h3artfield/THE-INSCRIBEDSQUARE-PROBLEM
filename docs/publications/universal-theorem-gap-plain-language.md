@@ -22,13 +22,20 @@ Think of three nested goals:
 
 ### A. Finish Option B on the double spiral (benchmark, not universal)
 
-Still open on the analytic side:
+Already proved in the Codex notes (not the squarepeg fixture):
 
-- Build the **full ordinary-sheaf model** for the capped spiral (four cap branches, three levels, attaching maps—not one isolated epigraph).
-- Compute **pushforward through the truncated cone** with those coefficients.
-- Compute **pairing with the actual wild target** `G` and read off **kernel and cokernel** of the normal test.
+- Degree-shift cancellation: `C_{n,r,η} ≃ RHom(M_{r,η} ∘ A_n, G)`.
+- Uniform annular removal: `D_{r',η'} → D_{r,η} = 0` for `r' ≤ r/5`, so `M ⇝ N` after `Rlim` and neighborhood colimit.
+- Curved-epigraph pushforward of `N` via spherical boundary `B_{x,t}`.
+- Reduced four-branch complex `K_n` with a **nonzero** `δ ∈ Ext²(Q, P)`.
+- Collar adjoint `H_z ≃ RΓ_c(E; G(z+·))[3]` when the midpoint cutoff is inactive.
+- Isolated collar quasi-isomorphism is **stronger than needed**: a regular epigraph can fail chartwise (`A ≃ k[1]`, `S_u = S_v = 0`) while the **full** reduced cap pairing against that same target can still vanish.
 
-Until that is done, even the **best concrete curve** in the program does not close the Floer/microlocal branch.
+Still open:
+
+- Identify `K_n` with the **full** `A_n` on a fixed test (arms, background, telescope).
+- Evaluate the three section complexes and `δ_H^*` for the **actual wild** `G`.
+- Read kernel and cokernel. Isolated-chart vanishing is not the global criterion.
 
 ### B. T045R — from fixture logic to *every* Jordan curve
 

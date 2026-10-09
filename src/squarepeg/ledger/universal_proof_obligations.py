@@ -22,16 +22,23 @@ def list_universal_obligations() -> list[ProofObligation]:
         ProofObligation(
             "A1",
             "A_MICROLICAL",
-            "Four-branch cap ordinary complex + attaching maps for A_n",
+            "Reduced four-branch K_n with nonzero Ext^2 crossing delta (not full A_n)",
+            "PROVED_BENCHMARK",
+            "four-branch-cap-attaching-complex.md",
+        ),
+        ProofObligation(
+            "A1b",
+            "A_MICROLICAL",
+            "Ordinary-sheaf comparison of K_n with full A_n on a fixed test",
             "OPEN",
             "Option B kernel/cokernel",
         ),
         ProofObligation(
             "A2",
             "A_MICROLICAL",
-            "N_{r,eta} o A_n pushforward and RHom(-, G) on benchmark spiral",
+            "Collar H_z = RGamma_c(E; G(z+·))[3]; delta_H^* for wild G uncomputed",
             "OPEN",
-            "Option B completion",
+            "collar-adjoint-coefficients-and-target-boundaries.md",
         ),
         ProofObligation(
             "A3",
