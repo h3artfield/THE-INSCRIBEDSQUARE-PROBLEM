@@ -1381,6 +1381,56 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 ---
 
+## T126 — Infinite-center limit decomposition
+
+**Statement.** Infinite-center limits decompose at curve level with accumulation taxonomy.
+
+**Status.** PROVED_LOCALLY on certified fixture (Directive 062)
+
+**Source / proof file.** `docs/infinite_center_limit_geometry.md`
+
+---
+
+## T127 — Center accumulation classification
+
+**Statement.** Center accumulation types classify exhaustively (finite, colocated quotient, towers, dust).
+
+**Status.** PROVED_LOCALLY on certified fixture (Directive 062)
+
+**Source / proof file.** `docs/infinite_center_limit_geometry.md`
+
+---
+
+## T128 — Finite-center route from infinite-center limits
+
+**Statement.** Non-infinite center limits route to T062 finite-center machinery preserving obstruction.
+
+**Status.** PROVED_LOCALLY on certified fixture (Directive 062)
+
+**Source / proof file.** `docs/infinite_center_limit_geometry.md`
+
+---
+
+## T129 — Infinite-center to parameter/diffuse reduction
+
+**Statement.** True infinite-center tails reduce to parameter-disconnected or nonsummable diffuse-end geometry with distinct routing.
+
+**Status.** PROVED_LOCALLY on certified fixture (Directive 062)
+
+**Source / proof file.** `docs/infinite_center_limit_geometry.md`
+
+---
+
+## T130 — Infinite-center limit exhaustion
+
+**Statement.** Every infinite-center limit lands in solved machinery or a named global residual.
+
+**Status.** PROVED_LOCALLY on certified fixture (Directive 062)
+
+**Source / proof file.** `docs/infinite_center_limit_geometry.md`
+
+---
+
 ## T092 — Endpoint correspondence dichotomy
 
 **Statement.** Every normalized non-Carleson tangent has singleton a.e., positive-diameter mass, incompatible nesting, non-Jordan degeneration, or graph compactness failure.
