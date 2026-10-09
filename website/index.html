@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Research program on the Toeplitz inscribed square problem: exact computational verification and microlocal analytic reductions." />
+  <title>Inscribed Square Research Program</title>
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1>Inscribed Square Research Program</h1>
+      <nav>
+        <a href="index.html">Overview</a>
+        <a href="paper.html">Paper</a>
+        <a href="tests.html">Tests &amp; Evidence</a>
+        <a href="https://github.com/h3artfield/THE-INSCRIBEDSQUARE-PROBLEM">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <p class="lead">
+      A dual-track investigation of the <strong>Toeplitz conjecture</strong>:
+      every continuous Jordan curve in the plane contains four distinct points forming a nondegenerate square.
+    </p>
+
+    <div class="disclaimer">
+      <strong>Scope.</strong> This program does <em>not</em> claim a proof of the full conjecture for all Jordan curves.
+      We publish exact finite geometry, reproducible obstruction audits, and rigorous partial results—including
+      a completed benchmark noncollapse theorem for the canonical double spiral and a large verified residual-routing engine.
+    </div>
+
+    <div class="stats">
+      <div class="stat-card"><div class="num">60+</div><div class="lbl">Frozen research directives (through D060)</div></div>
+      <div class="stat-card"><div class="num">157</div><div class="lbl">Pytest modules</div></div>
+      <div class="stat-card"><div class="num">303</div><div class="lbl">Verified regression tests (D042–D060 gate)</div></div>
+      <div class="stat-card"><div class="num">180+</div><div class="lbl">Analytic continuation notes (companion archive)</div></div>
+    </div>
+
+    <h2>Two complementary tracks</h2>
+
+    <h3>Track A — Computational laboratory (<code>squarepeg</code>)</h3>
+    <p>
+      An exact rational polygon square solver, certificate schema, and a <strong>directive protocol</strong>:
+      each milestone defines theorem targets, clean-room audits, frozen manifests, and regression gates.
+      Recent global-geometry work (Directives 058–061) builds a <strong>residual ledger</strong> and routes
+      curve-level failures into named global obstructions on a certified Cantor fixture—without claiming universality.
+    </p>
+    <p><span class="tag tag-proved">PROVED LOCALLY</span> Hundreds of lemma certificates on certified domains.</p>
+    <p><span class="tag tag-conj">CONJECTURAL</span> T045R full extraction of the universal conjecture.</p>
+
+    <h3>Track B — Microlocal / Floer analytic spine (Codex archive)</h3>
+    <p>
+      Independent writeups on Asano–Ike–style normal tests, double-spiral quantization, and Option&nbsp;B benchmarks.
+      Major 2026 results include <strong>uniform annular kernel removal</strong> (complementary transition maps vanish for
+      <code>r′ ≤ r/5</code> before source pairing), an <strong>exact curved-front pushforward</strong> for epigraph sources,
+      and a <strong>spectral noncollapse theorem</strong> for the canonical double spiral with positive side-length bound.
+    </p>
+    <p><span class="tag tag-open">OPEN</span> Full <code>N<sub>r,η</sub> ∘ A<sub>n</sub></code> with spiral attaching data and final <code>RHom(−, G)</code> kernel/cokernel.</p>
+
+    <h2>Novel contributions (summary)</h2>
+    <ul class="compact">
+      <li><strong>Exact polygon laboratory</strong> — rank-5 affine families without sampling; independent validator; enumeration completeness proof (T009).</li>
+      <li><strong>Spectral axiom audit</strong> — scalar midpoint stress tests; documented gaps vs universal nonflatness (Directive 003).</li>
+      <li><strong>Defect-extraction engine</strong> — intrusion trees, augmented transitions, coherent routes (T103/T108 chains), gate-order diagnostics.</li>
+      <li><strong>Global residual ledger</strong> — dependency graph, attack map, fixture-local vs universal scope separation (D058).</li>
+      <li><strong>Curve-level global geometry</strong> — positive-scale clusters (D059), non-Jordan saturation hulls (D060), parameter-disconnected limits (D061, in progress).</li>
+      <li><strong>Regression tier system</strong> — frozen D042–D061 certificate snapshots; fast / audit / deep / milestone gates (~15s dev loops vs overnight full suite).</li>
+      <li><strong>Double-spiral benchmark</strong> — degree-one spectral noncollapse with uniform side bound (analytic track).</li>
+      <li><strong>Uniform annular removal</strong> — inner cone reduction in derived inverse limits for normal-test kernels (analytic track).</li>
+    </ul>
+
+    <h2>Formal methods (Lean)</h2>
+    <p>
+      The repository reserves <code>formal/SquarePeg/</code> for future Lean formalization.
+      <strong>There are no <code>.lean</code> proof files checked in yet.</strong>
+      Verification today uses Python <strong>clean-room audits</strong>, manifest consistency tests, and exact rational certificates—not the Lean proof assistant.
+    </p>
+
+    <h2>Read next</h2>
+    <ul>
+      <li><a href="paper.html">Research paper (2026)</a> — structured findings and honest status.</li>
+      <li><a href="tests.html">Tests &amp; evidence</a> — how to reproduce audits and regression tiers.</li>
+      <li><a href="https://github.com/h3artfield/THE-INSCRIBEDSQUARE-PROBLEM/blob/main/docs/theorem_ledger.md">Theorem ledger</a> — full claim index.</li>
+    </ul>
+  </main>
+
+  <footer class="site-footer">
+    Square Peg Research Program · June–October 2026 · Not a claim of universal proof
+  </footer>
+</body>
+</html>

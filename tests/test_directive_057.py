@@ -35,61 +35,61 @@ def test_route_responsibility():
     assert audit.signature_preserving
 
 
-@pytest.mark.fast
+@pytest.mark.deep
 def test_signature_mass_conservation():
     audit = audit_route_signature_mass(_tree())
     assert audit.mass_conserved
 
 
-@pytest.mark.fast
+@pytest.mark.deep
 def test_slice_pigeonhole():
     audit = audit_route_signature_mass(_tree())
     assert audit.pigeonhole_route is not None
 
 
-@pytest.mark.fast
+@pytest.mark.deep
 def test_ray_coherence():
     audit = audit_coherent_route_subsystem(_tree())
     assert audit.subsystems
 
 
-@pytest.mark.fast
+@pytest.mark.deep
 def test_uniform_route_constants():
     cert = certify_t110(_tree())
     assert cert.status in ("CONJECTURAL_UNIFORMITY_TARGET", "PROVED_LOCALLY")
 
 
-@pytest.mark.fast
+@pytest.mark.deep
 def test_route_oscillation_cost():
     audit = audit_route_oscillation_cost(_tree())
     assert audit.geometric
 
 
-@pytest.mark.fast
+@pytest.mark.deep
 def test_t109_certificate():
     cert = certify_t109(_tree())
     assert cert.status in ("CONJECTURAL_SELECTION_TARGET", "PROVED_LOCALLY")
 
 
-@pytest.mark.fast
+@pytest.mark.deep
 def test_t111_certificate():
     cert = certify_t111(_tree())
     assert cert.status in ("CONJECTURAL_OSCILLATION_TARGET", "PROVED_LOCALLY")
 
 
-@pytest.mark.fast
+@pytest.mark.deep
 def test_t103_coherent():
     cert = certify_t103_coherent(_tree())
     assert cert.status in ("CONJECTURAL_SELECTION_TARGET", "PROVED_LOCALLY")
 
 
-@pytest.mark.fast
+@pytest.mark.deep
 def test_t089e_coherent():
     cert = certify_t089e_coherent(_tree())
     assert cert.status in ("CONJECTURAL_REDUCTION_TARGET", "PROVED_LOCALLY")
 
 
-@pytest.mark.fast
+@pytest.mark.deep
 def test_t103_clean_room():
     audit = audit_t103_clean_room(_tree())
     assert audit.verdict in ("T103_CLEAN_ROOM_VERIFIED", "T103_REPAIRABLE_GAP", "T103_INVALID")
@@ -100,7 +100,7 @@ def test_t091_frozen():
     assert certify_t091(_tree()).route
 
 
-@pytest.mark.fast
+@pytest.mark.deep
 def test_d057_outcome():
     outcome = diagnose_d057_outcome(_tree())
     assert outcome in ("A", "B", "C", "D", "E")

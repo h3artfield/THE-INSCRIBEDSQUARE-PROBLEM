@@ -1331,6 +1331,56 @@ for every \(\kappa\ge3\), with \(D^+(g_*,\tfrac12)=0\). Subadditivity proved alg
 
 ---
 
+## T121 — Parameter-support decomposition
+
+**Statement.** Parameter support decomposes exhaustively at curve level; harmless quotient artifacts are separated from true parameter disconnection.
+
+**Status.** PROVED_LOCALLY on certified fixture (Directive 061)
+
+**Source / proof file.** `docs/parameter_disconnected_limits.md`
+
+---
+
+## T122 — Compatible component splitting
+
+**Statement.** Finite parameter disconnection splits into compatible Jordan component problems preserving obstruction, chord data, collision mass, and positive-scale information.
+
+**Status.** PROVED_LOCALLY on certified fixture (Directive 061)
+
+**Source / proof file.** `docs/component_splitting_theorem.md`
+
+---
+
+## T123 — Cross-component interaction routing
+
+**Statement.** Cross-component interactions are classified and routed without discarding pair interaction or collision data.
+
+**Status.** PROVED_LOCALLY on certified fixture (Directive 061)
+
+**Source / proof file.** `docs/cross_component_interactions.md`
+
+---
+
+## T124 — Parameter-disconnected to center/diffuse reduction
+
+**Statement.** Cantor/dust and countable parameter tails reduce to infinite-center or nonsummable diffuse-end geometry with distinct routing.
+
+**Status.** PROVED_LOCALLY on certified fixture (Directive 061)
+
+**Source / proof file.** `docs/parameter_disconnected_exhaustion.md`
+
+---
+
+## T125 — Parameter-disconnected limit exhaustion
+
+**Statement.** Every parameter-disconnected limit lands in solved machinery or a named global residual without reintroducing singleton-Cantor or new residuals.
+
+**Status.** PROVED_LOCALLY on certified fixture (Directive 061)
+
+**Source / proof file.** `docs/parameter_disconnected_exhaustion.md`
+
+---
+
 ## T092 — Endpoint correspondence dichotomy
 
 **Statement.** Every normalized non-Carleson tangent has singleton a.e., positive-diameter mass, incompatible nesting, non-Jordan degeneration, or graph compactness failure.

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tests &amp; Evidence</title>
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1>Tests &amp; Evidence</h1>
+      <nav>
+        <a href="index.html">Overview</a>
+        <a href="paper.html">Paper</a>
+        <a href="tests.html">Tests</a>
+        <a href="https://github.com/h3artfield/THE-INSCRIBEDSQUARE-PROBLEM">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h2>What we verify (and what we do not)</h2>
+    <div class="disclaimer">
+      Pytest clean-room audits verify <strong>internal consistency</strong> of certificate functions on certified fixtures.
+      They are not a proof of the universal Toeplitz conjecture. Floating-point oracles are test-only cross-checks.
+    </div>
+
+    <h2>Regression tiers (D042–D061 snapshot)</h2>
+    <table>
+      <thead>
+        <tr><th>Tier</th><th>Marker</th><th>Typical use</th><th>Command</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1 — New directive</td>
+          <td><code>fast</code></td>
+          <td>Day-to-day development</td>
+          <td><code>pytest -m fast tests/test_directive_NNN.py</code></td>
+        </tr>
+        <tr>
+          <td>2 — Audit</td>
+          <td><code>audit</code></td>
+          <td>Manifest / snapshot consistency</td>
+          <td><code>pytest -m audit tests/test_frozen_certificate_snapshot.py</code></td>
+        </tr>
+        <tr>
+          <td>3 — Deep sample</td>
+          <td><code>deep</code></td>
+          <td>Heavy directives (e.g. D057)</td>
+          <td><code>pytest -m deep tests/test_directive_057.py …</code></td>
+        </tr>
+        <tr>
+          <td>4 — Milestone</td>
+          <td><code>fast or deep</code></td>
+          <td>Pre-tag overnight gate</td>
+          <td>Full D042–D061 suite (~314 tests)</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      CLI: <code>python -m squarepeg.ledger.regression_tiers refresh_snapshot</code>
+    </p>
+
+    <h2>Clean-room audits (not Lean)</h2>
+    <p>
+      The repository uses Python modules named <code>*_clean_room.py</code> that answer fixed audit questionnaires
+      (curve-level definitions, scope separation, conjectural labels). Examples:
+    </p>
+    <ul class="compact">
+      <li><code>t103_clean_room.py</code> — Directive 057 / coherent routes</li>
+      <li><code>directive_058_clean_room.py</code> — global residual ledger</li>
+      <li><code>directive_059_clean_room.py</code> — positive-scale geometry</li>
+      <li><code>directive_060_clean_room.py</code> — non-Jordan saturation hulls</li>
+      <li><code>directive_061_clean_room.py</code> — parameter-disconnected limits</li>
+    </ul>
+    <p>
+      <strong>Lean 4:</strong> directory <code>formal/SquarePeg/</code> is reserved; no <code>.lean</code> files are checked in yet.
+    </p>
+
+    <h2>Verified milestone regression</h2>
+    <p>
+      Latest frozen full gate (Directive 060 manifest): <strong>303 passed</strong>, 0 failed, D042–D060 fast suite, ~10h 7m.
+    </p>
+
+    <h2>Analytic archive checks</h2>
+    <p>
+      Companion Python verification scripts exist in the Codex archive (e.g. spiral gluing completion checks, action-circle cohomology checks).
+      These support specific notes; they are not wired into the main repository CI.
+    </p>
+
+    <h2>Artifacts</h2>
+    <ul>
+      <li><a href="https://github.com/h3artfield/THE-INSCRIBEDSQUARE-PROBLEM/tree/main/artifacts">Directive reports &amp; manifests</a></li>
+      <li><a href="https://github.com/h3artfield/THE-INSCRIBEDSQUARE-PROBLEM/blob/main/docs/theorem_ledger.md">Theorem ledger</a></li>
+      <li><a href="https://github.com/h3artfield/THE-INSCRIBEDSQUARE-PROBLEM/blob/main/docs/solver_failure_history.md">Solver failure history</a></li>
+    </ul>
+  </main>
+
+  <footer class="site-footer">
+    Reproduce locally: <code>pip install -e ".[dev]"</code> then tier commands above.
+  </footer>
+</body>
+</html>

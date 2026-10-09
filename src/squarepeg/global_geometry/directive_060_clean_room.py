@@ -16,7 +16,6 @@ from squarepeg.global_geometry.t116_saturation_taxonomy import certify_t116
 from squarepeg.global_geometry.t118_pinched_hull_classification import certify_t118
 from squarepeg.global_geometry.t119_non_jordan_reduction import certify_t119
 from squarepeg.global_geometry.t120_non_jordan_exhaustion import audit_non_jordan_exhaustion, certify_t120
-from squarepeg.ledger.t045r_dependency_map import write_t045r_attack_map
 
 CleanRoomVerdict = Literal[
     "D060_CLEAN_ROOM_VERIFIED",
@@ -45,7 +44,6 @@ class Directive060CleanRoom:
 
 
 def write_non_jordan_routes(tree: CanonicalIntrusionTree) -> Path:
-    write_t045r_attack_map()
     exh = audit_non_jordan_exhaustion(tree)
     hulls = audit_saturation_hulls(tree)
     payload = {

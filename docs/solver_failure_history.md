@@ -707,6 +707,18 @@ row[5] = -ij[comp][1]
 
 ---
 
+## Directive 061 — Parameter-disconnected limit geometry (2026-06-23)
+
+**Outcome A:** Parameter support connected on fixture; no true disconnection; routes exhaust to solved machinery or named globals.
+
+**Key:** Curve-level parameter support, component splitting, cross-component interactions, Cantor/dust routes, T121–T125.
+
+**Theorems:** T121/T122/T123/T124/T125 PROVED_LOCALLY; T045R CONJECTURAL.
+
+**Residual:** `PARAMETER_DISCONNECTED_LIMIT` eliminated on fixture; infinite-center/diffuse-end routes ready when triggered.
+
+---
+
 ## Directive 022 — Cross-scale annular towers (2026-06-18)
 
 **Outcome E:** Reference Jordan tower + packet-level margins proved; no \(w_1\)-certified cross-scale component; \(\Theta > \rho_{\mathrm{tower}}\).

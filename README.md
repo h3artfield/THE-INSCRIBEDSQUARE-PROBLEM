@@ -6,6 +6,14 @@ Computational laboratory for the **Toeplitz inscribed square conjecture**:
 
 This repository provides **exact finite geometry tools**—certified polygon square solvers, curve models, and a theorem ledger. It does **not** claim to prove or disprove the full conjecture.
 
+## Public website
+
+After GitHub Pages is enabled (Settings → Pages → Source: **GitHub Actions**), the site deploys from `website/` on each push to `main`:
+
+**https://h3artfield.github.io/THE-INSCRIBEDSQUARE-PROBLEM/**
+
+Overview, research paper, and test/evidence documentation live there. Markdown source: `docs/publications/research-program-2026.md`.
+
 ## Status
 
 - **Directive 001:** exact polygon foundation (PolygonCurve, square solver, certificates)

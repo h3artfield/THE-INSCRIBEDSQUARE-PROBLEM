@@ -30,9 +30,12 @@ where = ["src"]
 testpaths = ["tests"]
 pythonpath = ["src"]
 markers = [
-    "fast: quick unit tests (default CI)",
+    "fast: quick unit tests — tier 1 new-directive gate (default dev)",
     "slow: tests that may take seconds",
     "exhaustive: large corpus or multi-minute checks",
+    "audit: manifest and frozen snapshot consistency — tier 2 (~seconds)",
+    "deep: heavy directive audits — tier 3 sampled regression (~hours)",
+    "milestone: full D042–D061 gate — tier 4 overnight before tag",
 ]
 
 [tool.hypothesis]

@@ -64,17 +64,17 @@ def test_non_jordan_exhaustion_routes():
     assert audit_non_jordan_exhaustion(_tree()).all_routed
 
 
-@pytest.mark.fast
+@pytest.mark.deep
 def test_routes_artifact():
     assert write_non_jordan_routes(_tree()).exists()
 
 
-@pytest.mark.fast
+@pytest.mark.deep
 def test_d060_clean_room():
     audit = audit_directive_060_clean_room(_tree())
     assert audit.verdict in ("D060_CLEAN_ROOM_VERIFIED", "D060_REPAIRABLE_GAP", "D060_INVALID")
 
 
-@pytest.mark.fast
+@pytest.mark.deep
 def test_d060_outcome():
     assert diagnose_d060_outcome(_tree()) in ("A", "B", "C", "D", "E")

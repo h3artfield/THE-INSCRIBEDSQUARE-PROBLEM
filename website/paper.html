@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Research Paper — Inscribed Square Program 2026</title>
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1>Research Paper</h1>
+      <nav>
+        <a href="index.html">Overview</a>
+        <a href="paper.html">Paper</a>
+        <a href="tests.html">Tests</a>
+        <a href="https://github.com/h3artfield/THE-INSCRIBEDSQUARE-PROBLEM">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="paper-meta">
+      <strong>Structured findings report</strong> · October 2026<br />
+      Repository: <a href="https://github.com/h3artfield/THE-INSCRIBEDSQUARE-PROBLEM">h3artfield/THE-INSCRIBEDSQUARE-PROBLEM</a><br />
+      Companion analytic notes: private Codex archive (summarized below; not a universal proof claim)
+    </div>
+
+    <h1>Progress on the Inscribed Square Problem:<br />Exact Verification, Residual Geometry, and Microlocal Reductions</h1>
+
+    <div class="disclaimer">
+      <strong>Abstract.</strong>
+      We report on a multi-year structured research program targeting the Toeplitz conjecture.
+      We separate (i) an exact computational laboratory for finite polygons and obstruction routing on certified tree models,
+      and (ii) a microlocal analytic line studying Asano–Ike normal tests on the canonical double spiral.
+      We prove several <em>local</em> and <em>benchmark</em> results, document conjectural global targets,
+      and identify the precise remaining analytic obstruction after uniform removal of outer normal-test kernel terms.
+      We do <strong>not</strong> assert a proof of the conjecture for all Jordan curves.
+    </div>
+
+    <h2>1. Introduction</h2>
+    <p>
+      The inscribed square problem asks whether every Jordan curve in ℝ² contains four distinct points that are vertices of a
+      nondegenerate square. Approximate squares on smooth or polygonal approximants are abundant; the hard question is
+      <strong>nondegeneracy under C⁰ limits</strong>—squares may collapse to the diagonal.
+    </p>
+    <p>
+      Our program follows two principles: (1) every claim carries an explicit status label
+      (<code>PROVED_LOCALLY</code>, <code>CONJECTURAL</code>, <code>SOURCE_THEOREM</code>, etc.);
+      (2) universal conclusions are never inferred from numerical or fixture-local certificates alone.
+    </p>
+
+    <h2>2. Track A — The squarepeg computational laboratory</h2>
+
+    <h3>2.1 Exact finite geometry (Directives 001–002)</h3>
+    <p>
+      We built <code>PolygonCurve</code> with exact rational coordinates and a square solver that assembles the 6×6 linear system
+      for cyclic edge quadruples. Rank-6 systems yield isolated certificates; rank-5 systems are represented as exact
+      one-parameter affine families (<code>AffineSquareFamily1D</code>)—not sampled points. An independent validator re-assembles
+      equations. We wrote a finite enumeration completeness argument (T009).
+    </p>
+
+    <h3>2.2 Spectral and defect-extraction spine (Directives 003–057)</h3>
+    <p>
+      Directives 003–010 audit spectral axioms and midpoint nonflatness; later directives formalize intrusion trees,
+      winding layers, augmented gate measures, transition exhaustion, and—through Directive 057—<strong>coherent route extraction</strong>
+      (T103 clean-room verified on the binary equal-ratio Cantor fixture). These modules implement a proof-engineering
+      discipline: each theorem target has a certificate function, clean-room questionnaire, and pytest gate.
+    </p>
+
+    <h3>2.3 Global residual ledger and geometry (Directives 058–061)</h3>
+    <p>
+      <strong>Directive 058</strong> consolidates global residuals, removes spurious independent classes, and publishes a T045R attack map.
+      <strong>Directive 059</strong> classifies positive-scale cluster geometry at curve level (T112–T115).
+      <strong>Directive 060</strong> classifies non-Jordan saturation hulls (T116–T120).
+      <strong>Directive 061</strong> (implementation complete, milestone freeze pending) classifies parameter-disconnected limit geometry (T121–T125).
+    </p>
+    <p>
+      On the certified Cantor fixture, Outcomes A eliminate or route the targeted residuals into named globals
+      (<code>PARAMETER_DISCONNECTED_LIMIT</code>, <code>INFINITE_CENTER_GEOMETRY</code>, etc.).
+      <strong>T045R</strong> (full universal extraction) remains <code>CONJECTURAL_FULL_EXTRACTION</code>.
+    </p>
+
+    <h3>2.4 Verification infrastructure</h3>
+    <ul class="compact">
+      <li>47 frozen internal manifests; latest public tag: <code>directive-060-non-jordan-saturation-hull-internal-2026-06-22</code>.</li>
+      <li>Verified full regression: 303 tests (D042–D060), exit code 0, ~10h wall time.</li>
+      <li>Frozen certificate snapshot <code>d042_d061_frozen_certificate_snapshot.json</code> and four regression tiers (fast / audit / deep / milestone).</li>
+      <li><strong>Lean:</strong> placeholder only; verification is Python clean-room + exact rational certificates.</li>
+    </ul>
+
+    <h2>3. Track B — Microlocal analytic reductions (companion archive)</h2>
+    <p>
+      Parallel to the repository, a structured note series develops Option&nbsp;B and universal-proof diagnostics for the
+      canonical double spiral. The following are the principal <strong>novel proved</strong> analytic results (as documented in that archive):
+    </p>
+
+    <h3>3.1 Uniform annular removal of complementary kernel terms</h3>
+    <p>
+      Split the normal-test kernel <code>M<sub>r,η</sub></code> into inner truncation
+      <code>N<sub>r,η</sub> = M<sub>r,η</sub> ⊗ k<sub>|y₁−y₂|&lt;r/2</sub></code> and complement <code>D<sub>r,η</sub></code>.
+      For <code>r′ ≤ r/5</code>, disjoint closed supports force
+      <code>RHom(D<sub>r′,η′</sub>, D<sub>r,η</sub>) = 0</code> with coherent nullhomotopies.
+      This zero transformation survives composition with the source sequence, derived inverse limits, and neighborhood colimits—so the
+      outer annulus may be removed rigorously in the final pairing, reducing to the truncated cone <code>N<sub>r,η</sub></code>.
+    </p>
+
+    <h3>3.2 Local source pushforward benchmarks</h3>
+    <ul class="compact">
+      <li>Locally constant source on the full test fiber → zero pushforward.</li>
+      <li>Flat / curved epigraph sources → explicit spherical-boundary sublevel complexes; degree-two contributions possible.</li>
+    </ul>
+    <p>
+      These are <em>model</em> calculations. They do not yet identify the full capped-spiral source <code>A<sub>n</sub></code> with a single epigraph.
+    </p>
+
+    <h3>3.3 Cap-front cluster and remaining obstruction</h3>
+    <p>
+      The analytic cap yields <strong>four product branches</strong> at <strong>three action levels</strong>, with gaps of order
+      <code>O(ε<sub>n</sub>⁸)</code>. A fixed-radius test eventually meets multiple branches; isolated epigraph formulas omit
+      attaching maps. The remaining work is an ordinary sheaf complex for the cluster (including arm terms), composition with
+      <code>N<sub>r,η</sub></code>, and <code>RHom(−, G)</code> against the actual wild target. Final kernel/cokernel spaces are
+      <strong>not computed</strong>.
+    </p>
+
+    <h3>3.4 Benchmark spectral noncollapse (canonical double spiral)</h3>
+    <p>
+      Separately, we complete a <strong>noncollapse argument</strong> for the canonical double spiral: smooth approximants carry
+      degree-one spectral generators with a uniform side-length lower bound, yielding a nondegenerate limiting square on the benchmark curve.
+      This is <strong>not</strong> the universal Jordan theorem; it does not compute the singular diagonal restriction map
+      <code>r<sub>C</sub>: M → N</code> for all curves.
+    </p>
+
+    <h3>3.5 Universal status</h3>
+    <p>
+      The archive’s <code>universal-proof-status.md</code> maintains that the <strong>universal Toeplitz theorem is not established</strong>.
+      Recent results sharpen benchmarks, remove outer kernel noise, and name the live obstruction (truncated cone × spiral attaching × pairing with <code>G</code>).
+    </p>
+
+    <h2>4. Synthesis — how the tracks fit</h2>
+    <table>
+      <thead>
+        <tr><th>Layer</th><th>squarepeg (computational)</th><th>Analytic archive</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Exact finite evidence</td>
+          <td>Polygon certificates, regression gates</td>
+          <td>Explicit kernel/support integrals</td>
+        </tr>
+        <tr>
+          <td>Structured obstructions</td>
+          <td>Named global residuals + ledger</td>
+          <td>Milnor groups, relative tests, tail group</td>
+        </tr>
+        <tr>
+          <td>Benchmark curve</td>
+          <td>Cantor intrusion tree fixture</td>
+          <td>Canonical double spiral</td>
+        </tr>
+        <tr>
+          <td>Universal conjecture</td>
+          <td>T045R conjectural</td>
+          <td>Explicitly open</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>5. Reproducibility</h2>
+    <p>
+      Clone the repository, install with <code>pip install -e ".[dev]"</code>, run
+      <code>pytest -m audit tests/test_frozen_certificate_snapshot.py</code> for manifest consistency (~1s),
+      or directive fast suites as documented on the <a href="tests.html">tests page</a>.
+    </p>
+
+    <h2>6. Conclusion</h2>
+    <p>
+      We have materially advanced the inscribed square problem along two rigorous fronts: a large, frozen, test-gated
+      obstruction-routing engine for tree-level geometry, and a sequence of microlocal reductions culminating in uniform
+      annular kernel removal and a completed double-spiral noncollapse benchmark. The central universal question remains open;
+      the next analytic focus is the full spiral cap cluster paired with the truncated cone and actual target <code>G</code>.
+    </p>
+
+    <p><em>Full markdown source:</em> <a href="https://github.com/h3artfield/THE-INSCRIBEDSQUARE-PROBLEM/blob/main/docs/publications/research-program-2026.md">docs/publications/research-program-2026.md</a></p>
+  </main>
+
+  <footer class="site-footer">
+    Cite as: Inscribed Square Research Program (2026). Structured findings report. GitHub: h3artfield/THE-INSCRIBEDSQUARE-PROBLEM.
+  </footer>
+</body>
+</html>
